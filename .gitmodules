@@ -1,0 +1,6 @@
+[submodule "themes/archer"]
+	path = themes/archer
+	url = git@github.com:lancatlin/hexo-theme-archer.git
+[submodule "themes/cleanwhite"]
+	path = themes/cleanwhite
+	url = git@github.com:zhaohuabing/hugo-theme-cleanwhite.git
