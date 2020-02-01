@@ -5,7 +5,7 @@ tags:
   - 程式
   - Golang
 categories:
-  - 程式教學
+  - 教學
 date: 2019-07-26 10:49:46
 ---
 

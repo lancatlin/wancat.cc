@@ -1,8 +1,9 @@
 ---
 title: JSP 第九屆參加心得
 tags:
-  - JSP
-categories: jsp
+- JSP
+categories: 
+- 活動紀錄
 date: 2019-08-20 10:38:52
 ---
 

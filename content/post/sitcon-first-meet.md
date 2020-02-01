@@ -1,9 +1,12 @@
 ---
 title: SITCON 首次參與心得
 tags:
-  - SITCON
-  - life
+- SITCON
+- life
+categories:
+- 活動紀錄
 date: 2018-12-02 21:41:49
+draft: true
 ---
 
 

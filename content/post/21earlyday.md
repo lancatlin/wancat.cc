@@ -1,5 +1,7 @@
 ---
 title: 二十一天的連續早起
+categories:
+  - 生活
 tags:
   - life
 date: 2018-06-18 08:42:03

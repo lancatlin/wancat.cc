@@ -3,6 +3,7 @@ title: 問題紀錄。使用 Docker 安裝 Gitlab
 tags:
 - Docker
 date: 2018-07-31 01:11:11
+draft: true
 ---
 
 ## 問題摘要：

@@ -1,7 +1,9 @@
 ---
 title: CTF 參加初體驗
 tags:
-  - CTF
+- CTF
+categories:
+- 活動紀錄
 date: 2019-11-16 10:00:00
 ---
 

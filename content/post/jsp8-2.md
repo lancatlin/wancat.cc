@@ -1,10 +1,10 @@
 ---
 title: 2018 JSP 紀錄與心得 (二)
 date: 2018-08-23 17:43:06
-categories: jsp
+categories: 
+- 活動紀錄
 tags:
- - life
- - jsp
+- JSP
 ---
 > 參加 **JSP 國中科學探究聯合發表會** 的所見所得。事前的準備，到結束後的回味，新的故事，至今仍持續發生。
 > 本次主題的[系列文章](/2018/08/01/FireWheel0/), [演講影片](https://www.youtube.com/embed/j0jkjbXKWTg)
@@ -31,7 +31,7 @@ tags:
 
 我們開始一行一行慢慢看原始碼，有時候看到關鍵字搜尋，我們兩個都對Javascript(撰寫網頁程式的程式語言)不太擅長，因此看的有些吃力。
 
-``` html 
+```
 <script type="text/javascript" src="../js/md5.js"></script>
 ```
 當我們看到這一行的時候，我朋友突然大叫。
@@ -80,26 +80,26 @@ tags:
 
 ### 完整的內容
 
-{% asset_img slug img1.png %}
-{% asset_img slug img2.png %}
-{% asset_img slug img3.png %}
-{% asset_img slug img4.png %}
-{% asset_img slug img5.png %}
-{% asset_img slug img6.png %}
-{% asset_img slug img7.png %}
+![](/img/jsp8-2/img1.png)
+![](/img/jsp8-2/img2.png)
+![](/img/jsp8-2/img3.png)
+![](/img/jsp8-2/img4.png)
+![](/img/jsp8-2/img5.png)
+![](/img/jsp8-2/img6.png)
+![](/img/jsp8-2/img7.png)
 這張做一個小註解，它是我們的另一位組員想的，唯一不是我們這兩個阿宅想的內容。非常令人驚訝的是，在發表會上，這是最成功的一則。
 #### 現場的老師還加了一個附註: **此事(式)不存在**
 
 ---
-{% asset_img slug img8.png %}
-{% asset_img slug img9.png %}
+![](/img/jsp8-2/img8.png)
+![](/img/jsp8-2/img9.png)
 //**說好的去中心化呢？**
 
 ---
-{% asset_img slug img10.png %}
-{% asset_img slug img11.png %}
+![](/img/jsp8-2/img10.png)
+![](/img/jsp8-2/img11.png)
 後來也有想到用:
-``` C
+```
 void love ( you ) {
     love(you);
 }

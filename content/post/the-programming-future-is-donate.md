@@ -1,10 +1,10 @@
 ---
 title: SITCON 演講：軟體開發的未來，是大斗內時代？
 tags:
-  - SITCON
-  - 商業模式
-  - 軟體開發
-categories: 演講稿
+- 商業模式
+- 讚賞經濟
+categories: 
+- 評論
 date: 2019-03-25 17:22:22
 ---
 

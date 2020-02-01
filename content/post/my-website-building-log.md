@@ -3,6 +3,8 @@ title: 網站建置紀錄
 tags: 
 - Server
 - Website
+categories:
+- 活動紀錄
 date: 2019-01-20 13:15:09
 ---
 

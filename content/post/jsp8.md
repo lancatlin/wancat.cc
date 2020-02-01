@@ -1,10 +1,11 @@
-﻿title: 2018 JSP 紀錄與心得 (一) 
-date: 2018/08/06 20:00:00
+﻿---
+title: 2018 JSP 紀錄與心得 (一) 
+date: 2018-08-06 20:00:00
 updated: 2018-08-23 
-categories: jsp
+categories: 
+- 活動紀錄
 tags: 
- - life
- - jsp 
+- JSP 
 ---
 > 參加 **JSP 國中科學探究聯合發表會** 的所見所得。事前的準備，到結束後的回味，新的故事，至今仍持續發生。
 > 本次主題的[系列文章](/2018/08/01/FireWheel0/), [演講影片](https://www.youtube.com/embed/j0jkjbXKWTg)
@@ -59,7 +60,7 @@ JSP的全名為 [**國中科學探究聯合發表會**](https://sites.google.com
 
 我早已把筆電準備在前面，這次很堅持的使用了自己的筆電，自己設計簡報，自己設計底圖，一人團隊有些辛苦，但我的成果讓我很滿意。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j0jkjbXKWTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{{< youtube "j0jkjbXKWTg" >}}
 
 這次的演講算是出奇的成功。首先我很擅長問答，因此我往往更擅長應變實際的情況，還有就是事前的準備，這次我的指導老師很精準的預期了觀眾的反應，因此採用最低強度的演講，成功的讓所有人都感到興趣且聽的懂。
 

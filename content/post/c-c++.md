@@ -1,14 +1,15 @@
 ---
 title: C/C++ 不是我們需要的資訊教育
 date: 2019-07-25 06:32:00
-categories: 
-- 評論
 tags:
 - 教育
 - 程式
+categories:
+- 評論
+draft: true
 ---
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/isipeoria/6691167811" title="printf(&quot;hello, world\n&quot;);"><img src="https://live.staticflickr.com/7153/6691167811_440ed057ba_z.jpg" width="640" height="427" alt="printf(&quot;hello, world\n&quot;);"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+![](/img/c-c++/c.jpg)
 
 （[圖片來源](https://flic.kr/p/bcgZ5g)）
 
@@ -18,7 +19,7 @@ tags:
 
 當然義務教育不能是「玩」，資訊科技課綱裡主要以「演算法」為教學重點。演算法是一種充滿邏輯的思考方式，學會演算法我認為對於解決問題會很有助益，但是演算法的重點應該不是「記熟各個演算法」，而是在面對不同問題時，學會組織各種演算法來有效率的解決問題。
 
-{% asset_img slug 課綱-1.jpeg %}
+![](/img/c-c++/課綱-1.jpeg)
 
 演算法也很適合跟數學結合，以往數學教育都是要求「算出解答」，但對於「計算過程」卻不夠看重。演算法式教學可將數學問題改成：設計一個算法來解決問題，學生需要思考的就不是當前的數字，而是如何在所有可能的輸入中都能算出正確的解，這樣的教學方式我認為才是最能鍛鍊思考能力的。
 

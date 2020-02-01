@@ -1,25 +1,39 @@
-![](/img/zhaohuabing.png)  **_Huabing Zhao_** is an ICT veteran with a passion for open source. He has a solid experience in the telecommunication and information technology industry for more than 17 years.
+---
+title: 關於我
+date: 2018-10-27 10:54:45
+layout: about
+---
+我是 **林宏信 lancatlin**，就讀五專一年級，從小六開始學習 Scratch，國二開始學習 Python。現在主要寫 Go backend。
+我喜歡寫程式、作曲、寫文章，從 2017 年 11 月開始經營 **WANcatServer 網貓伺服器**。
 
-Throughout his career, he has built a number of large-scale, cross-country OSS/BSS platforms/systems and operation tools, most of them are still running in productions.
+我愛玩 [0 A.D.](https://play0ad.com)，我愛用 Linux，我喜歡自由軟體。
 
-He loves open source and has been contributing to a variety of open source projects, including Istio(Service Mesh https://istio.io), ONAP(Open Network Automation Platform https://wiki.onap.org), Hugo(static site generators https://themes.gohugo.io/hugo-theme-cleanwhite/), etc.
+## 我的連結
+* [Facebook](https://facebook.com/wancatserver)
+* [GitHub](https://github.com/lancatlin)
+* [Medium](https://medium.com/@lancatlin/)
+* [Matters](https://matters.news/@wancat/)
+* email: wancat@wancat.cc
 
-He also has strong interests in various tech stuff such as Artificial Intelligence, Cryptocurrencies, Smart Home.
+## 專案
+* [設備預約系統](https://github.com/lancatlin/DeviceBooking) 母校使用的線上 iPad 預約系統
+* [Bitmark Issuer](https://github.com/lancatlin/bitmark-issuer) Bitmark 區塊鏈的發禮物系統
+* [B]
+* [FireWheel 火輪手槍](https://github.com/lancatlin/FireWheel) 使用 Python + Pygame 製作的原創遊戲
+* [AddPoint 加分程式](https://github.com/lancatlin/AddPoint) 老師上課的加分小幫手
+* [P2P Talking 點對點聊天程式](https://github.com/lancatlin/p2p-) (服務停止) 使用 Python 寫成的點對點通訊軟體
+* [Huffman Coding 霍夫曼編碼器](github.com/lancatlin/huffman) 霍夫曼演算法的實做
 
-Huabing holds a BS in Computer Science and Technology from Chongqing University in China.
+### 未來計畫專案
+這裡列出我想做但還沒開始的專案，歡迎有興趣一起開發或是提供意見的人與我聯絡（Email: wancatserver@gmail.com）。
+* [FireWheel Web](https://github.com/wancatserver/firewheel) 火輪手槍 Golang WebAssembly 再製
+* [歷史時間線](/2018/12/01/history-time-line/) 歷史時間線是一個開放教材計畫，整理國高中階段的所有歷史事件，透過讓玩家排列順序的方式，來達到熟記歷史事件先後順序。
+* 樂譜辨識系統 將樂譜照片轉換為 MIDI or MuseScore 檔的影像辨識計畫，可用來幫助不擅試譜者能直接聆聽。
 
-Currently, Huabing is working on a 5G NFV&SDN orchestration and management platform, at the same time, he also wears the hat of PTL in ONAP(http://www.onap.org) open source project.
-
-He is happy with his current job, but also willing to take new challenges if the opportunity matches his career path.
-
-While he is not working, he enjoys watching movies, swimming, hiking, travelling, writing blogs and learning languages.
-
-Feel free to connect Huabing via Github (https://github.com/zhaohuabing) or drop him an email (zhaohuabing@gmail.com).
-
-## Talks
-
-* [Service Mesh in Action with ONAP] (https://www.slideshare.net/HuabingZhao/service-mesh-in-action-with-onap) GNTC, 南京, 2018
-* [MSB to Support Carrier Grade ONAP Microservice Architecture with Service Mesh] (https://www.slideshare.net/HuabingZhao/msb-to-support-carrier-grade-onap-microservice-architecture-with-service-mesh) ONS, Los Angeles, 2018
-* [Microservice Powered Orchestration](https://www.slideshare.net/HuabingZhao/microservice-powered-orchestration-126100339) ONS, Santa Clara, 2017
-* [MSB Technical Deep Dive and ONAP Use Cases] (https://www.slideshare.net/HuabingZhao/msb-depp-dive/) ONAP Developer Event, New Jersey, 2017
-* [Microservice Bus Tutorial] (https://www.slideshare.net/HuabingZhao/microservice-bus-tutorial) ONAP Developer Event, Paris, 2017
+## 擅長
+個人學習程式語言不過幾年，不敢說有什麼專長，只有較擅長。
+* Golang
+* Linux, using Manjaro i3 now
+* Python (Game, Socket)
+* Arduino
+* JavaScript

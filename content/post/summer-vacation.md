@@ -1,7 +1,9 @@
 ---
 title: 2018 暑假回顧
+categories:
+- 生活
 tags:
-  - life
+- life
 date: 2018-08-29 07:15:01
 ---
 

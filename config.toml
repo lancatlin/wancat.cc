@@ -6,7 +6,7 @@ languageCode = "en-us"
 disqusShortname = ""
 googleAnalytics = ""
 preserveTaxonomyNames = true
-paginate = 8 #frontpage pagination
+paginate = 10 #frontpage pagination
 hasCJKLanguage = true
 
 [outputs]
@@ -58,7 +58,7 @@ home = ["HTML", "RSS", "Algolia"]
   # reward_guide = "如果这篇文章对你有用,请随意打赏"
 
   friends = true
-  bookmarks = true
+  bookmarks = false
   about_me = true
 
   # Include any custom CSS and/or JS files, url or relative to /static folder
@@ -93,6 +93,9 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.friend_link]]
   title = "CHAWTeam"
   href =  "https://chawteam.github.io"
+  [[params.friend_link]]
+  title = "納西斯花園"
+  href = "https://lincalvino.me"
 
   [[params.bookmark_link]]
   title =  "Martin Fowler"
@@ -106,6 +109,7 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.bookmark_link]]
   title = "unsplash"
   href = "https://unsplash.com"
+  
   [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/top/about/"
@@ -119,3 +123,6 @@ notAlternative = true
 [params.algolia]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 params = ["categories", "tags"]
+
+[permalinks]
+  post = "/post/:filename"

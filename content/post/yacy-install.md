@@ -1,6 +1,8 @@
 ---
 title: YaCy安裝教學
 date: 2018-09-22 20:26:23
+categories:
+- 教學
 tags:
 - 自由軟體
 ---
