@@ -4,7 +4,7 @@ date: 2019-07-06 20:12:00
 tags:
 - Linux
 categories:
-- Linux
+- 教學
 ---
 
 Caps Lock 是一個我們很少用的鍵，偏偏它擺在鍵盤的黃金位置，實在是大大的浪費，在 Mac 上可以使用 Caps Lock 來作為中英切換鍵，我認為是很好的設計，以下教學將介紹如何用指令列來設定 Fcitx 使用 Caps Lock 來切換輸入法。
