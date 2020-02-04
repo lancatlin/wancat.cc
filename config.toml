@@ -13,6 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
+  author = "wancat"
   header_image = "img/home-bg-jeep.jpg"
   SEOTitle = "WANcatServer 網貓伺服器"
   description = ""
