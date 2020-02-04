@@ -1,13 +1,14 @@
 ---
-title: "CloudFlare 設定 DDNS"
+title: "CloudFlare 設定 DDNS 教學"
 date: 2020-02-04T10:35:52+08:00
-draft: true
+draft: false
 tags:
 - CloudFlare
 - Linux
 - Raspberry Pi
 categories:
 - 教學
+showtoc: false
 ---
 
 最近剛入手一個 Raspberry Pi，用來作為一個省電的伺服器，本來困擾自己家裡的固定 IP 已經給了其他台伺服器，但找到方法用 CloudFlare 實現 DDNS。
@@ -59,12 +60,14 @@ use_dig: false
 
 ```
 
-這邊的 cf_key 要到 CloudFlare 網站裡找，介紹是寫要用 Global API Key，我沒試過專門功能的 Key 行不行。
+這邊的 cf_key 要到 CloudFlare 網站裡找，介紹是寫要用 Global API Key，我沒試過專門功能的 Key 行不行。執行 cloudflare-ddns.py 測試
 
-完成後再把它加到 `crontab`，執行 `crontab -e`：
+```
+python cloudflare-ddns.py site_pi.yaml
+```
+
+如果沒問題就把它加到 `crontab`，執行 `crontab -e`：
 
 ```
 */15 * * * * /home/pi/bin/cloudflare_ddns/cloudflare_ddns.py /home/pi/bin/cloudflare_ddns/site_pi.yaml >> /home/pi/bin/cloudflare_ddns/cloudflare_ddns.log
 ```
-
-不過我的 IP 還沒有變過，所以也許還有 bug 也說不定（茶）。

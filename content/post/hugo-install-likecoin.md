@@ -1,7 +1,7 @@
 ---
 title: "Hugo 安裝 LikeCoin 教學"
 date: 2020-02-03T18:50:39+08:00
-draft: true
+draft: false
 tags:
 - Hugo
 - Linux
@@ -40,8 +40,6 @@ Hugo 中的 Partial 功能，可以讓你建立小模板，嵌入在頁面中。
 ```
 <iframe class="LikeCoin" height="235" src="https://button.like.co/in/embed/{{ .Site.Params.likerID }}/button?referrer={{ .Permalink }}" width="100%" frameborder=0></iframe>
 ```
-
-> 感謝 CHAWTeam 提供調校過的 LikeButton
 
 接下來在 `config.toml` 中加入
 
