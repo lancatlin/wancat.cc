@@ -37,7 +37,7 @@ Google 可以讀你的 Gmail，簡訊也可以被政府或通訊業者攔截，�
 
 開始使用的第一步是下載一個 TOTP 的應用程式，有非常多的選項，我自己使用的是 [Authy](https://authy.com/)，界面簡單易用，提供加密的雲端備份，此外還有 [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)、[Microsoft Authenticator](https://support.microsoft.com/zh-tw/help/4026727/microsoft-account-how-to-use-the-microsoft-authenticator-app)，自由軟體則有 Red Hat 開發的 [FreeOTP](https://freeotp.github.io/)，先前在密碼管理工具提到的 [Bitwarden](https://bitwarden.com/) 的付費版也有提供 TOTP 的功能。
 
-安裝好驗證器後，到你的網站去設定兩步驟驗證，它可能會顯示「驗證應用程式」、「谷歌驗證器」、「代碼產生器」，但背後都是 TOTP 這套標準，流程也很簡單，網站會將金鑰以 QR Code 的方式顯示，打開手機上的驗證器程式掃描就可以加入帳號，並輸入產生的一次性密碼供網站確認，就可以完成綁定。網站若是在手機上，則可以用「複製金鑰」的方式來手動輸入金鑰。
+安裝好驗證器後，到你要登入的網站或 APP 的帳號設定中，啟動**兩步驟驗證**，在不同網站中，可能會以「驗證應用程式」、「谷歌驗證器」、「代碼產生器」等名稱出現，但背後都是 TOTP 這套標準，流程也很簡單，網站會將金鑰以 QR Code 的方式顯示，打開手機上的驗證器程式掃描就可以加入帳號，並輸入產生的一次性密碼供網站確認，就可以完成綁定。網站若是在手機上，則可以用「複製金鑰」的方式來手動輸入金鑰。
 
 ### 實際操作示範：Facebook
 
@@ -98,6 +98,8 @@ Google 可以讀你的 Gmail，簡訊也可以被政府或通訊業者攔截，�
 ![](/img/totp/facebook-succeed.jpg)
 
 設定完成後，要在新裝置登入時，就要開啟 Authy 取得驗證碼，增加帳戶的安全性。
+
+如果你想要在其他的網站設定 TOTP，可以參考 Authy 提供的[設定教學](https://authy.com/guides/)。
 
 ## 使用 TOTP 的注意事項
 
