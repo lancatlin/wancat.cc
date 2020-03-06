@@ -63,6 +63,7 @@
                 {{ end }}
                 {{ .Content }}
                 {{ partial "likecoin.html" .}}
+                {{ partial "copyright.html" . }}
                 {{ if .Site.Params.reward }}
                 {{ partial "reward.html" . }}
                 {{ end }}
