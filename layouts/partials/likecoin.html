@@ -6,4 +6,4 @@
 您只需要支持我們，完全不會花到錢！</p>
 </div>
 
-<iframe class="LikeCoin" height="235" src="https://button.like.co/in/embed/{{ .Site.Params.likerID }}/button?referrer={{ .Permalink }}" width="100%" frameborder=0></iframe>
+<iframe class="LikeCoin" height="235" src="https://button.like.co/in/embed/{{ with $.Params.likerID }}{{ . }}{{ else }}{{ .Site.Params.likerID }}{{ end }}/button?referrer={{ .Permalink }}" width="100%" frameborder=0></iframe>
