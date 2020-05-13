@@ -29,12 +29,6 @@ home = ["HTML", "RSS", "Algolia"]
   leancloud_app_id = ""
   leancloud_app_key = ""
 
-  # algolia site search
-  algolia_search = true
-  algolia_appId = ""
-  algolia_indexName = ""
-  algolia_apiKey = ""
-
   # Sidebar settings
   sidebar_about_description = "Student, Golang Programmer, Linux User"
   #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
