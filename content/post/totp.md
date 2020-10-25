@@ -112,4 +112,5 @@ Google 可以讀你的 Gmail，簡訊也可以被政府或通訊業者攔截，�
 - [維基百科：基於時間的一次性密碼演算法](https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E6%97%B6%E9%97%B4%E7%9A%84%E4%B8%80%E6%AC%A1%E6%80%A7%E5%AF%86%E7%A0%81%E7%AE%97%E6%B3%95)
 
 - [IThome：透過簡訊執行二次驗證不再安全，美國國家標準技術研究所建議別再使用](https://ithome.com.tw/news/112845)
+- [PixelPrivacy：Two-Factor Authentication - What Is It and Why You Should Use It](https://pixelprivacy.com/resources/two-factor-authentication/)
 
