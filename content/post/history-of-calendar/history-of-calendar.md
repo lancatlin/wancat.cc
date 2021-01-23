@@ -9,6 +9,10 @@ draft: false
 showToc: false
 ---
 
+![](./cover.jpg)
+
+Photo by **[Aaditya Arora](https://www.pexels.com/@aaditya-arora-188236?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)** from **[Pexels](https://www.pexels.com/photo/world-map-illustration-592753/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)**
+
 這個標題也許令人誤解，1/1 本來就是一年的開始啊？當然，但為什麼我們會選擇一個冬天的日子作為一年的開始，而不是某個春天、夏天、秋天的日子呢？陽曆以地球的公轉為依循，地球每繞太陽一圈就是一年，一年之中所謂「特別」的日子，應該會是春分、夏至、秋分、冬至等等，但 1/1 卻不是什麼特別的日子，甚至以季節來說，我們通常會認為 12、1、2 月是冬天，3 月開始才是春天，為什麼會將新年定在一個季節的「中間」呢？
 
 下一個猜想：也許是由於某種歐洲世界的歷史因素？直覺會想到的可能是「耶穌誕生」，畢竟西元的紀年「名義上」就是以耶穌誕生為始（儘管這與史實有些差距），但這也有矛盾之處：我們之所以能說「耶穌於 12/25 日出生」，就證明了陽曆是早於耶穌誕生的，否則就應該會是「我們將耶穌誕生之日定為 1/1」。
