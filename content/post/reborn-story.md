@@ -1,13 +1,11 @@
----
-title: 創作故事〈重生〉
-categories: 
-- 創作
-tags:
-- 音樂
-- 創作
-draft: true
-date: 2019-05-26 11:56:57
----
++++
+categories = ["創作"]
+date = "2019-05-26 11:56:57"
+draft = true
+tags = ["音樂", "創作"]
+title = "創作故事〈重生〉"
+
++++
 
 
 {{< youtube "5VrBsXkCLw4" >}}

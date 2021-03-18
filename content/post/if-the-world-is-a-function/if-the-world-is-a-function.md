@@ -1,14 +1,12 @@
----
-title: "每日一問：如果世界是個函數"
-date: 2021-03-07T21:28:38+08:00
-categories:
-tags:
-- 物理
-categories:
-- 每日一問
-draft: false
-showtoc: false
----
++++
+categories = ["每日一問"]
+date = "2021-03-07T21:28:38+08:00"
+draft = false
+showtoc = false
+tags = ["物理"]
+title = "每日一問：如果世界是個函數"
+
++++
 
 ![](./function.jpg)
 

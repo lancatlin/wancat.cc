@@ -1,15 +1,12 @@
----
-title: "Raspberry Pi 安裝 WordPress 教學"
-date: 2020-05-17T22:17:08+08:00
-draft: false
-showtoc: false
-categories:
-- 教學
-tags:
-- Raspberry Pi
-- WordPress
-- Caddy
----
++++
+categories = ["教學"]
+date = "2020-05-17T22:17:08+08:00"
+draft = false
+showtoc = false
+tags = ["Raspberry Pi", "WordPress", "Caddy"]
+title = "Raspberry Pi 安裝 WordPress 教學"
+
++++
 
 WordPress 是一套自由的網站系統，可以安裝在自己的伺服器，以下是我在 Raspberry Pi 上安裝 WordPress 的記錄。
 

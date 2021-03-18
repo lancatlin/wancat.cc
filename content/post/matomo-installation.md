@@ -1,15 +1,11 @@
----
-title: "Google Analytics 替代方案 Matomo 安裝教學"
-date: 2020-02-04T10:27:38+08:00
-draft: false
-categories:
-- 教學
-tags:
-- Matomo
-- Linux
-- Caddy
-- SQL
----
++++
+categories = ["教學"]
+date = "2020-02-04T10:27:38+08:00"
+draft = false
+tags = ["Matomo", "Linux", "Caddy", "SQL"]
+title = "Google Analytics 替代方案 Matomo 安裝教學"
+
++++
 
 因為實在不想再讓 Google 拿到資料了，所以我到 [No More Google](https://nomoregoogle.com/) 網站上找 Google Analytics 的替代方案，第一名就是 [Matomo](https://matomo.org/)。
 

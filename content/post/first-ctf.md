@@ -1,11 +1,10 @@
----
-title: CTF 參加初體驗
-tags:
-- CTF
-categories:
-- 活動紀錄
-date: 2019-11-16 10:00:00
----
++++
+categories = ["活動紀錄"]
+date = "2019-11-16 10:00:00"
+tags = ["CTF"]
+title = "CTF 參加初體驗"
+
++++
 
 
 # CTF 參加初體驗

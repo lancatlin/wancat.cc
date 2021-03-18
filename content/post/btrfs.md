@@ -1,10 +1,9 @@
----
-title: "Btrfs"
-date: 2020-11-21T16:47:32+08:00
-categories:
-tags:
-draft: true
----
++++
+date = "2020-11-21T16:47:32+08:00"
+draft = true
+title = "Btrfs"
+
++++
 
 使用 Btrfs 作為你的桌面檔案系統
 

@@ -1,10 +1,10 @@
----
-title: 問題紀錄。使用 Docker 安裝 Gitlab
-tags:
-- Docker
-date: 2018-07-31 01:11:11
-draft: true
----
++++
+date = "2018-07-31 01:11:11"
+draft = true
+tags = ["Docker"]
+title = "問題紀錄。使用 Docker 安裝 Gitlab"
+
++++
 
 ## 問題摘要：
 * Docker 無法使用 --volume 將資料夾掛載，顯示 read-only

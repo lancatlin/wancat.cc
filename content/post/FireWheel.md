@@ -1,12 +1,11 @@
----
-title: 序 FireWheel火輪手槍(零)
-date: 2018-08-01 06:29:36
-tags:
-- FireWheel
-categories:
-- 教學
-draft: true
----
++++
+categories = ["教學"]
+date = "2018-08-01 06:29:36"
+draft = true
+tags = ["FireWheel"]
+title = "序 FireWheel火輪手槍(零)"
+
++++
 
 > 運用 Python 程式語言自行設計一款單人遊戲 ---**火輪手槍**，介紹 Python 程式語言與 Scratch 的不同，並說明如何利用**幾何**、**三角函數**等數學原理解決遊戲中的實際問題，再以程式語言實踐。
 > 本系列之目標讀者為無程式基礎的人。

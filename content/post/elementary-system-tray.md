@@ -1,12 +1,10 @@
----
-title: "elementary OS 啟用 System Tray"
-date: 2020-02-12T19:15:22+08:00
-draft: false
-tags:
-- elementaryOS
-- Linux
++++
+date = "2020-02-12T19:15:22+08:00"
+draft = false
+tags = ["elementaryOS", "Linux"]
+title = "elementary OS 啟用 System Tray"
 
----
++++
 
 [elementary OS](https://elementary.io) 是一個好看、易用的 Linux 發行版，然而它有一個缺點：系統狀態欄（system tray）無法顯示其他應用程式的 icon，這導致像輸入法、Discord 等有使用 system tray 的程式無法使用完整功能。最討厭的莫過於 HP 印表機驅動 HPLIP，每次開機就跳出來說 no system tray deteched，非常煩人。
 

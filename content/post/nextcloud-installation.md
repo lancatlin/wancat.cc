@@ -1,16 +1,11 @@
----
-title: "在 Raspberry Pi 安裝 Nextcloud"
-date: 2020-02-11T14:40:06+08:00
-draft: false
-tags:
-- Nextcloud
-- Raspberry Pi
-- Caddy
-- Linux
-Categories:
-- 教學
++++
+Categories = ["教學"]
+date = "2020-02-11T14:40:06+08:00"
+draft = false
+tags = ["Nextcloud", "Raspberry Pi", "Caddy", "Linux"]
+title = "在 Raspberry Pi 安裝 Nextcloud"
 
----
++++
 
 Nextcloud 是一套自由的雲端硬碟系統，可以讓你自己架設像 Google Drive、One Drive 一般的雲端硬碟，將資料掌握在自己手中，本篇紀錄如何在樹梅派安裝 Nextcloud。
 

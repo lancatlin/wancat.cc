@@ -1,12 +1,11 @@
-﻿---
-title: 2018 JSP 紀錄與心得 (一) 
-date: 2018-08-06 20:00:00
-updated: 2018-08-23 
-categories: 
-- 活動紀錄
-tags: 
-- JSP 
----
++++
+categories = ["活動紀錄"]
+date = "2018-08-06 20:00:00"
+tags = ["JSP"]
+title = "2018 JSP 紀錄與心得 (一)"
+updated = "2018-08-23"
+
++++
 > 參加 **JSP 國中科學探究聯合發表會** 的所見所得。事前的準備，到結束後的回味，新的故事，至今仍持續發生。
 > 本次主題的[系列文章](/2018/08/01/FireWheel0/), [演講影片](https://www.youtube.com/embed/j0jkjbXKWTg)
 >

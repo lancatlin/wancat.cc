@@ -1,15 +1,12 @@
----
-title: "CloudFlare 設定 DDNS 教學"
-date: 2020-02-04T10:35:52+08:00
-draft: false
-tags:
-- CloudFlare
-- Linux
-- Raspberry Pi
-categories:
-- 教學
-showtoc: false
----
++++
+categories = ["教學"]
+date = "2020-02-04T10:35:52+08:00"
+draft = false
+showtoc = false
+tags = ["CloudFlare", "Linux", "Raspberry Pi"]
+title = "CloudFlare 設定 DDNS 教學"
+
++++
 
 最近剛入手一個 Raspberry Pi，用來作為一個省電的伺服器，本來困擾自己家裡的固定 IP 已經給了其他台伺服器，但找到方法用 CloudFlare 實現 DDNS。
 

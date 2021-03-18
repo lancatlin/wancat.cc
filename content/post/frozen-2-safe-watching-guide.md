@@ -1,12 +1,10 @@
----
-title: Frozen 2 安全觀影指南
-categories:
-  - 生活
-tags:
-  - Movie
-  - Frozen
-date: 2019-12-22 14:34:42
----
++++
+categories = ["生活"]
+date = "2019-12-22 14:34:42"
+tags = ["Movie", "Frozen"]
+title = "Frozen 2 安全觀影指南"
+
++++
 
 
 ![](/img/frozen.jpg)

@@ -1,12 +1,11 @@
----
-title: "ATT&CK 導論"
-date: 2020-09-21T20:52:56+08:00
-draft: true
-categories:
-- 教學
-tags:
-- ATT&CK
----
++++
+categories = ["教學"]
+date = "2020-09-21T20:52:56+08:00"
+draft = true
+tags = ["ATT&CK"]
+title = "ATT&CK 導論"
+
++++
 
 [MITRE ATT&CK]() 是一套識別資訊安全攻擊手法的框架，裡面彙整了幾百種駭客攻擊的手法，諸如…
 

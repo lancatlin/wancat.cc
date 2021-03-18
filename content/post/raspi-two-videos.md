@@ -1,12 +1,11 @@
----
-title: "Raspberry Pi 雙影片同步播放教學"
-date: 2020-05-16T12:12:50+08:00
-draft: true
-categories:
-- 教學
-tags:
-- Raspberry Pi
----
++++
+categories = ["教學"]
+date = "2020-05-16T12:12:50+08:00"
+draft = true
+tags = ["Raspberry Pi"]
+title = "Raspberry Pi 雙影片同步播放教學"
+
++++
 
 我美術系的姐姐這次錄像作品嘗試雙影片同時播放，樹梅派可以作為一個便宜的播放器，由於只有兩部影片，第四代樹梅就有雙 HDMI 輸出，所以我們只使用一台第四代樹梅派播放，以下是雙影片輸出的設定記錄。
 

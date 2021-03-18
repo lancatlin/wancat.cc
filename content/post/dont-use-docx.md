@@ -1,11 +1,10 @@
----
-title: 從今天起，不要使用 .docx
-date: 2018-09-16 05:50:26
-tags:
-  - 自由軟體
-categories:
-  - 評論
----
++++
+categories = ["評論"]
+date = "2018-09-16 05:50:26"
+tags = ["自由軟體"]
+title = "從今天起，不要使用 .docx"
+
++++
 > 妳使用什麼文書軟體？相信大部分的答案會是 Word, Powerpoint, Excel ，微軟Office的產品。那是否可以麻煩妳做一件事？在 **存檔的時候選擇用ODF** 。
 
 # 檔案格式的霸主 ---OOXML

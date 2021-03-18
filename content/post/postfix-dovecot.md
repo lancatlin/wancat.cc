@@ -1,9 +1,9 @@
----
-title: "Email Server Postfix & Dovecot 安裝教學"
-date: 2020-05-19T15:35:07+08:00
-draft: true
++++
+date = "2020-05-19T15:35:07+08:00"
+draft = true
+title = "Email Server Postfix & Dovecot 安裝教學"
 
----
++++
 
 ```
 sudo apt install postfix

@@ -1,13 +1,10 @@
----
-title: ORM 入門：如何區分 ORM 中的關聯
-tags:
-  - ORM
-  - 程式
-  - Golang
-categories:
-  - 教學
-date: 2019-07-26 10:49:46
----
++++
+categories = ["教學"]
+date = "2019-07-26 10:49:46"
+tags = ["ORM", "程式", "Golang"]
+title = "ORM 入門：如何區分 ORM 中的關聯"
+
++++
 
 
 最近初次接觸 ORM——Object-relational mapping——這個強大的工具，但是為其中的**關聯**而苦惱不已。在仔細研究後終於了解其差異，本篇文章透過一個圖書館專案的實例，使用 Golang + GORM 來實做，並輔以 SQL 做說明，讓已經學會 SQL 而想要了解 ORM 的人真的「懂」如何設計 Relation。

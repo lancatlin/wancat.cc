@@ -1,11 +1,10 @@
----
-title: YaCy安裝教學
-date: 2018-09-22 20:26:23
-categories:
-- 教學
-tags:
-- 自由軟體
----
++++
+categories = ["教學"]
+date = "2018-09-22 20:26:23"
+tags = ["自由軟體"]
+title = "YaCy安裝教學"
+
++++
 
 
 > [YaCy](https://yacy.net/en/index.html)是一個開源的點對點搜尋引擎

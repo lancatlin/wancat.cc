@@ -1,13 +1,11 @@
----
-title: "Caddy 安裝教學"
-date: 2020-02-04T10:39:46+08:00
-draft: false
-categories:
-- 教學
-tags:
-- Linux
-- Caddy
----
++++
+categories = ["教學"]
+date = "2020-02-04T10:39:46+08:00"
+draft = false
+tags = ["Linux", "Caddy"]
+title = "Caddy 安裝教學"
+
++++
 
 Caddy 是一個由 Go 撰寫的 Web Server，其主要賣點是簡單的設定檔，適合在開發環境中快速架設，還有自動 HTTPS 的功能，相當方便。
 

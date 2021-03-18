@@ -1,14 +1,12 @@
----
-title: "2020 赤弦獎比賽心得"
-date: 2020-11-22T18:02:26+08:00
-categories:
-- 活動紀錄
-tags:
-- 比賽
-- 吉他
-draft: false
-showtoc: false
----
++++
+categories = ["活動紀錄"]
+date = "2020-11-22T18:02:26+08:00"
+draft = false
+showtoc = false
+tags = ["比賽", "吉他"]
+title = "2020 赤弦獎比賽心得"
+
++++
 
 ![](./red-string.jpg)
 

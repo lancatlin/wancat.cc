@@ -1,12 +1,10 @@
----
-title: "我從開發 Fever Pass 學習到的技巧"
-date: 2020-03-02T20:41:15+08:00
-draft: true
-tags:
-- Golang
-- 網站開發
++++
+date = "2020-03-02T20:41:15+08:00"
+draft = true
+tags = ["Golang", "網站開發"]
+title = "我從開發 Fever Pass 學習到的技巧"
 
----
++++
 
 - Use Handler method to handle request
 	+ Store config, db

@@ -1,13 +1,11 @@
----
-title: C/C++ 不是我們需要的資訊教育
-date: 2019-07-25 06:32:00
-tags:
-- 教育
-- 程式
-categories:
-- 評論
-draft: true
----
++++
+categories = ["評論"]
+date = "2019-07-25 06:32:00"
+draft = true
+tags = ["教育", "程式"]
+title = "C/C++ 不是我們需要的資訊教育"
+
++++
 
 ![](/img/c-c++/c.jpg)
 

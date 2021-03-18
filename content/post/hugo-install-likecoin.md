@@ -1,15 +1,11 @@
----
-title: "Hugo 安裝 LikeCoin 教學"
-date: 2020-02-03T18:50:39+08:00
-draft: false
-tags:
-- Hugo
-- Linux
-- LikeCoin
-- Website
-categories:
-- 教學
----
++++
+categories = ["教學"]
+date = "2020-02-03T18:50:39+08:00"
+draft = false
+tags = ["Hugo", "Linux", "LikeCoin", "Website"]
+title = "Hugo 安裝 LikeCoin 教學"
+
++++
 
 ## 取代 Hexo
 

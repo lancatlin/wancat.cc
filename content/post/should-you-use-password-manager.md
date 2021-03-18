@@ -1,12 +1,10 @@
----
-title: 妳該使用密碼管理工具嗎？
-date: 2019-02-21 20:07:35
-tags: 
-- Bitwarden
-- 資訊安全
-categories:
-- 評論
----
++++
+categories = ["評論"]
+date = "2019-02-21 20:07:35"
+tags = ["Bitwarden", "資訊安全"]
+title = "妳該使用密碼管理工具嗎？"
+
++++
 
 ![](/photo/hacker-2300772_1920.jpg)
 

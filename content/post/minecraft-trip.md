@@ -1,12 +1,10 @@
----
-title: 長征 尋找沙漠之旅（一）
-date: 2018-06-10 18:38:51
-tags: 
-- Minecraft
-- OurLiveWorld
-categories:
-- 創作
----
++++
+categories = ["創作"]
+date = "2018-06-10 18:38:51"
+tags = ["Minecraft", "OurLiveWorld"]
+title = "長征 尋找沙漠之旅（一）"
+
++++
 ## — OurLiveWorld 我們的生存故事
 > 這是Minecraft的冒險故事系列，每篇將記載在我們世界中的一場冒險。
 

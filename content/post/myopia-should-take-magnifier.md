@@ -1,11 +1,10 @@
----
-title: 我認為，近視應該戴放大鏡
-tags:
-- science
-categories:
-- 評論
-date: 2019-06-07 19:25:23
----
++++
+categories = ["評論"]
+date = "2019-06-07 19:25:23"
+tags = ["science"]
+title = "我認為，近視應該戴放大鏡"
+
++++
 
 ![](/img/myopia-should-take-magnifier/glasses.jpg)
 

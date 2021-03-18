@@ -1,14 +1,13 @@
----
-title: "專案介紹：Fever Pass 體溫登記系統"
-date: 2020-03-29T19:56:21+08:00
-draft: false
-showtoc: false
-likerID: "linchpins"
-categories:
-- 專案
-tags:
-- Golang
----
++++
+categories = ["專案"]
+date = "2020-03-29T19:56:21+08:00"
+draft = false
+likerID = "linchpins"
+showtoc = false
+tags = ["Golang"]
+title = "專案介紹：Fever Pass 體溫登記系統"
+
++++
 
 Fever Pass 是我們團隊 Linchpins 在 2020 年初，為了因應新型冠狀病毒開發的一套體溫登記系統，用於協助各級機關、學校自主登記體溫。
 

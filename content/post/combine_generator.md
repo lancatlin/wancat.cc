@@ -1,13 +1,11 @@
----
-title: "專案介紹：排列組合計算機"
-date: 2020-06-17T23:44:48+08:00
-draft: false
-categories:
-- 專案
-tags:
-- JavaScript
-- Math
----
++++
+categories = ["專案"]
+date = "2020-06-17T23:44:48+08:00"
+draft = false
+tags = ["JavaScript", "Math"]
+title = "專案介紹：排列組合計算機"
+
++++
 
 近來數學課在教排列組合，排列組合不簡單，很難考慮周全，因此我設計了一個排列組合計算機，根據設定條件窮舉出所有可能，並一一列出。
 
