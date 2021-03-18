@@ -21,6 +21,7 @@ params:
     author: wancat
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
+    likerID: wancatserver
 
     defaultTheme: auto # dark, light
     disableThemeToggle: false
@@ -30,7 +31,7 @@ params:
     disableSpecial1stPost: false
     comments: false
     hidemeta: false
-    showtoc: false
+    showtoc: true
     tocopen: false
 
     assets:
@@ -108,6 +109,10 @@ menu:
           name: Search
           url: /search/
           weight: 30
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 40
 
 outputs:
     home:
