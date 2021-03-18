@@ -36,23 +36,23 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "/img/favicon.ico"
+        favicon16x16: "/img/logo.png"
+        favicon32x32: "/img/logo.png"
+        apple_touch_icon: "/img/logo.png"
+        safari_pinned_tab: "/img/logo.png"
 
     label:
-        text: "Home"
-        icon: /apple-touch-icon.png
+        text: "WANcatServer"
+        icon: /img/logo.png
         iconHeight: 35
 
     # profile-mode
     profileMode:
         enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        title: WANcatServer
+        subtitle: "網貓伺服器"
+        imageUrl: "/img/wancat.jpg"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
@@ -64,23 +64,19 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Title: "WANcatServer 網貓伺服器"
+        Content: Hi, 我是 Wancat
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/lancatlin"
 
     analytics:
         google:
-            SiteVerificationTag: "XYZabc"
+            SiteVerificationTag: ""
 
     cover:
-        hidden: true # hide everywhere but not in structured data
+        hidden: false # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
         hiddenInSingle: true # hide on single page
 
@@ -96,18 +92,28 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: archive
+          name: Archives
+          url: /archives/
+          weight: 1
         - identifier: categories
-          name: categories
+          name: Categories
           url: /categories/
           weight: 10
         - identifier: tags
-          name: tags
+          name: Tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
+        - identifier: search
+          name: Search
+          url: /search/
           weight: 30
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
