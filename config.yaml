@@ -1,6 +1,6 @@
 baseURL: "https://wancat.cc"
 title: WANcatServer
-paginate: 5
+paginate: 8
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -66,11 +66,17 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "WANcatServer 網貓伺服器"
-        Content: Hi, 我是 Wancat
+        Content: Hi, 我是 Wancat，歡迎來到我的空間。我想在這與你分享我的思考。
 
     socialIcons:
         - name: github
           url: "https://github.com/lancatlin"
+        - name: telegram
+          url: https://t.me/wancatserver
+        - name: email 
+          url: "mailto:wancat@wancat.cc"
+        - name: rss
+          url: "/index.xml"
 
     analytics:
         google:
