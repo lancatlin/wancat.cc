@@ -1,7 +1,8 @@
 +++
 layout = "about"
-title = "關於我"
 showToc = false
+title = "關於我"
+
 +++
 我是 **Wancat**，就讀五專，從小六開始學習 Scratch，國二開始學習 Python。寫 Go、Python、JavaScript。
 我喜歡寫程式、寫文章，從 2017 年 11 月開始經營 **WANcatServer**，在這裡與人分享我的想法。
