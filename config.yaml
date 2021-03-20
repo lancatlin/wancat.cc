@@ -1,4 +1,4 @@
-baseURL: "https://www.wancat.cc"
+baseURL: "https://wancat.cc"
 title: WANcatServer
 paginate: 8
 theme: PaperMod
