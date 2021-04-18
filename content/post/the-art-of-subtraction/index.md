@@ -5,7 +5,7 @@ categories = ["散文"]
 tags = []
 draft = false
 showToc = false
-
+summary = "這時我才終於體會了老師口中的「有捨才有得」，若無狠心除去那些無關的枝葉，最可貴的美就會被埋沒。園藝是如此，創作又何嘗不是呢？"
 +++
 
 ![](./cover.jpg)
