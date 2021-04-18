@@ -2,6 +2,7 @@
 date = "2021-03-19T20:30:53+08:00"
 draft = false
 showToc = false
+categories = ["散文"]
 tags = ["教育"]
 title = "母語者心態"
 
