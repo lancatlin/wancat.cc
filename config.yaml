@@ -9,10 +9,20 @@ buildFuture: false
 buildExpired: false
 
 googleAnalytics: 
+DefaultContentLanguage: zh
 
 minify:
     disableXML: true
     minifyOutput: true
+
+languages:
+  zh:
+    title: WANcatServer
+    weight: 1
+  en:
+    title: WANcatServer
+    weight: 2
+    contentDir: content/english
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.

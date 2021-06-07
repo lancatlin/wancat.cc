@@ -3,7 +3,7 @@ title = "How to Redirect Stdout to Streaming Response in Django"
 date = 2021-05-25T11:28:37+08:00
 categories = ["English"]
 tags = ["Python", "Django", "Threading", "Tutorial"]
-draft = true
+draft = false
 showToc = true
 
 +++
