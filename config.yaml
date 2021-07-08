@@ -20,9 +20,9 @@ languages:
     title: WANcatServer
     weight: 1
   en:
+    contentDir: content/english
     title: WANcatServer
     weight: 2
-    contentDir: content/english
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.

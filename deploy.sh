@@ -9,7 +9,7 @@ git pull origin master
 cd ..
 
 # Build the project.
-hugo --cleanDestinationDir # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
