@@ -1,14 +1,14 @@
 +++
-title = "在 Python 中實作對話型聊天機器人"
+title = "How to Handle Conversation in Chatbot in Python"
 date = 2021-07-29T16:13:36+08:00
-categories = ["技術"]
+categories = []
 tags = ["Python", "Chatbot"]
 draft = false
 showToc = true
 
 +++
 
-當你在開發一個聊天機器人，有時候為了使用者體驗，你不能要使用者用像指令的方式，將所有資訊一次傳過來。舉例來說，若我們要開發一個猜數字遊戲運作如以下：
+When you develop a chatbot, sometimes for user experience, you cannot ask your user send messages like  commands. For example, we want to build a guess number bot. We want the bot works like this:
 
 > **user:** guess  
 > **bot:** From what number?  
@@ -24,9 +24,9 @@ showToc = true
 > **user:** 83  
 > **bot:** Correct! You spent 6 times to guess this number.
 
-然而，我們在後端通常是「一個請求一個回覆」，如果要將這樣的行為拆成多個 handler 將會是場災難，為什麼？想想要怎麼存狀態，全域變數？資料庫？還是 Redis？每當你多問使用者一個問題，你就得在你的 state schema 新增一個欄位，讓你的程式碼越來越複雜。
+However, the common way we dealing with requests in the backend is one-request-one-response. That would be a disaster to separate a lot of handlers from the conversation. Why? Think about how to store the states? In global variables? Or database? Or Redis? Once you ask users one more question, you need to change the schema of your state, and the code becomes more complex. 
 
-接下來，我會告訴你如何用一個非常輕鬆的方式處理對話，讓你只要寫像以下一般的程式碼就能達成。
+In the following, I will show you how to deal with conversations and write the handler in a simple and straightforward way like this:
 
 ```python
     def guess(self):
@@ -48,19 +48,13 @@ showToc = true
         self.reply(f'You spent {counter} times to guess the secret number.')
 ```
 
-我會以 LINE Bot 作為示範，但你用什麼平台其實不重要，這個方法完全可以套用在其他的 bot 像 Telegram 或 Messenger。我在範例中使用 Django，同樣你也可以換成其他 framework。
+I will write a LINE bot for example, but it doesn't matter what platform you develop to. I will use Django and it's okay if you use other frameworks.
 
-## 設定環境
+## Setup Environment
 
-這裡是設定 bot 的環境，如果你已經知道了可以跳過此部分。
+It's for setting up the bot, you can skip this if you know it.
 
-需要安裝 pipenv：
-
-```bash
-sudo pip3 install pipenv
-```
-
-下載我的程式碼：
+Clone my repo:
 
 ```bash
 git clone https://github.com/lancatlin/python-chatbot-context.git
@@ -69,31 +63,31 @@ pipenv install
 pipenv shell
 ```
 
-到 [LINE Developers](https://developers.line.biz) 去建立一個 bot，產生一個 access token 和 secret，建立一個 `.env` 檔案：
+Go to [LINE Developers](https://developers.line.biz) to create a bot. Issue the token and your secret, put them in a `.env` file.
 
 ```bash
 LINE_TOKEN=YOUR_TOKEN
 LINE_SECRET=YOUR_SECRET
 ```
 
-接著就能啟動 Django 了
+Then start Django.
 
 ```bash
 python manage.py migrate 	# for first execution
 python manage.py runserver
 ```
 
-再來用 Ngrok 或類似程式將 localhost:8000 打出一個公開的網址，接著將網址註冊到 LINE Messaging API 的設定。
+Use Ngrok or something similar to tunnel the localhost:8000 to a public endpoint, and register the URL to LINE Messaging API.
 
-## 概念解說
+## Idea Describe
 
-###### ![](./diagram.jpg)
+###### ![](./diagram.en.jpg)
 
-核心概念是阻塞指令之 thread，直到下一則訊息抵達。當程式收到 'guess' 指令，就會開始遊戲，當程式需要使用者輸入訊息，它放一個 True （放什麼無所謂）到當前聊天室的 requests queue 中，接著等待。當下一則訊息進來時，會跑到另一個 thread 中，接著檢查當前聊天室的 requests queue，如果不是空的，就會將此訊息放入 responses queue 中。遊戲 thread 從 responses queue 拿到訊息後就會繼續執行。
+The main idea is to block the command thread until another message is received. When the program receives the 'guess' command, it will be executed in the command thread. Once the program needs input from the user, it put a message in the room's "requests queue". Then when the message comes in at another thread, it checks the room's requests queue and puts the message in the responses queue if not empty.
 
-## 實作
+## Implement
 
-我們將此概念實作成 `MessageQueue` 類別：
+We implement it as `MessageQueue` class:
 
 ```python
 # guess/message_queue.py
@@ -161,7 +155,7 @@ class MessageQueue:
 
 ```
 
-有了這個，我們就能非常輕鬆的實作猜數字遊戲：
+With this, we can implement our guess app very easily.
 
 ```python
 # guess/guess.py
@@ -218,10 +212,10 @@ class Guess:
 
 ```
 
-你可以看到遊戲的主函式非常的直觀，只用了 17 行程式碼就完成，而且還可以同時多人使用。
+You can see the main function is straightforward, with only 17 lines of code. What's more, it can handle multiple user inputs at the same time.
 
 ![](./result.gif)
 
-在 [GitHub](https://github.com/lancatlin/python-chatbot-context) 取得完整程式碼。
+Get full code on [GitHub](https://github.com/lancatlin/python-chatbot-context).
 
-特別感謝 [YukinaMochizuki](https://github.com/YukinaMochizuki) 由[他的 Notion bot 專案](https://github.com/YukinaMochizuki/DCDos)提供我原始想法。
+Special thanks to [YukinaMochizuki](https://github.com/YukinaMochizuki) for giving me the initial idea from [his Notion bot project](https://github.com/YukinaMochizuki/DCDos).

@@ -5,8 +5,8 @@ theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
-buildFuture: false
-buildExpired: false
+buildFuture: true
+buildExpired: true
 
 googleAnalytics: 
 DefaultContentLanguage: zh
@@ -19,122 +19,147 @@ languages:
   zh:
     title: WANcatServer
     weight: 1
+    menu:
+      main:
+          - identifier: archive
+            name: 文章列表
+            url: /archives/
+            weight: 1
+          - identifier: categories
+            name: 分類
+            url: /categories/
+            weight: 10
+          - identifier: tags
+            name: 標籤
+            url: /tags/
+            weight: 20
+          - identifier: search
+            name: 搜尋
+            url: /search/
+            weight: 30
+          - identifier: about
+            name: 關於
+            url: /about/
+            weight: 40
   en:
-    contentDir: content/english
     title: WANcatServer
     weight: 2
+    menu:
+      main:
+          - identifier: archive
+            name: Archives
+            url: /archives/
+            weight: 1
+          - identifier: categories
+            name: Categories
+            url: /categories/
+            weight: 10
+          - identifier: tags
+            name: Tags
+            url: /tags/
+            weight: 20
+          - identifier: search
+            name: Search
+            url: /search/
+            weight: 30
+          - identifier: about
+            name: About
+            url: /about/
+            weight: 40
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: WANcatServer
-    description: "網貓伺服器"
-    author: wancat
-    # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    likerID: wancatserver
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: WANcatServer
+  description: "網貓伺服器"
+  author: wancat
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  likerID: wancatserver
 
-    defaultTheme: auto # dark, light
-    disableThemeToggle: false
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
 
-    ShowReadingTime: true
-    ShowShareButtons: true
-    disableSpecial1stPost: false
-    comments: false
-    hidemeta: false
-    showtoc: true
-    tocopen: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  disableSpecial1stPost: false
+  comments: false
+  hidemeta: false
+  showtoc: true
+  tocopen: false
 
-    assets:
-        # disableHLJS: true # to disable highlight.js
-        # disableFingerprinting: true
-        favicon: "/img/favicon.ico"
-        favicon16x16: "/img/logo.png"
-        favicon32x32: "/img/logo.png"
-        apple_touch_icon: "/img/logo.png"
-        safari_pinned_tab: "/img/logo.png"
+  assets:
+      # disableHLJS: true # to disable highlight.js
+      # disableFingerprinting: true
+      favicon: "/img/favicon.ico"
+      favicon16x16: "/img/logo.png"
+      favicon32x32: "/img/logo.png"
+      apple_touch_icon: "/img/logo.png"
+      safari_pinned_tab: "/img/logo.png"
 
-    label:
-        text: "WANcatServer"
-        icon: /img/logo.png
-        iconHeight: 35
+  label:
+      text: "WANcatServer"
+      icon: /img/logo.png
+      iconHeight: 35
 
-    # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: WANcatServer
-        subtitle: "網貓伺服器"
-        imageUrl: "/img/wancat.jpg"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
+  # profile-mode
+  profileMode:
+      enabled: false # needs to be explicitly set
+      title: WANcatServer
+      subtitle: "網貓伺服器"
+      imageUrl: "/img/wancat.jpg"
+      imageWidth: 120
+      imageHeight: 120
+      imageTitle: my image
+      buttons:
+          - name: Posts
+            url: posts
+          - name: Tags
+            url: tags
 
-    # home-info mode
-    homeInfoParams:
-        Title: "WANcatServer 網貓伺服器"
-        Content: Hi, 我是 Wancat，歡迎來到我的空間。我想在這與你分享我的思考。
+  # home-info mode
+  homeInfoParams:
+      Title: "WANcatServer 網貓伺服器"
+      Content: 
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/lancatlin"
-        - name: telegram
-          url: https://t.me/wancatserver
-        - name: email 
-          url: "mailto:wancat@wancat.cc"
-        - name: rss
-          url: "/index.xml"
+  socialIcons:
+      - name: github
+        url: "https://github.com/lancatlin"
+      - name: telegram
+        url: https://t.me/wancatserver
+      - name: email 
+        url: "mailto:wancat@wancat.cc"
+      - name: rss
+        url: "/index.xml"
+      - name: dev
+        url: https://dev.to/wancat
+      - name: mastodon
+        url: https://liker.social/web/accounts/1
 
-    analytics:
-        google:
-            SiteVerificationTag: ""
+  analytics:
+      google:
+          SiteVerificationTag: ""
 
-    cover:
-        hidden: false # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+  cover:
+      hidden: false # hide everywhere but not in structured data
+      hiddenInList: true # hide on list pages and home
+      hiddenInSingle: true # hide on single page
 
-    # for search
-    # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
-menu:
-    main:
-        - identifier: archive
-          name: Archives
-          url: /archives/
-          weight: 1
-        - identifier: categories
-          name: Categories
-          url: /categories/
-          weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 20
-        - identifier: search
-          name: Search
-          url: /search/
-          weight: 30
-        - identifier: about
-          name: About
-          url: /about/
-          weight: 40
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+      - HTML
+      - RSS
+      - JSON # is necessary
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

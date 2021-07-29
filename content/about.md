@@ -4,15 +4,32 @@ showToc = false
 title = "關於我"
 
 +++
-我是 **Wancat**，就讀五專，從小六開始學習 Scratch，國二開始學習 Python。寫 Go、Python、JavaScript。
-我喜歡寫程式、寫文章，從 2017 年 11 月開始經營 **WANcatServer**，在這裡與人分享我的想法。
 
-我愛玩 [0 A.D.](https://play0ad.com)，喜歡推廣 Linux，支持自由軟體。
+"You are what you choose"，選擇了什麼，反應了你在乎什麼。
+
+* Operating System: Ubuntu Studio 21.04  
+* Browser: Vivaldi
+* Text editor: Vim
+* IDE: VSCodium
+* Email provider: ProtonMail + Self-hosted docker-mailserver
+* Cloud: Self-hosted Nextcloud
+* Mobile: Android + Lineage
+* CPU: AMD Ryzen 4650G
+* Filesystem: BtrFS + Ext4
+* Email client: ThunderBird
+* RSS Reader: Feeder
+* Analytic system: Self-hosted Matomo
+* Server Operating System: Proxmox VE
+* Keyboard: KBD67 Lite
+* Mouse: Razer Basilisk X HyperSpeed
+* Input Method: 行列
+
 
 ## 我的連結
 * [Matters](https://matters.news/@wancat/)
 * [GitHub](https://github.com/lancatlin)
 * email: wancat@wancat.cc
+* XMPP: wancat@chat.linchpins.cloud
 
 ## 專案
 * [FeverPass 體溫記錄系統](https://github.com/Linchpins-team/fever-pass)
