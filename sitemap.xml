@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://wancat.cc/zh/sitemap.xml</loc>
-		
-	   	<lastmod>2021-07-08T10:07:09+08:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://wancat.cc/en/sitemap.xml</loc>
-		
-	   	<lastmod>2021-05-25T11:28:37+08:00</lastmod>
-		
-	</sitemap>
-	
+  
+  <sitemap>
+    <loc>https://wancat.cc/zh/sitemap.xml</loc>
+    
+      <lastmod>2021-07-14T16:13:36+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://wancat.cc/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
 </sitemapindex>

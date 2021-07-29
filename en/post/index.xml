@@ -5,11 +5,7 @@
     <link>https://wancat.cc/en/post/</link>
     <description>Recent content in Posts on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 May 2021 11:28:37 +0800</lastBuildDate>
-    
-	<atom:link href="https://wancat.cc/en/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 25 May 2021 11:28:37 +0800</lastBuildDate><atom:link href="https://wancat.cc/en/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Redirect Stdout to Streaming Response in Django</title>
       <link>https://wancat.cc/en/post/django-redirect-stdout-to-streaming/</link>

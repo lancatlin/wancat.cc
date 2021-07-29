@@ -5,11 +5,7 @@
     <link>https://wancat.cc/tags/golang/</link>
     <description>Recent content in Golang on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 29 Mar 2020 19:56:21 +0800</lastBuildDate>
-    
-	<atom:link href="https://wancat.cc/tags/golang/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 29 Mar 2020 19:56:21 +0800</lastBuildDate><atom:link href="https://wancat.cc/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>專案介紹：Fever Pass 體溫登記系統</title>
       <link>https://wancat.cc/post/fever-pass-intro/</link>

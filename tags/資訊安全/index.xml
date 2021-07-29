@@ -5,11 +5,7 @@
     <link>https://wancat.cc/tags/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/</link>
     <description>Recent content in 資訊安全 on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 07 Feb 2020 19:22:30 +0800</lastBuildDate>
-    
-	<atom:link href="https://wancat.cc/tags/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 07 Feb 2020 19:22:30 +0800</lastBuildDate><atom:link href="https://wancat.cc/tags/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用 TOTP 擺脫簡訊驗證碼：安全好用的兩步驟驗證</title>
       <link>https://wancat.cc/post/totp/</link>

@@ -5,11 +5,7 @@
     <link>https://wancat.cc/categories/%E6%8A%80%E8%A1%93/</link>
     <description>Recent content in 技術 on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 May 2021 11:28:37 +0800</lastBuildDate>
-    
-	<atom:link href="https://wancat.cc/categories/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 25 May 2021 11:28:37 +0800</lastBuildDate><atom:link href="https://wancat.cc/categories/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django 將 Stdout 導向 Streaming Response</title>
       <link>https://wancat.cc/post/django-redirect-stdout-to-streaming/</link>

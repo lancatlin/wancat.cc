@@ -5,25 +5,7 @@
     <link>https://wancat.cc/tags/threading/</link>
     <description>Recent content in Threading on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 May 2021 11:28:37 +0800</lastBuildDate>
-    
-	<atom:link href="https://wancat.cc/tags/threading/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Django 將 Stdout 導向 Streaming Response</title>
-      <link>https://wancat.cc/post/django-redirect-stdout-to-streaming/</link>
-      <pubDate>Tue, 25 May 2021 11:28:37 +0800</pubDate>
-      
-      <guid>https://wancat.cc/post/django-redirect-stdout-to-streaming/</guid>
-      <description>有時候後端要執行一個時間比較長的任務，而任務內容極為複雜，又容易出錯，因此希望讓使用者看到即時的 console log，讓我們函式中的 print 輸出能即時傳到使用者的瀏覽器。
-以下將會以 Django, Thread, Queue 進行實做
-StreamingHttpResponse 一般的網頁請求都是一次打包好所有資料，全部傳給使用者，有些情況我們不能等到所有資料準備好才一次傳，而要拿到一些就傳一些，這個時候我們就要使用串流輸出，在 Django 裡，就是使用 StreamingHttpResponse，以下簡稱 SHR。SHR 接收一個 Iterator 作為輸入，因此我們只要實做一個迭代器函式，其中每次 yield 就會由 SHR 傳送到瀏覽器
-# Example of StreamingHttpResponse from django.http.response import StreamingHttpResponse def example(): for i in range(5): # Add &amp;lt;br&amp;gt; to break line in browser yield f&amp;#39;{i}&amp;lt;br&amp;gt;&amp;#39; def stream(request): return StreamingHttpResponse(example()) Output (in browser):
-0 1 2 3 4 Thread 由於我們的程式需要一邊執行目標任務，一邊串流輸出，因此需要平行化執行。Python 中可以使用 threading, multiprocessing 等方式做平行化執行，本文將使用 threading。
-# Example of threading from threading import Thread import time def example(times): for i in range(times): print(i) time.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 25 May 2021 11:28:37 +0800</lastBuildDate><atom:link href="https://wancat.cc/tags/threading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Redirect Stdout to Streaming Response in Django</title>
       <link>https://wancat.cc/english/post/django-redirect-stdout-to-streaming/</link>

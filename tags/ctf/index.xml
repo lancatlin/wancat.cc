@@ -5,11 +5,7 @@
     <link>https://wancat.cc/tags/ctf/</link>
     <description>Recent content in CTF on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Nov 2019 10:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://wancat.cc/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 16 Nov 2019 10:00:00 +0000</lastBuildDate><atom:link href="https://wancat.cc/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF 參加初體驗</title>
       <link>https://wancat.cc/post/first-ctf/</link>

@@ -4,10 +4,6 @@
     <title>Categories on WANcatServer</title>
     <link>https://wancat.cc/en/categories/</link>
     <description>Recent content in Categories on WANcatServer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://wancat.cc/en/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wancat.cc/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

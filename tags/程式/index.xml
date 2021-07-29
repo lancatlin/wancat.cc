@@ -5,11 +5,7 @@
     <link>https://wancat.cc/tags/%E7%A8%8B%E5%BC%8F/</link>
     <description>Recent content in 程式 on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Jul 2019 10:49:46 +0000</lastBuildDate>
-    
-	<atom:link href="https://wancat.cc/tags/%E7%A8%8B%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 26 Jul 2019 10:49:46 +0000</lastBuildDate><atom:link href="https://wancat.cc/tags/%E7%A8%8B%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ORM 入門：如何區分 ORM 中的關聯</title>
       <link>https://wancat.cc/post/orm/</link>
