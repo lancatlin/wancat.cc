@@ -5,14 +5,14 @@
     <link>https://wancat.cc/tags/chatbot/</link>
     <description>Recent content in Chatbot on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Jul 2021 16:13:36 +0800</lastBuildDate><atom:link href="https://wancat.cc/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jul 2021 16:13:36 +0800</lastBuildDate><atom:link href="https://wancat.cc/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Handle Conversation in Chatbot in Python</title>
-      <link>https://wancat.cc/english/post/python-chatbot-context/</link>
-      <pubDate>Wed, 14 Jul 2021 16:13:36 +0800</pubDate>
+      <title>在 Python 中實作對話型聊天機器人</title>
+      <link>https://wancat.cc/post/python-chatbot-context/</link>
+      <pubDate>Thu, 29 Jul 2021 16:13:36 +0800</pubDate>
       
-      <guid>https://wancat.cc/english/post/python-chatbot-context/</guid>
-      <description>When you develop a chatbot, sometimes for user experience, you cannot ask your user send messages like commands. For example, we want to build a guess number bot. We want the bot works like this:
+      <guid>https://wancat.cc/post/python-chatbot-context/</guid>
+      <description>當你在開發一個聊天機器人，有時候為了使用者體驗，你不能要使用者用像指令的方式，將所有資訊一次傳過來。舉例來說，若我們要開發一個猜數字遊戲運作如以下：
  user: guess
 bot: From what number?
 user:: 25
@@ -24,7 +24,11 @@ bot: too small
 user: 91
 bot: too large
 &amp;hellip;&amp;hellip;
-user: 83</description>
+user: 83
+bot: Correct! You spent 6 times to guess this number.
+ 然而，我們在後端通常是「一個請求一個回覆」，如果要將這樣的行為拆成多個 handler 將會是場災難，為什麼？想想要怎麼存狀態，全域變數？資料庫？還是 Redis？每當你多問使用者一個問題，你就得在你的 state schema 新增一個欄位，讓你的程式碼越來越複雜。
+接下來，我會告訴你如何用一個非常輕鬆的方式處理對話，讓你只要寫像以下一般的程式碼就能達成。
+def guess(self): &amp;#39;&amp;#39;&amp;#39;Game function&amp;#39;&amp;#39;&amp;#39; min_value = self.ask_number(&amp;#39;From what number?&amp;#39;) max_value = self.ask_number(&amp;#39;To what number?&amp;#39;) secret = randint(min_value, max_value) msg = f&amp;#39;Guess a number between {min_value} to {max_value}&amp;#39; counter = 0 while True: counter += 1 answer = self.</description>
     </item>
     
   </channel>

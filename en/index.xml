@@ -4,34 +4,38 @@
     <title>WANcatServer</title>
     <link>https://wancat.cc/en/</link>
     <description>Recent content on WANcatServer</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wancat.cc/en/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Jul 2021 16:13:36 +0800</lastBuildDate><atom:link href="https://wancat.cc/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>https://wancat.cc/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>How to Handle Conversation in Chatbot in Python</title>
+      <link>https://wancat.cc/en/post/python-chatbot-context/</link>
+      <pubDate>Thu, 29 Jul 2021 16:13:36 +0800</pubDate>
       
-      <guid>https://wancat.cc/en/about/</guid>
-      <description>我是 Wancat，就讀五專，從小六開始學習 Scratch，國二開始學習 Python。寫 Go、Python、JavaScript。 我喜歡寫程式、寫文章，從 2017 年 11 月開始經營 WANcatServer，在這裡與人分享我的想法。
-我愛玩 0 A.D.，喜歡推廣 Linux，支持自由軟體。
-我的連結  Matters GitHub email: wancat@wancat.cc  專案  FeverPass 體溫記錄系統 排列組合計算機 股票紅綠燈 Go 寫的股票爬蟲網站 Bitmark Issuer Bitmark 區塊鏈的發禮物系統 FireWheel 火輪手槍 使用 Python + Pygame 製作的原創遊戲 AddPoint 加分程式 老師上課的加分小幫手 P2P Talking 點對點聊天程式 (服務停止) 使用 Python 寫成的點對點通訊軟體 Huffman Coding 霍夫曼編碼器 霍夫曼演算法的實做  Skills  Golang Python JavaScript Linux Hosting  </description>
+      <guid>https://wancat.cc/en/post/python-chatbot-context/</guid>
+      <description>When you develop a chatbot, sometimes for user experience, you cannot ask your user send messages like commands. For example, we want to build a guess number bot. We want the bot works like this:
+ user: guess
+bot: From what number?
+user:: 25
+bot: To what number?
+user: 100
+bot: Guess a number between 25 to 100
+user: 64
+bot: too small
+user: 91
+bot: too large
+&amp;hellip;&amp;hellip;
+user: 83</description>
     </item>
     
     <item>
-      <title>Archive</title>
-      <link>https://wancat.cc/en/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>How to Redirect Stdout to Streaming Response in Django</title>
+      <link>https://wancat.cc/en/post/django-redirect-stdout-to-streaming/</link>
+      <pubDate>Tue, 25 May 2021 11:28:37 +0800</pubDate>
       
-      <guid>https://wancat.cc/en/archives/</guid>
-      <description>archives</description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://wancat.cc/en/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://wancat.cc/en/search/</guid>
-      <description>search</description>
+      <guid>https://wancat.cc/en/post/django-redirect-stdout-to-streaming/</guid>
+      <description>Sometimes we need to execute some long tasks at the backend, and the tasks are complicated and error-prone. So we hope users can see the real-time console log. Thus we need to redirect the stdout in our functions to the user&amp;rsquo;s browser.
+Given a function like the following. How to see the stdout in real-time in the browser?
+import time def job(times): for i in range(times): print(f&amp;#39;Task #{i}&amp;#39;) time.sleep(1) print(&amp;#39;Done&amp;#39;) time.</description>
     </item>
     
   </channel>

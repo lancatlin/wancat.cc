@@ -3,28 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wancat.cc/categories/</loc>
+    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/categories/"
+                />
+  </url>
+  
+  <url>
     <loc>https://wancat.cc/tags/chatbot/</loc>
-    <lastmod>2021-07-14T16:13:36+08:00</lastmod>
+    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/tags/chatbot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/tags/chatbot/"
+                />
   </url>
   
   <url>
-    <loc>https://wancat.cc/english/</loc>
-    <lastmod>2021-07-14T16:13:36+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/english/post/python-chatbot-context/</loc>
-    <lastmod>2021-07-14T16:13:36+08:00</lastmod>
+    <loc>https://wancat.cc/post/</loc>
+    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/post/"
+                />
   </url>
   
   <url>
     <loc>https://wancat.cc/tags/python/</loc>
-    <lastmod>2021-07-14T16:13:36+08:00</lastmod>
+    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/tags/python/"
+                />
   </url>
   
   <url>
     <loc>https://wancat.cc/tags/</loc>
-    <lastmod>2021-07-14T16:13:36+08:00</lastmod>
+    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,7 +79,7 @@
   
   <url>
     <loc>https://wancat.cc/</loc>
-    <lastmod>2021-07-14T16:13:36+08:00</lastmod>
+    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -53,8 +93,23 @@
   </url>
   
   <url>
-    <loc>https://wancat.cc/post/</loc>
-    <lastmod>2021-07-08T10:07:09+08:00</lastmod>
+    <loc>https://wancat.cc/post/python-chatbot-context/</loc>
+    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/post/python-chatbot-context/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/post/python-chatbot-context/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wancat.cc/categories/%E6%8A%80%E8%A1%93/</loc>
+    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
   </url>
   
   <url>
@@ -70,35 +125,45 @@
   <url>
     <loc>https://wancat.cc/tags/django/</loc>
     <lastmod>2021-05-25T11:28:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/tags/django/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/tags/django/"
+                />
   </url>
   
   <url>
-    <loc>https://wancat.cc/english/post/django-redirect-stdout-to-streaming/</loc>
+    <loc>https://wancat.cc/post/django-redirect-stdout-to-streaming/</loc>
     <lastmod>2021-05-25T11:28:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/post/django-redirect-stdout-to-streaming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/post/django-redirect-stdout-to-streaming/"
+                />
   </url>
   
   <url>
     <loc>https://wancat.cc/tags/threading/</loc>
     <lastmod>2021-05-25T11:28:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/tags/tutorial/</loc>
-    <lastmod>2021-05-25T11:28:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/categories/</loc>
-    <lastmod>2021-04-18T09:23:46+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wancat.cc/en/categories/"
+                href="https://wancat.cc/en/tags/threading/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://wancat.cc/categories/"
+                href="https://wancat.cc/tags/threading/"
                 />
   </url>
   
@@ -548,57 +613,15 @@
   </url>
   
   <url>
-    <loc>https://wancat.cc/english/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://wancat.cc/archives/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wancat.cc/en/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wancat.cc/archives/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/en/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/english/search/</loc>
   </url>
   
   <url>
     <loc>https://wancat.cc/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wancat.cc/en/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wancat.cc/search/"
-                />
   </url>
   
   <url>
     <loc>https://wancat.cc/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wancat.cc/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wancat.cc/about/"
-                />
   </url>
   
 </urlset>

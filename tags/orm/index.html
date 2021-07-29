@@ -4,7 +4,7 @@
 來定義需求吧！我們今天假設情境是要定義一個圖書館的資料庫，那我們會有編目資料 Book（書的資料）、館藏資料 Item（書的實體），作者資料 Author，出版社資料 Publisher。書名、ISBN 等等跟關聯沒有關係的就不放入。
 我們先不要討論 gorm 要怎麼寫，先把要取得的資料擺出來。
 type Book struct { Items []Item Authors []Author Publisher Publisher } type Item struct { Book Book } type Author struct { Works []Book } type Publisher struct { Publication []Book } 我們要讓所有的 structure 都能夠參考到依賴自己的對象：作者必須參考到作品集、出版社要能參考出版品、分類要能找出其中的所有書籍。
-接下來我們一個一個釐清物件之間的關聯關係，來設計 ORM 吧！...</p></section><footer class=entry-footer>July 26, 2019&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to ORM 入門：如何區分 ORM 中的關聯" href=https://wancat.cc/post/orm/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
+接下來我們一個一個釐清物件之間的關聯關係，來設計 ORM 吧！...</p></section><footer class=entry-footer>July 26, 2019&nbsp;·&nbsp;3 分鐘&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to ORM 入門：如何區分 ORM 中的關聯" href=https://wancat.cc/post/orm/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>

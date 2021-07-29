@@ -3,7 +3,7 @@
 事實上 Fcitx 可以使用任何鍵作為輸入法切換鍵，然而因為 Caps Lock 有著切換大小寫的功能，如果不將此功能關閉，輸入法會發生異常——中文切到英文後變成大寫，因此我們要利用 xmodmap 工具來將 Caps_Lock 鍵指向到不會使用到的 Multi_key，再將 Fcitx 切換鍵對應到 Multi_key。
 我們先查詢一下 Caps_Lock 對應到的 keycode 是多少。
 $ xmodmap -pke | grep Caps_Lock keycode 66 = Caps_Lock NoSymbol Caps_Lock 可以看到鍵盤上的 Caps_Lock 對應到的是 66 這個 keycode，那我們接下來就是要將 66 改成對應到 Multi_key。
-$ xmodmap -pke > ~/.Xmodmap #將設定存為檔案 $ vim ~/.Xmodmap # 將 keycode 66 處改為 keycode 66 = Multi_key NoSymbol Multi_key # 在最底下加入 clear lock $ xmodmap ~/....</p></section><footer class=entry-footer>July 6, 2019&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to 如何在 Linux 使用 Caps Lock 切換輸入法" href=https://wancat.cc/post/capslock/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>YaCy安裝教學</h2></header><section class=entry-content><p>YaCy是一個開源的點對點搜尋引擎 本文將講解如何在 Ubuntu Server 上安裝 YaCy 搜尋引擎，並用Nginx做反向代理，將網址改成像是 yacy.example.com 的形式。
+$ xmodmap -pke > ~/.Xmodmap #將設定存為檔案 $ vim ~/.Xmodmap # 將 keycode 66 處改為 keycode 66 = Multi_key NoSymbol Multi_key # 在最底下加入 clear lock $ xmodmap ~/....</p></section><footer class=entry-footer>July 6, 2019&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to 如何在 Linux 使用 Caps Lock 切換輸入法" href=https://wancat.cc/post/capslock/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>YaCy安裝教學</h2></header><section class=entry-content><p>YaCy是一個開源的點對點搜尋引擎 本文將講解如何在 Ubuntu Server 上安裝 YaCy 搜尋引擎，並用Nginx做反向代理，將網址改成像是 yacy.example.com 的形式。
 YaCy 架好的範例可以來我架設的伺服器使用看看https://yacy.wancatserver.tk
 環境說明 本文假設有一台無圖形界面的伺服器以及有圖形界面的Desktop。Desktop必須要能夠使用瀏覽器。 假設伺服器網域： example.com，請將本文所有example.com改成你的網域名稱 假設使用者名稱：user ，請換成自己的使用者名稱
 如果沒有網域名稱仍然可以安裝 YaCy ，只是需要用 ip:8090 的形式來連上它。 如果沒有真實 ip 就只能在內網使用
@@ -15,7 +15,7 @@ $ sudo apt install openjdk-8-jre 官方的JRE比較麻煩，可參考此文章
 $ scp /path/to/yacy.tar.gz user@example.com:/home/user/ 接下來以ssh登入伺服器
 $ ssh user@example.com 解壓縮，將yacy.tar.gz替換成你下載的路徑
 $ tar -zxvf yacy.tar.gz 解壓縮完可以看到家目錄下多了一個目錄yacy，裡面有 startYACY.sh, stopYACY.sh, killYACY.sh, reconfigureYACY.sh, updateYACY.sh等執行檔，以及許多資料夾。
-我們先去打開防火牆，YaCy使用的是 8090 port (HTTP)，以及8443 (HTTPS)。...</p></section><footer class=entry-footer>September 22, 2018&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to YaCy安裝教學" href=https://wancat.cc/post/yacy-install/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://wancat.cc/categories/%E6%95%99%E5%AD%B8/>« 上一页</a></nav></footer></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
+我們先去打開防火牆，YaCy使用的是 8090 port (HTTP)，以及8443 (HTTPS)。...</p></section><footer class=entry-footer>September 22, 2018&nbsp;·&nbsp;2 分鐘&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to YaCy安裝教學" href=https://wancat.cc/post/yacy-install/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://wancat.cc/categories/%E6%95%99%E5%AD%B8/>« 上一頁</a></nav></footer></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>

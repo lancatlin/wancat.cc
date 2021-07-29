@@ -5,7 +5,32 @@
     <link>https://wancat.cc/post/</link>
     <description>Recent content in Posts on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Jul 2021 10:07:09 +0800</lastBuildDate><atom:link href="https://wancat.cc/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jul 2021 16:13:36 +0800</lastBuildDate><atom:link href="https://wancat.cc/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Python 中實作對話型聊天機器人</title>
+      <link>https://wancat.cc/post/python-chatbot-context/</link>
+      <pubDate>Thu, 29 Jul 2021 16:13:36 +0800</pubDate>
+      
+      <guid>https://wancat.cc/post/python-chatbot-context/</guid>
+      <description>當你在開發一個聊天機器人，有時候為了使用者體驗，你不能要使用者用像指令的方式，將所有資訊一次傳過來。舉例來說，若我們要開發一個猜數字遊戲運作如以下：
+ user: guess
+bot: From what number?
+user:: 25
+bot: To what number?
+user: 100
+bot: Guess a number between 25 to 100
+user: 64
+bot: too small
+user: 91
+bot: too large
+&amp;hellip;&amp;hellip;
+user: 83
+bot: Correct! You spent 6 times to guess this number.
+ 然而，我們在後端通常是「一個請求一個回覆」，如果要將這樣的行為拆成多個 handler 將會是場災難，為什麼？想想要怎麼存狀態，全域變數？資料庫？還是 Redis？每當你多問使用者一個問題，你就得在你的 state schema 新增一個欄位，讓你的程式碼越來越複雜。
+接下來，我會告訴你如何用一個非常輕鬆的方式處理對話，讓你只要寫像以下一般的程式碼就能達成。
+def guess(self): &amp;#39;&amp;#39;&amp;#39;Game function&amp;#39;&amp;#39;&amp;#39; min_value = self.ask_number(&amp;#39;From what number?&amp;#39;) max_value = self.ask_number(&amp;#39;To what number?&amp;#39;) secret = randint(min_value, max_value) msg = f&amp;#39;Guess a number between {min_value} to {max_value}&amp;#39; counter = 0 while True: counter += 1 answer = self.</description>
+    </item>
+    
     <item>
       <title>基本收入不能解決貧富差距，又如何？</title>
       <link>https://wancat.cc/post/ubi-wealth-gap/</link>
@@ -13,6 +38,20 @@
       
       <guid>https://wancat.cc/post/ubi-wealth-gap/</guid>
       <description>當我們用「翻轉」一詞，其實就已經隱含了單一的價值觀：有錢就是高社會階級</description>
+    </item>
+    
+    <item>
+      <title>Django 將 Stdout 導向 Streaming Response</title>
+      <link>https://wancat.cc/post/django-redirect-stdout-to-streaming/</link>
+      <pubDate>Tue, 25 May 2021 11:28:37 +0800</pubDate>
+      
+      <guid>https://wancat.cc/post/django-redirect-stdout-to-streaming/</guid>
+      <description>有時候後端要執行一個時間比較長的任務，而任務內容極為複雜，又容易出錯，因此希望讓使用者看到即時的 console log，讓我們函式中的 print 輸出能即時傳到使用者的瀏覽器。
+以下將會以 Django, Thread, Queue 進行實做
+StreamingHttpResponse 一般的網頁請求都是一次打包好所有資料，全部傳給使用者，有些情況我們不能等到所有資料準備好才一次傳，而要拿到一些就傳一些，這個時候我們就要使用串流輸出，在 Django 裡，就是使用 StreamingHttpResponse，以下簡稱 SHR。SHR 接收一個 Iterator 作為輸入，因此我們只要實做一個迭代器函式，其中每次 yield 就會由 SHR 傳送到瀏覽器
+# Example of StreamingHttpResponse from django.http.response import StreamingHttpResponse def example(): for i in range(5): # Add &amp;lt;br&amp;gt; to break line in browser yield f&amp;#39;{i}&amp;lt;br&amp;gt;&amp;#39; def stream(request): return StreamingHttpResponse(example()) Output (in browser):
+0 1 2 3 4 Thread 由於我們的程式需要一邊執行目標任務，一邊串流輸出，因此需要平行化執行。Python 中可以使用 threading, multiprocessing 等方式做平行化執行，本文將使用 threading。
+# Example of threading from threading import Thread import time def example(times): for i in range(times): print(i) time.</description>
     </item>
     
     <item>

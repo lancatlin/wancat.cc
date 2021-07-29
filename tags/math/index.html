@@ -6,7 +6,7 @@ GitHub 與使用教學
 其實用電腦窮舉不難，只是排列組合的題目變化多，難以用一個程式解出所有題目，但我發現其中基本上都可以分成兩個部份：窮舉與篩選，先窮舉出所有結果，再將結果進行篩選。窮舉基本上大同小異，就是排列/組合、重複/不重複，每個題目不一樣的主要是篩選的部份，因此我設計讓使用者自己在網頁上用 JavaScript 寫篩選器，這樣各種複雜的條件都能做出來，這裡是運用 JavaScript 的 eval() 函式，可以將一個字串轉成 JavaScript 語句，這感覺超不安全的，但既然不是在伺服器端，應該不會有什麼資安疑慮，程式若是失控，請使用者自行負責。
 整個專案就是一個靜態網頁，託管在 GitHub Page，程式在瀏覽器端執行運算，整個專案相當簡短，全部 JavaScript 不過一百多行。由於排列組合的結果數上升得很快，我有做一個簡易的保護機制，確保總運算量不會超過十億，在這之前我多次搞到 RAM 吃光，整台電腦當機（但主因是 VSCode 和 TabNine 吃太多記憶體）。
 使用上由於要寫 JavaScript，或許會有些門檻，但畢竟只是對陣列數值做加總、判斷，我在 GitHub 上有提供一些範例，應該參考一下就會寫了。
-如果這個工具對你有幫助，希望你幫我拍手或是到 GitHub 上給個星星！</p></section><footer class=entry-footer>June 17, 2020&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to 專案介紹：排列組合計算機" href=https://wancat.cc/post/combine_generator/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
+如果這個工具對你有幫助，希望你幫我拍手或是到 GitHub 上給個星星！</p></section><footer class=entry-footer>June 17, 2020&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to 專案介紹：排列組合計算機" href=https://wancat.cc/post/combine_generator/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>

@@ -4,7 +4,7 @@
 到官網複製壓縮檔連結（我偏好 tar.gz）
 cd Downloads wget https://wordpress.org/latest.tar.gz sudo tar -zxvf latest.tar.gz -C /var/www sudo chown -R www-data:www-data /var/www/wordpress 接著建立 MySQL 使用者：
 sudo mysql > create database wordpress; > create user 'wordpress'@'localhost' identified by 'password'; > grant all privileges on wordpress . * to 'wordpress'@'localhost'; > flush privileges; 接下來將域名綁定到 Web Server，這邊我們使用 Caddy
-yourhostname.com { root /var/www/wordpress gzip fastcgi / /var/run/php/php7....</p></section><footer class=entry-footer>May 17, 2020&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to Raspberry Pi 安裝 WordPress 教學" href=https://wancat.cc/post/wordpress-installation/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
+yourhostname.com { root /var/www/wordpress gzip fastcgi / /var/run/php/php7....</p></section><footer class=entry-footer>May 17, 2020&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to Raspberry Pi 安裝 WordPress 教學" href=https://wancat.cc/post/wordpress-installation/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>

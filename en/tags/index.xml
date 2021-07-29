@@ -4,6 +4,52 @@
     <title>Tags on WANcatServer</title>
     <link>https://wancat.cc/en/tags/</link>
     <description>Recent content in Tags on WANcatServer</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wancat.cc/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Jul 2021 16:13:36 +0800</lastBuildDate><atom:link href="https://wancat.cc/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chatbot</title>
+      <link>https://wancat.cc/en/tags/chatbot/</link>
+      <pubDate>Thu, 29 Jul 2021 16:13:36 +0800</pubDate>
+      
+      <guid>https://wancat.cc/en/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://wancat.cc/en/tags/python/</link>
+      <pubDate>Thu, 29 Jul 2021 16:13:36 +0800</pubDate>
+      
+      <guid>https://wancat.cc/en/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>https://wancat.cc/en/tags/django/</link>
+      <pubDate>Tue, 25 May 2021 11:28:37 +0800</pubDate>
+      
+      <guid>https://wancat.cc/en/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Threading</title>
+      <link>https://wancat.cc/en/tags/threading/</link>
+      <pubDate>Tue, 25 May 2021 11:28:37 +0800</pubDate>
+      
+      <guid>https://wancat.cc/en/tags/threading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://wancat.cc/en/tags/tutorial/</link>
+      <pubDate>Tue, 25 May 2021 11:28:37 +0800</pubDate>
+      
+      <guid>https://wancat.cc/en/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

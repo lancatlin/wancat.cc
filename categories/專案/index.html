@@ -6,14 +6,14 @@ GitHub 與使用教學
 其實用電腦窮舉不難，只是排列組合的題目變化多，難以用一個程式解出所有題目，但我發現其中基本上都可以分成兩個部份：窮舉與篩選，先窮舉出所有結果，再將結果進行篩選。窮舉基本上大同小異，就是排列/組合、重複/不重複，每個題目不一樣的主要是篩選的部份，因此我設計讓使用者自己在網頁上用 JavaScript 寫篩選器，這樣各種複雜的條件都能做出來，這裡是運用 JavaScript 的 eval() 函式，可以將一個字串轉成 JavaScript 語句，這感覺超不安全的，但既然不是在伺服器端，應該不會有什麼資安疑慮，程式若是失控，請使用者自行負責。
 整個專案就是一個靜態網頁，託管在 GitHub Page，程式在瀏覽器端執行運算，整個專案相當簡短，全部 JavaScript 不過一百多行。由於排列組合的結果數上升得很快，我有做一個簡易的保護機制，確保總運算量不會超過十億，在這之前我多次搞到 RAM 吃光，整台電腦當機（但主因是 VSCode 和 TabNine 吃太多記憶體）。
 使用上由於要寫 JavaScript，或許會有些門檻，但畢竟只是對陣列數值做加總、判斷，我在 GitHub 上有提供一些範例，應該參考一下就會寫了。
-如果這個工具對你有幫助，希望你幫我拍手或是到 GitHub 上給個星星！</p></section><footer class=entry-footer>June 17, 2020&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to 專案介紹：排列組合計算機" href=https://wancat.cc/post/combine_generator/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>專案介紹：Fever Pass 體溫登記系統</h2></header><section class=entry-content><p>Fever Pass 是我們團隊 Linchpins 在 2020 年初，為了因應新型冠狀病毒開發的一套體溫登記系統，用於協助各級機關、學校自主登記體溫。
+如果這個工具對你有幫助，希望你幫我拍手或是到 GitHub 上給個星星！</p></section><footer class=entry-footer>June 17, 2020&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to 專案介紹：排列組合計算機" href=https://wancat.cc/post/combine_generator/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>專案介紹：Fever Pass 體溫登記系統</h2></header><section class=entry-content><p>Fever Pass 是我們團隊 Linchpins 在 2020 年初，為了因應新型冠狀病毒開發的一套體溫登記系統，用於協助各級機關、學校自主登記體溫。
 GitHub Repository。可以在我們的 demo 試用本系統，用以下帳號登入：
 導師 紀體溫 帳號 t101 密碼 10100 學生 梁體溫 帳號 1081201 密碼 10141 護理師 護理師 帳號 nurse 密碼 nurse 歡迎體驗 demo 的各種功能。demo 每日早上八點會幫所有帳號隨機登記體溫。
 Fever Pass 是一個自由且開放原始碼的專案，使用 Go 語言撰寫，以網頁界面進行操作。可以讓機構中的成員自主登記體溫，也可由管理員登記他人體溫。
 目前 Fever Pass 被臺中一中使用，自主健康管理-體溫登錄全面電腦化-『Fever Pass體溫記錄系統』
 Fever Pass 有清晰的統計頁面，可以看到每日的登記情況，快速找出發燒與未登記的人員。
 Fever Pass 有豐富的權限設計，分為體溫管理權限和帳號管理權限，以這些為基礎組成許多預設的身份組，用來滿足各式各樣的管理需求。
-職稱 身份 體溫記錄權限 帳號管理權限 重置密碼 admin 管理員 全校 全校 全校 護理師 教職員 全校 個人 個人 教職員 教職員 個人 個人 個人 導師 教職員 班級 班級 班級 衛生股長 學生 班級 班級 班級 學生 學生 個人 個人 個人 歡迎有需要的機關或學校自行安裝使用，希望這個系統能夠幫助更多人度過這次疫情，也歡迎志願者貢獻此專案。若需要代為安裝或是佈署，請來信 linchpins-team@protonmail....</p></section><footer class=entry-footer>March 29, 2020&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to 專案介紹：Fever Pass 體溫登記系統" href=https://wancat.cc/post/fever-pass-intro/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
+職稱 身份 體溫記錄權限 帳號管理權限 重置密碼 admin 管理員 全校 全校 全校 護理師 教職員 全校 個人 個人 教職員 教職員 個人 個人 個人 導師 教職員 班級 班級 班級 衛生股長 學生 班級 班級 班級 學生 學生 個人 個人 個人 歡迎有需要的機關或學校自行安裝使用，希望這個系統能夠幫助更多人度過這次疫情，也歡迎志願者貢獻此專案。若需要代為安裝或是佈署，請來信 linchpins-team@protonmail....</p></section><footer class=entry-footer>March 29, 2020&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;wancat</footer><a class=entry-link aria-label="post link to 專案介紹：Fever Pass 體溫登記系統" href=https://wancat.cc/post/fever-pass-intro/></a></article></main><footer class=footer><span>&copy; 2021 <a href=https://wancat.cc>WANcatServer</a></span>
 <span>&#183;</span>
 <span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
 <span>&#183;</span>
