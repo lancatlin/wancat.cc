@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wancat.cc/post/</loc>
+    <lastmod>2021-08-03T10:15:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wancat.cc/</loc>
+    <lastmod>2021-08-03T10:15:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wancat.cc/post/premature-optimization/</loc>
+    <lastmod>2021-08-03T10:15:54+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wancat.cc/categories/</loc>
     <lastmod>2021-07-29T16:13:36+08:00</lastmod>
     <xhtml:link
@@ -33,21 +68,6 @@
   </url>
   
   <url>
-    <loc>https://wancat.cc/post/</loc>
-    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wancat.cc/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wancat.cc/post/"
-                />
-  </url>
-  
-  <url>
     <loc>https://wancat.cc/tags/python/</loc>
     <lastmod>2021-07-29T16:13:36+08:00</lastmod>
     <xhtml:link
@@ -74,21 +94,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://wancat.cc/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/</loc>
-    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wancat.cc/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wancat.cc/"
                 />
   </url>
   
