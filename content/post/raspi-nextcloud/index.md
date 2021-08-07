@@ -8,9 +8,9 @@ tocopen = true
 summary = "用兩顆外接硬碟組 RAID 1，設定 DDNS、Nginx，並安裝 Nextcloud，以及後續的 PHP 調校與 Redis 快取。"
 +++
 
-我以前寫過一篇 Nextcloud 安裝教學，最近設定了一台新的 Pi，記錄從無到有的完整設定過程。安裝過程若遇問題，可搭配各段落 References 服用。本文使用 Raspberry Pi 作為硬體，其中許多大部分設定用在 Debian / Ubuntu 也都是沒有問題的。
+我以前寫過一篇 Nextcloud 安裝教學，最近設定了一台新的 Pi，記錄下從無到有的完整設定過程，包含基本設定、路由器、防火牆等。安裝過程若遇問題，可搭配各段落 References 服用。本文使用 Raspberry Pi 作為硬體，其中大部分設定用在 Debian / Ubuntu 也沒有問題。
 
-本文的目標是用兩顆外接硬碟組 RAID 1，設定 DDNS、Nginx，並安裝 Nextcloud，以及後續的 PHP 調校。
+本文會用兩顆外接硬碟組磁碟陣列，設定 DDNS、Nginx，並安裝 Nextcloud，以及後續的 PHP 調校與 Redis 快取。
 
 ## 準備工作
 
