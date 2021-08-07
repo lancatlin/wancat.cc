@@ -5,7 +5,16 @@
     <link>https://wancat.cc/</link>
     <description>Recent content on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 03 Aug 2021 10:15:54 +0800</lastBuildDate><atom:link href="https://wancat.cc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Aug 2021 13:12:54 +0800</lastBuildDate><atom:link href="https://wancat.cc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從零開始的 Nextcloud 完整安裝教學</title>
+      <link>https://wancat.cc/post/raspi-nextcloud/</link>
+      <pubDate>Sat, 07 Aug 2021 13:12:54 +0800</pubDate>
+      
+      <guid>https://wancat.cc/post/raspi-nextcloud/</guid>
+      <description>用兩顆外接硬碟組 RAID 1，設定 DDNS、Nginx，並安裝 Nextcloud，以及後續的 PHP 調校與 Redis 快取。</description>
+    </item>
+    
     <item>
       <title>過早的優化是萬惡的根源</title>
       <link>https://wancat.cc/post/premature-optimization/</link>

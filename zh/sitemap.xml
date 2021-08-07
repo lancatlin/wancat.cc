@@ -3,8 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wancat.cc/categories/</loc>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wancat.cc/tags/linux/</loc>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wancat.cc/tags/nextcloud/</loc>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wancat.cc/post/</loc>
-    <lastmod>2021-08-03T10:15:54+08:00</lastmod>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,8 +43,33 @@
   </url>
   
   <url>
+    <loc>https://wancat.cc/tags/raspberry-pi/</loc>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wancat.cc/categories/self-hosted/</loc>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wancat.cc/tags/</loc>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wancat.cc/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wancat.cc/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://wancat.cc/</loc>
-    <lastmod>2021-08-03T10:15:54+08:00</lastmod>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -33,23 +83,13 @@
   </url>
   
   <url>
-    <loc>https://wancat.cc/post/premature-optimization/</loc>
-    <lastmod>2021-08-03T10:15:54+08:00</lastmod>
+    <loc>https://wancat.cc/post/raspi-nextcloud/</loc>
+    <lastmod>2021-08-07T13:12:54+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wancat.cc/categories/</loc>
-    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wancat.cc/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wancat.cc/categories/"
-                />
+    <loc>https://wancat.cc/post/premature-optimization/</loc>
+    <lastmod>2021-08-03T10:15:54+08:00</lastmod>
   </url>
   
   <url>
@@ -79,21 +119,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://wancat.cc/tags/python/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/tags/</loc>
-    <lastmod>2021-07-29T16:13:36+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wancat.cc/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wancat.cc/tags/"
                 />
   </url>
   
@@ -273,11 +298,6 @@
   </url>
   
   <url>
-    <loc>https://wancat.cc/tags/raspberry-pi/</loc>
-    <lastmod>2020-05-17T22:17:08+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wancat.cc/post/wordpress-installation/</loc>
     <lastmod>2020-05-17T22:17:08+08:00</lastmod>
   </url>
@@ -335,16 +355,6 @@
   <url>
     <loc>https://wancat.cc/tags/elementaryos/</loc>
     <lastmod>2020-02-12T19:15:22+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/tags/linux/</loc>
-    <lastmod>2020-02-12T19:15:22+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wancat.cc/tags/nextcloud/</loc>
-    <lastmod>2020-02-11T14:40:06+08:00</lastmod>
   </url>
   
   <url>
