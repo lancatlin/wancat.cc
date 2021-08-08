@@ -5,44 +5,24 @@ title = "關於我"
 
 +++
 
-"You are what you choose"，選擇了什麼，反應了你在乎什麼。
+我是一個軟體開發者，現就讀五專。我重視自由軟體，喜歡 self-hosting，在家裡有一台 Proxmox VE 來跑許多服務。我討厭 MAGAFT：Microsoft、Amazon、Google、Apple、Facebook、Twitter，我推崇 Email、XMPP、Matrix、Mastodon、RSS 等䏈邦式系統，讓使用者有選擇的自由。我相信改變只能從使用習慣著手，願能透過我的寫作，讓更多人看見自由的重要，改變這被 Big Tech 支配的世界。
 
-* Operating System: Ubuntu Studio 21.04  
-* Browser: Vivaldi
-* Text editor: Vim
-* IDE: VSCodium
-* Email provider: ProtonMail + Self-hosted docker-mailserver
-* Cloud: Self-hosted Nextcloud
-* Mobile: Android + Lineage
-* CPU: AMD Ryzen 4650G
-* Filesystem: BtrFS + Ext4
-* Email client: ThunderBird
-* RSS Reader: Feeder
-* Analytic system: Self-hosted Matomo
-* Server Operating System: Proxmox VE
-* Keyboard: KBD67 Lite
-* Mouse: Razer Basilisk X HyperSpeed
-* Input Method: 行列
+## Skills
+* Django
+* Golang
+* JavaScript
+* React Native
+* Linux Administration
 
+## 專案
+* [AddaBound](https://github.com/lancatlin/adda-bound) LINE 跨䏈天室通訊小郵差
+* [ImageNotebook](https://github.com/lancatlin/image-notebook) 影像轉正與整理軟體
+* [FeverPass 體溫記錄系統](https://github.com/Linchpins-team/fever-pass)
+* [排列組合計算機](https://github.com/lancatlin/combine_generator)
+* [股票紅綠燈](https://github.com/lancatlin/go-stocks) Go 寫的股票爬蟲網站
 
 ## 我的連結
 * [Matters](https://matters.news/@wancat/)
 * [GitHub](https://github.com/lancatlin)
-* email: wancat@wancat.cc
 * XMPP: wancat@chat.linchpins.cloud
-
-## 專案
-* [FeverPass 體溫記錄系統](https://github.com/Linchpins-team/fever-pass)
-* [排列組合計算機](https://github.com/lancatlin/combine_generator)
-* [股票紅綠燈](https://github.com/lancatlin/go-stocks) Go 寫的股票爬蟲網站
-* [Bitmark Issuer](https://github.com/lancatlin/bitmark-issuer) Bitmark 區塊鏈的發禮物系統
-* [FireWheel 火輪手槍](https://github.com/lancatlin/FireWheel) 使用 Python + Pygame 製作的原創遊戲
-* [AddPoint 加分程式](https://github.com/lancatlin/AddPoint) 老師上課的加分小幫手
-* [P2P Talking 點對點聊天程式](https://github.com/lancatlin/p2p-) (服務停止) 使用 Python 寫成的點對點通訊軟體
-* [Huffman Coding 霍夫曼編碼器](github.com/lancatlin/huffman) 霍夫曼演算法的實做
-
-## Skills
-* Golang
-* Python
-* JavaScript
-* Linux Hosting
+* Email: wancat@wancat.cc
