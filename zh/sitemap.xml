@@ -18,11 +18,6 @@
   </url>
   
   <url>
-    <loc>https://wancat.cc/post/librespeed/</loc>
-    <lastmod>2021-08-10T16:34:45+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wancat.cc/tags/linux/</loc>
     <lastmod>2021-08-10T16:34:45+08:00</lastmod>
   </url>
@@ -80,6 +75,11 @@
                 hreflang="zh"
                 href="https://wancat.cc/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://wancat.cc/post/librespeed/</loc>
+    <lastmod>2021-08-10T16:34:45+08:00</lastmod>
   </url>
   
   <url>
