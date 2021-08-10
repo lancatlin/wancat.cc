@@ -80,7 +80,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   disableSpecial1stPost: false
   comments: false
   hidemeta: false
