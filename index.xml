@@ -5,7 +5,21 @@
     <link>https://wancat.cc/</link>
     <description>Recent content on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 07 Aug 2021 13:12:54 +0800</lastBuildDate><atom:link href="https://wancat.cc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 16:34:45 +0800</lastBuildDate><atom:link href="https://wancat.cc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LibreSpeed 安裝教學</title>
+      <link>https://wancat.cc/post/librespeed/</link>
+      <pubDate>Tue, 10 Aug 2021 16:34:45 +0800</pubDate>
+      
+      <guid>https://wancat.cc/post/librespeed/</guid>
+      <description>自己架站有時候需要了解伺服器的網速實際上有多快，這時可以在伺服器上安裝 LibreSpeed 這套軟體，打開網頁就能測連線到伺服器的速度。LibreSpeed 有 PHP 和 Go 實作，身為 Gopher 當然要用 Go 實作！本篇將以 Go 實作為範例。
+Go 安裝 首先要安裝 Go，到 Golang 官網 下載你平台的壓縮檔，Raspberry Pi 選 armv6l，一般電腦要選 amd64，然後將其解壓縮：
+wget https://golang.org/dl/go1.16.7.linux-armv6l.tar.gz sudo tar -zxvf go1.16.7.linux-armv6l.tar.gz -C /usr/local 將 Go 加到 PATH 中，打開你的 Shell 設定檔（Bash 是 ~/.bashrc，Zsh 是 ~/.zshrc），在最後加入：
+export PATH=$PATH:/usr/local/go/bin 儲存後重開一個 shell，看有沒有成功安裝：
+$ go version go version go1.16.7 linux/arm LibreSpeed 安裝 下載並編繹 LibreSpeed
+git clone https://github.com/librespeed/speedtest-go.git cd speedtest-go go build -ldflags &amp;quot;-w -s&amp;quot; -trimpath -o speedtest main.</description>
+    </item>
+    
     <item>
       <title>從零開始的 Nextcloud 完整安裝教學</title>
       <link>https://wancat.cc/post/raspi-nextcloud/</link>

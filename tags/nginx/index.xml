@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>self-hosted on WANcatServer</title>
-    <link>https://wancat.cc/categories/self-hosted/</link>
-    <description>Recent content in self-hosted on WANcatServer</description>
+    <title>nginx on WANcatServer</title>
+    <link>https://wancat.cc/tags/nginx/</link>
+    <description>Recent content in nginx on WANcatServer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Aug 2021 16:34:45 +0800</lastBuildDate><atom:link href="https://wancat.cc/categories/self-hosted/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 16:34:45 +0800</lastBuildDate><atom:link href="https://wancat.cc/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LibreSpeed 安裝教學</title>
       <link>https://wancat.cc/post/librespeed/</link>
@@ -18,15 +18,6 @@ wget https://golang.org/dl/go1.16.7.linux-armv6l.tar.gz sudo tar -zxvf go1.16.7.
 export PATH=$PATH:/usr/local/go/bin 儲存後重開一個 shell，看有沒有成功安裝：
 $ go version go version go1.16.7 linux/arm LibreSpeed 安裝 下載並編繹 LibreSpeed
 git clone https://github.com/librespeed/speedtest-go.git cd speedtest-go go build -ldflags &amp;quot;-w -s&amp;quot; -trimpath -o speedtest main.</description>
-    </item>
-    
-    <item>
-      <title>從零開始的 Nextcloud 完整安裝教學</title>
-      <link>https://wancat.cc/post/raspi-nextcloud/</link>
-      <pubDate>Sat, 07 Aug 2021 13:12:54 +0800</pubDate>
-      
-      <guid>https://wancat.cc/post/raspi-nextcloud/</guid>
-      <description>用兩顆外接硬碟組 RAID 1，設定 DDNS、Nginx，並安裝 Nextcloud，以及後續的 PHP 調校與 Redis 快取。</description>
     </item>
     
   </channel>
