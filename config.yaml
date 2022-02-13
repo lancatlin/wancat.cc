@@ -37,6 +37,10 @@ languages:
             name: 搜尋
             url: /search/
             weight: 30
+          - identifier: resume
+            name: Resume
+            url: /resume/
+            weight: 35
           - identifier: about
             name: 關於
             url: /about/
