@@ -20,10 +20,10 @@
         {{- else }}{{/* Unprocessable image or responsive images disabled */}}
         <img src="{{ (path.Join .RelPermalink .Params.cover.image) | relURL }}" alt="{{ $alt }}">
         {{- end }}
-    {{- else }}{{/* For relolute urls and external links, no img processing here */}}
-        {{- if $addLink }}<a href="{{ (.Params.cover.image) | relURL }}" target="_blank"
+    {{- else }}{{/* For absolute urls and external links, no img processing here */}}
+        {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-            <img src="{{ (.Params.cover.image) | relURL }}" alt="{{ $alt }}">
+            <img src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}
