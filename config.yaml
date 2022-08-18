@@ -1,8 +1,8 @@
-baseURL: "https://wancat.cc"
+baseURL: ""
 title: WANcatServer
 paginate: 8
 theme: PaperMod
-relativeURLS: true
+relativeURLs: true
 
 enableRobotsTXT: true
 buildDrafts: false
