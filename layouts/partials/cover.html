@@ -13,17 +13,17 @@
         {{- if (and (in $processableFormats $cover.MediaType.SubType) (ne .Site.Params.cover.responsiveImages false) (eq $prod true)) }}
         <img srcset="{{- range $size := $sizes -}}
                         {{- if (ge $cover.Width $size) -}}
-                        {{ printf "%s %s" (($cover.Resize (printf "%sx" $size)).Permalink) (printf "%sw ," $size) -}}
+                        {{ printf "%s %s" (($cover.Resize (printf "%sx" $size)).RelPermalink) (printf "%sw ," $size) -}}
                         {{ end }}
-                    {{- end -}}{{$cover.Permalink }} {{printf "%dw" ($cover.Width)}}"
-            sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.Permalink }}" alt="{{ $alt }}" />
+                    {{- end -}}{{$cover.RelPermalink }} {{printf "%dw" ($cover.Width)}}"
+            sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.RelPermalink }}" alt="{{ $alt }}" />
         {{- else }}{{/* Unprocessable image or responsive images disabled */}}
         <img src="{{ (path.Join .RelPermalink .Params.cover.image) | relURL }}" alt="{{ $alt }}">
         {{- end }}
     {{- else }}{{/* For absolute urls and external links, no img processing here */}}
-        {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
+        {{- if $addLink }}<a href="{{ (.Params.cover.image) | relURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-            <img src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+            <img src="{{ (.Params.cover.image) | relURL }}" alt="{{ $alt }}">
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}

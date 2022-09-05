@@ -91,7 +91,7 @@
                     {{- range . -}}
                     {{- if ne $lang .Lang }}
                     <li>
-                        <a href="{{- .Permalink -}}" title="{{ .Language.LanguageName | default (.Lang | humanize) }}"
+                        <a href="{{- .RelPermalink -}}" title="{{ .Language.LanguageName | default (.Lang | humanize) }}"
                             aria-label="{{ .Language.LanguageName | default (.Lang | humanize) }}">
                             {{- if (and $.Site.Params.displayFullLangName (.Language.LanguageName)) }}
                             {{- .Language.LanguageName | emojify -}}
@@ -110,7 +110,7 @@
         <ul id="menu" onscroll="menu_on_scroll()">
             {{- range .Site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | relLangURL }}
-            {{- $page_url:= $currentPage.Permalink  | relLangURL }}
+            {{- $page_url:= $currentPage.RelPermalink  | relLangURL }}
             {{- $is_search := eq ($.Site.GetPage .KeyName).Layout `search` }}
             <li>
                 <a href="{{ .URL | relLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
