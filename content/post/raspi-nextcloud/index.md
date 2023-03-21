@@ -6,6 +6,7 @@ tags = ["Raspberry Pi", "Nextcloud", "Linux"]
 showtoc = true
 tocopen = true
 summary = "用兩顆外接硬碟組 RAID 1，設定 DDNS、Nginx，並安裝 Nextcloud，以及後續的 PHP 調校與 Redis 快取。"
+updated = "2023-01-08T03:16:00+08:00"
 +++
 
 我以前寫過一篇 Nextcloud 安裝教學，最近設定了一台新的 Pi，記錄下從無到有的完整設定過程，包含基本設定、路由器、防火牆等。安裝過程若遇問題，可搭配各段落 References 服用。本文使用 Raspberry Pi 作為硬體，其中大部分設定用在 Debian / Ubuntu 也沒有問題。
@@ -329,7 +330,7 @@ Ref:
 接著要來安裝 Nextcloud 了，先安裝依賴，我使用的是相容於 MySQL 的 MariaDB：
 
 ```
-sudo apt install mariadb-server php-mysql php php-gd php-mbstring php-curl php-zip php-xml php-fpm php-intl php-gmp php-bcmath php-imagick php-exif
+sudo apt install mariadb-server  php php-mysql php-gd php-mbstring php-curl php-zip php-xml php-fpm php-intl php-gmp php-bcmath php-exif php-imagick php-bz2
 ```
 
 ### MySQL
@@ -394,7 +395,7 @@ user www-data;
 
 ```
 upstream php-handler {
-    server unix:/var/run/php/php7.3-fpm.sock;
+    server unix:/run/php/php-fpm.sock;
     server 127.0.0.1:9000;
 }
 
@@ -556,14 +557,14 @@ Nextcloud 可以透過安裝 Redis 做快取來優化效能：
 Ref: [Nextcloud Manual: Memory Caching](https://docs.nextcloud.com/server/latest/admin_manual/configuration_server/caching_configuration.html#id2)
 
 ```
-sudo apt install redis-server php-redis
+sudo apt install redis-server php8.0-redis
 sudo vim /var/www/nextcloud/config/config.php
 ```
 
 加入以下內容：
 
 ```
-  'memcache.local' => '\\OC\\Memcache\\Redis',
+  'memcache.local' => '\\OC\\Memcache\\APCu',
   'memcache.distributed' => '\\OC\\Memcache\\Redis',
   'memcache.locking' => '\\OC\\Memcache\\Redis',
   'redis' => [
@@ -575,7 +576,7 @@ sudo vim /var/www/nextcloud/config/config.php
 重啟 PHP：
 
 ```
-sudo systemctl restart php7.3-fpm.service
+sudo systemctl restart php8.0-fpm.service
 ```
 
 ### PHP 設定
@@ -585,10 +586,10 @@ Ref: [Nextcloud Manual: php-fpm configuration notes](https://docs.nextcloud.com/
 找到以下設定並修改：
 
 ```
-sudo vim /etc/php/7.3/fpm/php.ini
+sudo vim /etc/php/7.4/fpm/php.ini
 
 memory_limit = 512M             # PHP 記憶體上限
-upload_max_filesize = 2000M     # 最大上傳不小
+upload_max_filesize = 2000M     # 最大上傳大小
 
 opcache.enable = 1
 opcache.interned_strings_buffer = 8
@@ -599,7 +600,15 @@ opcache.revalidate_freq = 1
 ```
 
 ```
-sudo systemctl restart php7.3-fpm.service
+sudo vim /etc/php/7.4/cli/php.ini
+
+
+# 加入這行
+apc.enable_cli = 1
+```
+
+```
+sudo systemctl restart php7.4-fpm.service
 ```
 
 ### 設定 Cron

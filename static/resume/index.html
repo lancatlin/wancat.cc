@@ -1,145 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Hung Shin Lin</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/d615d782a5.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <h1>Hung Shin Lin</h1>
-            <div class="contact">
-                <div class="contact-item">
-                    <i class="fa-solid fa-envelope"></i>
-                    <a href="mailto:wancat@wancat.cc">wancat@wancat.cc</a>
+
+<head>
+    <title>Justin Hung-Shin Lin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d615d782a5.js" crossorigin="anonymous"></script>
+    <script defer data-domain="wancat.cc" src="https://analytics.indie.tw/js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Justin Hung-Shin Lin</h1>
+        <div class="contact">
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:wancat@wancat.cc">wancat@wancat.cc</a>
+            </div>
+            <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/lancatlin">github.com/lancatlin</a>
+            </div>
+            <div class="contact-item">
+                <img src="https://wancat.cc/img/favicon.ico">
+                <a href="https://wancat.cc">wancat.cc</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Education</h1>
+            <p><a href="https://iae.ntut.edu.tw/index.php?Lang=en">Intelligent Automation Engineering</a> @ <a
+                    href="https://www-en.ntut.edu.tw/">National Taipei University of Technology</a>, 2019 - 2024
+                (expected)</p>
+        </section>
+        <section>
+            <h1>Work Experiences</h1>
+            <div class="work-item">
+                <h2>Fullstack Developer</h2>
+                <p><a href="https://about.like.co">LikeCoin</a></p>
+                <div class="work-meta">
+                    <p>Global (Remote)</p>
+                    <p>Mar. 2022 - Aug. 2022</p>
                 </div>
-                <div class="contact-item">
-                    <i class="fa-brands fa-github"></i>
-                    <a href="https://github.com/lancatlin">github.com/lancatlin</a>
+                <ul>
+                    <li><a href="https://github.com/likecoin/likecoin-chain-tx-indexer">LikeChain Indexer</a>: index
+                        on-chain data into database and provide SQL-based API. Golang, Gin, PostgreSQL.</li>
+                    <li><a href="https://github.com/likecoin/iscn-browser">ISCN Browser</a>: browsing ISCN records on
+                        LikeCoin chain. NuxtJS, Web3.</li>
+                    <li><a href="https://github.com/likecoin/likecoin-discord-bot">LikeCoin Discord Bot</a>: donate LIKE
+                        to a message, publish a message to depub.space in Discord. NodeJS, NuxtJS, Web3.</li>
+                    <li><a href="https://github.com/likecoin/likecoin-nft-dashboard">NFT Dashboard</a>: dashboard for
+                        NFT statistics on LikeCoin chain. VueJS, Web3.</li>
+                </ul>
+            </div>
+            <div class="work-item">
+                <h2>Backend Developer Intern</h2>
+                <p><a href="https://ibm.com">IBM</a></p>
+                <div class="work-meta">
+                    <p>Taipei, Taiwan</p>
+                    <p>Nov. 2021 - Feb. 2022</p>
                 </div>
-                <div class="contact-item">
-                    <img src="https://wancat.cc/img/favicon.ico">
-                    <a href="https://wancat.cc">wancat.cc</a>
+                <ul>
+                    <li>A deep-learning based, untranslated hard-coded string detection tool.</li>
+                    <li>Setup Jenkins CI/CD workflow for NodeJS and AngularJS project.</li>
+                    <li>Automatically publish GitHub releases with compiled executable files by Git tag.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h1 id="publication">Publications</h1>
+            <p><a href="https://ieeexplore.ieee.org/document/9605083">C. -T. Chuang and H. -S. Lin, "A Effective
+                    Algorithm for Skew Correction in Text Images," 2021 International Conference on Fuzzy Theory and Its
+                    Applications (iFUZZY), 2021, pp. 1-5, doi: 10.1109/iFUZZY53132.2021.9605083.</a></p>
+        </section>
+        <section>
+            <h1>Projects</h1>
+            <div class="project-item">
+                <h2><a href="https://github.com/lancatlin/image-notebook">ImageNotebook</a></h2>
+                <div class="work-meta">
+                    <p>Python / OpenCV / Tkinter</p>
+                    <p>Jun. 2021 - Oct. 2021</p>
+                </div>
+                <ul>
+                    <li>A handy tool to de-skew slide in photos and organize them as PDF files.</li>
+                    <li>Designed a simple but efficient algorithm to detect the slide in photo.</li>
+                    <li>Published a conference paper about this algorithm on iFuzzy 2021. (see publications)</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h2>EyeDrone</h2>
+                <div class="work-meta">
+                    <p>Python / Django / ReactJS / Scikit-Learn</p>
+                    <p>May. 2021 - Nov. 2021</p>
+                </div>
+                <ul>
+                    <li>A water polution analyzing system using drone and multispectrometer.</li>
+                    <li>Using the photo taken by drone to build a polution model.</li>
+                    <li>Developed the RESTful API to integrate the image processing algorithm and database.</li>
+                    <li>Honorable mention in <a href="https://www.chengde.org.tw/">2021 College Electromechanical and
+                            Smart Creative Implementation Competition</a></li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h2><a href="https://github.com/Linchpins-team/fever-pass">FeverPass</a></h2>
+                <div class="work-meta">
+                    <p>Go / Vanilla JS / MySQL</p>
+                    <p>Feb. 2020 - Apr. 2020</p>
+                </div>
+                <ul>
+                    <li>A body temperature registration system for COVID-19.</li>
+                    <li>Developed a website with Golang for schools or organizations to register user's body
+                        temperatures.</li>
+                    <li>Used by Taichung First Senior High School and Guoguang Laboratory School.</li>
+                    <li>Served 1800 registered students and saved 360K pieces of paper.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h2><a href="https://indie.tw">indieveloper (indie.tw)</a></h2>
+                <div class="work-meta">
+                    <p>YouTube</p>
+                    <p>Jan. 2023 - Now</p>
+                </div>
+                <ul>
+                    <li>A YouTube channel promoting free and open source software and self-hosting.</li>
+                    <li>Empower everyone with the ability to setup their own server.</li>
+                    <li>Achieved over 4,000 subscriptions with in the first month.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h1>Special Experiences</h1>
+            <div class="project-item">
+                <h2><a href="https://liker.social">Liker.Social</a> - Social Platform for LikeCoin Community</h2>
+                <div class="work-meta">
+                    <p>Founder & Executive Director</p>
+                    <p>Jan. 2020 - Apr. 2021</p>
+                </div>
+                <ul>
+                    <li>Raised $100K LikeCoin to startup a Mastodon instance for the LikeCoin community.</li>
+                    <li>1.8K registered users.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h1>Skills</h1>
+            <div class="row">
+                <div class="column">
+                    <p>Languages</p>
+                    <p>Go, JavaScript, Python</p>
+                </div>
+                <div class="column">
+                    <p>Frameworks</p>
+                    <p>Django, React, Nuxt, Tensorflow</p>
                 </div>
             </div>
-        </header>
-        <main>
-            <section>
-                <h1>Education</h1>
-                <p><a href="https://iae.ntut.edu.tw/index.php?Lang=en">Intelligent Automation Engineering</a> @ <a href="https://www-en.ntut.edu.tw/">National Taipei University of Technology</a>, 2019 - 2024 (expected)</p>
-            </section>
-            <section>
-                <h1>Work Experiences</h1>
-                <div class="work-item">
-                    <h2>Fullstack Developer</h2>
-                    <p><a href="https://about.like.co">LikeCoin</a></p>
-                    <div class="work-meta">
-                        <p>Global (Remote)</p>
-                        <p>Mar. 2022 - Aug. 2022</p>
-                    </div>
-                    <ul>
-                        <li><a href="https://github.com/likecoin/likecoin-chain-tx-indexer">LikeChain Indexer</a>: index on-chain data into database and provide SQL-based API. Golang, Gin, PostgreSQL.</li>
-                        <li><a href="https://github.com/likecoin/iscn-browser">ISCN Browser</a>: browsing ISCN records on LikeCoin chain. NuxtJS, Web3.</li>
-                        <li><a href="https://github.com/likecoin/likecoin-discord-bot">LikeCoin Discord Bot</a>: donate LIKE to a message, publish a message to depub.space in Discord. NodeJS, NuxtJS, Web3.</li>
-                        <li><a href="https://github.com/likecoin/likecoin-nft-dashboard">NFT Dashboard</a>: dashboard for NFT statistics on LikeCoin chain. VueJS, Web3.</li>
-                    </ul>
+            <div class="row">
+                <div class="column">
+                    <p>Databases</p>
+                    <p>PostgreSQL, MySQL</p>
                 </div>
-                <div class="work-item">
-                    <h2>Backend Developer Intern</h2>
-                    <p><a href="https://ibm.com">IBM</a></p>
-                    <div class="work-meta">
-                        <p>Taipei, Taiwan</p>
-                        <p>Nov. 2021 - Feb. 2022</p>
-                    </div>
-                    <ul>
-                        <li>A deep-learning based, untranslated hard-coded string detection tool.</li>
-                        <li>Setup Jenkins CI/CD workflow for NodeJS and AngularJS project.</li>
-                        <li>Automatically publish GitHub releases with compiled executable files by Git tag.</li>
-                    </ul>
+                <div class="column">
+                    <p>DevOps</p>
+                    <p>Linux, Docker, Jenkins, Proxmox</p>
                 </div>
-            </section>
-            <section>
-                <h1>Projects</h1>
-                <div class="project-item">
-                    <h2><a href="https://github.com/lancatlin/image-notebook">ImageNotebook</a></h2>
-                    <div class="work-meta">
-                        <p>Python / OpenCV / Tkinter</p>
-                        <p>Jun. 2021 - Oct. 2021</p>
-                    </div>
-                    <ul>
-                        <li>A handy tool to de-skew slide in photos and organize them as PDF files.</li>
-                        <li>Designed a simple but efficient algorithm to detect the slide in photo.</li>
-                        <li>Published a conference paper about this algorithm on iFuzzy 2021. (see publications)</li>
-                    </ul>
-                </div>
-                <div class="project-item">
-                    <h2>EyeDrone</h2>
-                    <div class="work-meta">
-                        <p>Python / Django / ReactJS / Scikit-Learn</p>
-                        <p>May. 2021 - Nov. 2021</p>
-                    </div>
-                    <ul>
-                        <li>A water polution analyzing system using drone and multispectrometer.</li>
-                        <li>Using the photo taken by drone to build a polution model.</li>
-                        <li>Developed the RESTful API to integrate the image processing algorithm and database.</li>
-                        <li>Honorable mention in <a href="https://www.chengde.org.tw/">2021 College Electromechanical and Smart Creative Implementation Competition</a></li>
-                    </ul>
-                </div>
-                <div class="project-item">
-                    <h2><a href="https://github.com/Linchpins-team/fever-pass">FeverPass</a></h2>
-                    <div class="work-meta">
-                        <p>Go / Vanilla JS / MySQL</p>
-                        <p>Feb. 2020 - Apr. 2020</p>
-                    </div>
-                    <ul>
-                        <li>A body temperature registration system for COVID-19.</li>
-                        <li>Developed a website with Golang for schools or organizations to register user's body temperatures.</li>
-                        <li>Used by Taichung First Senior High School and Guoguang Laboratory School.</li>
-                        <li>Served 1800 registered students and saved 360K pieces of paper.</li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <h1 id="publication">Publications</h1>
-                <p><a href="https://ieeexplore.ieee.org/document/9605083">C. -T. Chuang and H. -S. Lin, "A Effective Algorithm for Skew Correction in Text Images," 2021 International Conference on Fuzzy Theory and Its Applications (iFUZZY), 2021, pp. 1-5, doi: 10.1109/iFUZZY53132.2021.9605083.</a></p>
-            </section>
-            <section>
-                <h1>Special Experiences</h1>
-                <div class="project-item">
-                    <h2><a href="https://liker.social">Liker.Social</a> - Social Platform for LikeCoin Community</h2>
-                    <div class="work-meta">
-                        <p>Founder & Executive Director</p>
-                        <p>Jan. 2020 - Apr. 2021</p>
-                    </div>
-                    <ul>
-                        <li>Raised $100K LikeCoin to startup a Mastodon instance for the LikeCoin community.</li>
-                        <li>1.8K registered users.</li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <h1>Skills</h1>
-                <div class="row">
-                    <div class="column">
-                        <p>Languages</p>
-                        <p>Go, JavaScript, Python</p>
-                    </div>
-                    <div class="column">
-                        <p>Frameworks</p>
-                        <p>Django, React, Nuxt, Tensorflow</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <p>Databases</p>
-                        <p>PostgreSQL, MySQL</p>
-                    </div>
-                    <div class="column">
-                        <p>DevOps</p>
-                        <p>Linux, Docker, Jenkins, Proxmox</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </body>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>
