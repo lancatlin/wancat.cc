@@ -12,6 +12,18 @@
       data-domain="wancat.cc"
       src="https://analytics.indie.tw/js/script.js"
     ></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              meta: "#6B7280",
+              link: "#3B82F6",
+            },
+          },
+        },
+      };
+    </script>
   </head>
 
   <body class="mx-auto w-[800px] h-[1200px] flex flex-col items-stretch">
@@ -20,70 +32,86 @@
       <div class="flex flex-row justify-around mt-4">
         <div class="flex items-center mb-2">
           <i class="fa-solid fa-envelope"></i>
-          <a href="mailto:wancat@wancat.cc" class="ml-2">justin.linhs@pm.me</a>
+          <a href="mailto:wancat@wancat.cc" class="ml-2 text-link"
+            >justin.linhs@pm.me</a
+          >
         </div>
         <div class="flex items-center mb-2">
           <i class="fa-brands fa-github"></i>
-          <a href="https://github.com/lancatlin" class="ml-2"
+          <a href="https://github.com/lancatlin" class="ml-2 text-link"
             >github.com/lancatlin</a
           >
         </div>
         <div class="flex items-center mb-2">
           <img src="https://wancat.cc/img/favicon.ico" class="mr-2" />
-          <a href="https://wancat.cc">wancat.cc</a>
+          <a href="https://wancat.cc" class="text-link">wancat.cc</a>
         </div>
       </div>
     </header>
     <main>
       <section class="mt-4">
-        <h1 class="text-2xl font-bold">Education</h1>
+        <h1 class="text-2xl font-bold text-center">Education</h1>
         <p class="mt-2">
-          <a class="text-" href="https://iae.ntut.edu.tw/index.php?Lang=en"
+          <a class="text-link" href="https://iae.ntut.edu.tw/index.php?Lang=en"
             >Intelligent Automation Engineering</a
           >
           @
-          <a href="https://www-en.ntut.edu.tw/"
+          <a class="text-link" href="https://www-en.ntut.edu.tw/"
             >National Taipei University of Technology</a
           >, 2019 - 2024 (expected)
         </p>
       </section>
+      <hr class="mt-4" />
       <section class="mt-4">
-        <h1 class="text-2xl font-bold">Work Experiences</h1>
+        <h1 class="text-2xl font-bold text-center">Work Experiences</h1>
         <div class="mt-2 mb-4">
-          <h2 class="text-xl font-semibold">Fullstack Developer</h2>
-          <p><a href="https://about.like.co">LikeCoin</a></p>
-          <div class="mt-2">
+          <h2 class="text-xl font-semibold">
+            Fullstack Developer @
+            <a class="text-link" href="https://about.like.co">LikeCoin</a>
+          </h2>
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
             <p>Global (Remote)</p>
             <p>Mar. 2022 - Aug. 2022</p>
           </div>
           <ul class="list-disc pl-5 mt-2">
             <li>
-              <a href="https://github.com/likecoin/likecoin-chain-tx-indexer"
+              <a
+                class="text-link"
+                href="https://github.com/likecoin/likecoin-chain-tx-indexer"
                 >LikeChain Indexer</a
               >: index on-chain data into database and provide SQL-based API.
               Golang, Gin, PostgreSQL.
             </li>
             <li>
-              <a href="https://github.com/likecoin/iscn-browser">ISCN Browser</a
+              <a
+                class="text-link"
+                href="https://github.com/likecoin/iscn-browser"
+                >ISCN Browser</a
               >: browsing ISCN records on LikeCoin chain. NuxtJS, Web3.
             </li>
             <li>
-              <a href="https://github.com/likecoin/likecoin-discord-bot"
+              <a
+                class="text-link"
+                href="https://github.com/likecoin/likecoin-discord-bot"
                 >LikeCoin Discord Bot</a
               >: donate LIKE to a message, publish a message to depub.space in
               Discord. NodeJS, NuxtJS, Web3.
             </li>
             <li>
-              <a href="https://github.com/likecoin/likecoin-nft-dashboard"
+              <a
+                class="text-link"
+                href="https://github.com/likecoin/likecoin-nft-dashboard"
                 >NFT Dashboard</a
               >: dashboard for NFT statistics on LikeCoin chain. VueJS, Web3.
             </li>
           </ul>
         </div>
         <div class="mt-2 mb-4">
-          <h2 class="text-xl font-semibold">Backend Developer Intern</h2>
-          <p><a href="https://ibm.com">IBM</a></p>
-          <div class="mt-2">
+          <h2 class="text-xl font-semibold">
+            Backend Developer Intern @
+            <a class="text-link" href="https://ibm.com">IBM</a>
+          </h2>
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
             <p>Taipei, Taiwan</p>
             <p>Nov. 2021 - Feb. 2022</p>
           </div>
@@ -102,10 +130,15 @@
           </ul>
         </div>
       </section>
-      <section class="mt-4">
-        <h1 id="publication" class="text-2xl font-bold">Publications</h1>
+      <hr />
+      <section class="mt-4 mb-2">
+        <h1 id="publication" class="text-2xl font-bold text-center">
+          Publications
+        </h1>
         <p class="mt-2">
-          <a href="https://ieeexplore.ieee.org/document/9605083"
+          <a
+            class="text-link"
+            href="https://ieeexplore.ieee.org/document/9605083"
             >C. -T. Chuang and H. -S. Lin, "A Effective Algorithm for Skew
             Correction in Text Images," 2021 International Conference on Fuzzy
             Theory and Its Applications (iFUZZY), 2021, pp. 1-5, doi:
@@ -113,14 +146,17 @@
           >
         </p>
       </section>
+      <hr />
       <section class="mt-4">
-        <h1 class="text-2xl font-bold">Projects</h1>
+        <h1 class="text-2xl font-bold text-center">Projects</h1>
         <div class="mt-2 mb-4">
           <h2 class="text-xl font-semibold">
-            <a href="https://linuxodyssey.xyz">Linux Odyssey</a>
+            <a class="text-link" href="https://linuxodyssey.xyz"
+              >Linux Odyssey</a
+            >
           </h2>
-          <p>Team Leader, Fullstack Developer, DevOps Engineer</p>
-          <div class="mt-2">
+          <p>Team Leader / Fullstack Developer / DevOps Engineer</p>
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
             <p>
               TypeScript / VueJS / Docker / MongoDB / WebSocket / TailwindCSS
             </p>
@@ -130,11 +166,13 @@
         </div>
         <div class="mt-2 mb-4">
           <h2 class="text-xl font-semibold">
-            <a href="https://github.com/lancatlin/image-notebook"
+            <a
+              class="text-link"
+              href="https://github.com/lancatlin/image-notebook"
               >ImageNotebook</a
             >
           </h2>
-          <div class="mt-2">
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
             <p>Python / OpenCV / Tkinter</p>
             <p>Jun. 2021 - Oct. 2021</p>
           </div>
@@ -155,7 +193,7 @@
         </div>
         <div class="mt-2 mb-4">
           <h2 class="text-xl font-semibold">EyeDrone</h2>
-          <div class="mt-2">
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
             <p>Python / Django / ReactJS / Scikit-Learn</p>
             <p>May. 2021 - Nov. 2021</p>
           </div>
@@ -171,7 +209,7 @@
             </li>
             <li>
               Honorable mention in
-              <a href="https://www.chengde.org.tw/"
+              <a class="text-link" href="https://www.chengde.org.tw/"
                 >2021 College Electromechanical and Smart Creative
                 Implementation Competition</a
               >
@@ -179,10 +217,15 @@
           </ul>
         </div>
         <div class="mt-2 mb-4">
-          <h2 class="text-xl font-semibold">
-            <a href="https://github.com/Linchpins-team/fever-pass">FeverPass</a>
+          <h2 class="text-xl font-semibold md-2">
+            <a
+              class="text-link"
+              href="https://github.com/Linchpins-team/fever-pass"
+              >FeverPass</a
+            >
           </h2>
-          <div class="mt-2">
+          <p>Co-Founder / Backend Developer</p>
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
             <p>Go / Vanilla JS / MySQL</p>
             <p>Feb. 2020 - Apr. 2020</p>
           </div>
@@ -203,9 +246,11 @@
         </div>
         <div class="mt-2 mb-4">
           <h2 class="text-xl font-semibold">
-            <a href="https://indie.tw">indieveloper (indie.tw)</a>
+            <a class="text-link" href="https://indie.tw"
+              >indieveloper (indie.tw)</a
+            >
           </h2>
-          <div class="mt-2">
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
             <p>YouTube</p>
             <p>Jan. 2023 - Now</p>
           </div>
@@ -221,14 +266,15 @@
           </ul>
         </div>
       </section>
+      <hr />
       <section class="mt-4">
-        <h1 class="text-2xl font-bold">Special Experiences</h1>
+        <h1 class="text-2xl font-bold text-center">Special Experiences</h1>
         <div class="mt-2 mb-4">
           <h2 class="text-xl font-semibold">
-            <a href="https://liker.social">Liker.Social</a> - Social Platform
-            for LikeCoin Community
+            <a class="text-link" href="https://liker.social">Liker.Social</a> -
+            Social Platform for LikeCoin Community
           </h2>
-          <div class="mt-2">
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
             <p>Founder & Executive Director</p>
             <p>Jan. 2020 - Apr. 2021</p>
           </div>
@@ -242,25 +288,27 @@
         </div>
       </section>
       <section class="mt-4">
-        <h1 class="text-2xl font-bold">Skills</h1>
+        <h1 class="text-2xl font-bold text-center">Skills</h1>
         <div class="flex justify-between mt-2">
-          <div class="w-1/2 pr-2">
+          <div class="w-1/2 pr-2 flex flex-row justify-between">
             <p class="font-bold">Languages</p>
             <p>TypeScript, JavaScript, Go, Python</p>
           </div>
-          <div class="w-1/2 pl-2">
+          <div class="w-1/2 pl-2 flex flex-row justify-between">
             <p class="font-bold">Frameworks</p>
             <p>Vue, React, Nuxt, Django, Tensorflow</p>
           </div>
         </div>
         <div class="flex justify-between mt-2">
-          <div class="w-1/2 pr-2">
+          <div class="w-1/2 pr-2 flex flex-row justify-between">
             <p class="font-bold">Databases</p>
             <p>PostgreSQL, MySQL, MongoDB</p>
           </div>
-          <div class="w-1/2 pl-2">
+          <div class="w-1/2 pl-2 flex flex-row justify-between items-center">
             <p class="font-bold">DevOps</p>
-            <p>GitHub Actions, Linux, Docker, Jenkins, Proxmox</p>
+            <p class="text-sm">
+              GitHub Actions, Linux, Docker, Jenkins, Proxmox
+            </p>
           </div>
         </div>
       </section>
