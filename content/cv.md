@@ -20,10 +20,10 @@ honors:
     link: "https://www.chengde.org.tw/"
     award: "Honorable mention"
     project: "EyeDrone"
-work_experiences:
+workExperiences:
   - title: "Fullstack Developer"
     company: "LikeCoin"
-    company_link: "https://about.like.co"
+    companyLink: "https://about.like.co"
     location: "Global (Remote)"
     duration: "Mar. 2022 - Aug. 2022"
     responsibilities:
