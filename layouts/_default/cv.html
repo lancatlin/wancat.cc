@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ .Title }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/d615d782a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      data-domain="wancat.cc"
+      src="https://analytics.indie.tw/js/script.js"
+    ></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              meta: "#6B7280",
+              link: "#3B82F6",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="mx-auto md:w-[800px] h-[1200px] flex flex-col items-stretch">
+    <header class="mt-4">
+      <h1 class="text-3xl font-bold text-center">{{ .Params.name }}</h1>
+      <div class="mt-4 flex flex-row w-full justify-center items-center">
+        <div class="w-1/3 px-10">
+          <img src="{{ .Params.image }}" class="rounded-full" />
+        </div>
+        <div class="flex flex-col justify-start mt-4">
+          <div class="flex items-center mb-2">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:{{ .Params.email }}" class="ml-2 text-link"
+              >{{ .Params.email }}</a
+            >
+          </div>
+          <div class="flex items-center mb-2">
+            <i class="fa-brands fa-github"></i>
+            <a href="{{ .Params.github }}" class="ml-2 text-link"
+              >{{ .Params.github }}</a
+            >
+          </div>
+          <div class="flex items-center mb-2">
+            <img src="{{ .Params.websiteIcon }}" class="mr-2" />
+            <a href="{{ .Params.website }}" class="text-link"
+              >{{ .Params.website }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="mt-4">
+        <h1 class="text-2xl font-bold text-center">Education</h1>
+        <p class="mt-2">
+          <a class="text-link" href="{{ .Params.education.link }}"
+            >{{ .Params.education.department }}</a
+          >
+          @
+          <a class="text-link" href="{{ .Params.education.link }}"
+            >{{ .Params.education.university }}</a
+          >, {{ .Params.education.years }}
+        </p>
+      </section>
+      <hr class="mt-4" />
+
+      <section>
+        <h1 class="text-2xl font-bold text-center">Honors</h1>
+        <div class="mt-2">
+          {{ range .Params.honors }}
+          <div class="mx-4">
+            <h2 class="text-lg font-semibold">
+              <a class="text-link" href="{{ .link }}">{{ .title }}</a>
+            </h2>
+            <p class="mt-2">
+              <strong>{{ .award }}</strong> with the project
+              <a class="text-link" href="{{ .projectLink }}">{{ .project }}</a>
+            </p>
+          </div>
+          {{ end }}
+        </div>
+      </section>
+
+      <hr class="mt-4" />
+
+      <section class="mt-4">
+        <h1 class="text-2xl font-bold text-center">Work Experiences</h1>
+        {{ range .Params.workExperiences }}
+        <div class="mt-2 mb-4">
+          <h2 class="text-xl font-semibold">
+            {{ .position }} @
+            <a class="text-link" href="{{ .companyLink }}">{{ .company }}</a>
+          </h2>
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
+            <p>{{ .location }}</p>
+            <p>{{ .duration }}</p>
+          </div>
+          <ul class="list-disc pl-5 mt-2">
+            {{ range .responsibilities }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </section>
+      <hr />
+      <section class="mt-4 mb-2">
+        <h1 id="publication" class="text-2xl font-bold text-center">
+          Publications
+        </h1>
+        {{ range .Params.publications }}
+        <p class="mt-2">
+          <a class="text-link" href="{{ .link }}">{{ .citation }}</a>
+        </p>
+        {{ end }}
+      </section>
+      <hr />
+      <section class="mt-4">
+        <h1 class="text-2xl font-bold text-center">Projects</h1>
+        {{ range .Params.projects }}
+        <div class="mt-2 mb-4">
+          <h2 class="text-xl font-semibold">
+            <a class="text-link" href="{{ .link }}">{{ .title }}</a>
+          </h2>
+          <p>{{ .role }}</p>
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
+            <p>{{ .technologies }}</p>
+            <p>{{ .duration }}</p>
+          </div>
+          <ul class="list-disc pl-5 mt-2">
+            {{ range .details }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </section>
+      <hr />
+      <section class="mt-4">
+        <h1 class="text-2xl font-bold text-center">Special Experiences</h1>
+        {{ range .Params.specialExperiences }}
+        <div class="mt-2 mb-4">
+          <h2 class="text-xl font-semibold">
+            <a class="text-link" href="{{ .link }}">{{ .title }}</a> - {{
+            .description }}
+          </h2>
+          <div class="mt-2 flex flex-row justify-between text-sm text-meta">
+            <p>{{ .role }}</p>
+            <p>{{ .duration }}</p>
+          </div>
+          <ul class="list-disc pl-5 mt-2">
+            {{ range .details }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </section>
+      <section class="mt-4">
+        <h1 class="text-2xl font-bold text-center">Skills</h1>
+        <div class="flex justify-between mt-2">
+          <div class="w-1/2 pr-2 flex flex-row justify-between">
+            <p class="font-bold">Languages</p>
+            <p>{{ .Params.skills.languages }}</p>
+          </div>
+          <div class="w-1/2 pl-2 flex flex-row justify-between">
+            <p class="font-bold">Frameworks</p>
+            <p>{{ .Params.skills.frameworks }}</p>
+          </div>
+        </div>
+        <div class="flex justify-between mt-2">
+          <div class="w-1/2 pr-2 flex flex-row justify-between">
+            <p class="font-bold">Databases</p>
+            <p>{{ .Params.skills.databases }}</p>
+          </div>
+          <div class="w-1/2 pl-2 flex flex-row justify-between items-center">
+            <p class="font-bold">DevOps</p>
+            <p class="text-sm">{{ .Params.skills.devops }}</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
