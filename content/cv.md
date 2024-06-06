@@ -4,7 +4,7 @@ layout: "cv"
 title: "CV"
 layout: "cv"
 name: "Justin Hung-Shin Lin"
-email: "wancat@wancat.cc"
+email: "justin.linhs@pm.me"
 github: "https://github.com/lancatlin"
 website: "https://wancat.cc"
 education:
