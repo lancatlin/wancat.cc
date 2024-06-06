@@ -55,12 +55,10 @@
         <h1 class="text-2xl font-bold text-center">Education</h1>
         {{ range .Params.education }}
         <p class="mt-2">
-          <a class="text-link" href="{{ .link }}"
-            >{{ .Params.education.department }}</a
-          >
+          <a class="text-link" href="{{ .link }}">{{ .degree }}</a>
           @
-          <a class="text-link" href="{{ .link }}">{{ .university }}</a>, {{
-          .years }}
+          <a class="text-link" href="{{ .link }}">{{ .institution }}</a>, {{
+          .duration }}
         </p>
         {{ end }}
       </section>

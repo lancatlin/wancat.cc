@@ -1,8 +1,6 @@
 ---
 title: "CV"
 layout: "cv"
-title: "CV"
-layout: "cv"
 name: "Justin Hung-Shin Lin"
 email: "justin.linhs@pm.me"
 github: "https://github.com/lancatlin"
@@ -109,5 +107,4 @@ skills:
   frameworks: "Vue, React, Nuxt, Django, TensorFlow"
   databases: "PostgreSQL, MySQL, MongoDB"
   devops: "GitHub Actions, Linux, Docker, Jenkins, Proxmox"
-
 ---
