@@ -2,3 +2,4 @@ public/
 *~
 *.backup
 node_modules
+.vscode/settings.json

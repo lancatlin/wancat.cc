@@ -83,4 +83,4 @@ Frozen 2 的音樂都認真好聽，每首都能讓你循環播放著聽的，�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3NQO9CHwgus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yDZ0tET6D6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://open.spotify.com/embed/user/x8ha8czsrdxtwbeybwy7r4rwi/playlist/6XV7AxEB7vklhSpCOmqpJG" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-{{< embed />}}
+{{< /embed >}}

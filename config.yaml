@@ -1,6 +1,7 @@
 baseURL: "https://wancat.cc"
 title: WANcatServer
-paginate: 8
+pagination:
+  paperSize: 8
 summaryLength: 100
 hasCJKLanguage: true
 theme: PaperMod
