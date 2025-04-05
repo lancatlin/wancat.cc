@@ -50,3 +50,9 @@
 
 - id: internship
   translation: "實習"
+
+- id: publications
+  translation: "出版物"
+
+- id: special_experience
+  translation: "特殊經歷"

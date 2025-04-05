@@ -20,5 +20,9 @@
   translation: "Freelance"
 - id: "internship"
   translation: "Internship"
+- id: "publications"
+  translation: "Publications"
+- id: "special_experience"
+  translation: "Special Experience"
 - id: in_the_competition_with_the_project
   translation: "in the competition with the project" 

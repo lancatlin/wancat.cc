@@ -106,14 +106,14 @@ resume:
         - "在第一個月內達到超過 4,000 訂閱。"
 
   special_experiences:
-    - name: "Liker.Social"
+    - title: "Liker.Social"
       url: "https://liker.social"
       role: "創辦人及執行董事"
       period: "2020 年 1 月 - 2021 年 4 月"
-      description: "LikeCoin 的社群平台"
-      achievements:
-        - "籌集了 $100K LikeCoin 來啟動一個為 LikeCoin 社群設立的 Mastodon 伺服器。"
-        - "1.8K 註冊用戶。"
+      content: |
+        - 籌集了 $100K LikeCoin 來啟動一個為 LikeCoin 社群設立的 Mastodon 伺服器。
+        - 1.8K 註冊用戶。
+        - 現已移交團隊維護。
 
   publications:
     - title: "A Effective Algorithm for Skew Correction in Text Images"

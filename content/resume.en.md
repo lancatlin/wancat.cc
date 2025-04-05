@@ -107,14 +107,15 @@ resume:
         - "Achieved over 4,000 subscriptions within the first month."
 
   special_experiences:
-    - name: "Liker.Social"
+    - title: "Liker.Social"
       url: "https://liker.social"
       role: "Founder & Executive Director"
       period: "Jan. 2020 - Apr. 2021"
       description: "Social Platform for the LikeCoin Community"
-      achievements:
-        - "Raised $100K in LikeCoin to start up a Mastodon instance for the LikeCoin community."
-        - "1.8K registered users."
+      content: |
+        - Raised $100K in LikeCoin to start up a Mastodon instance for the LikeCoin community.
+        - 1.8K registered users.
+        - Now maintained by team
 
   publications:
     - title: "A Effective Algorithm for Skew Correction in Text Images"
