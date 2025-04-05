@@ -34,32 +34,21 @@ resume:
       position: "全端工程師"
       location: "全球 (遠端)"
       period: "2022 年 3 月 - 2022 年 8 月"
-      projects:
-        - name: "LikeChain Indexer"
-          url: "https://github.com/likecoin/likecoin-chain-tx-indexer"
-          description: "將鏈上數據索引到資料庫並提供基於 SQL 的 API。使用 Golang、Gin、PostgreSQL。"
-        - name: "ISCN Browser"
-          url: "https://github.com/likecoin/iscn-browser"
-          description: "瀏覽 LikeCoin 鏈上的 ISCN 記錄。使用 NuxtJS、VueJS。"
-        - name: "LikeCoin Discord Bot"
-          url: "https://github.com/likecoin/likecoin-discord-bot"
-          description: "在 Discord 中向訊息捐贈 LIKE，將訊息發布到區塊鏈。使用 NodeJS、NuxtJS。"
-        - name: "NFT Dashboard"
-          url: "https://github.com/likecoin/likecoin-nft-dashboard"
-          description: "LikeCoin 鏈上 NFT 統計儀表板。使用 VueJS。"
+      content: |
+        - [LikeChain Indexer](https://github.com/likecoin/likecoin-chain-tx-indexer): 將鏈上數據索引到資料庫並提供基於 SQL 的 API。使用 Golang、Gin、PostgreSQL。
+        - [ISCN Browser](https://github.com/likecoin/iscn-browser): 瀏覽 LikeCoin 鏈上的 ISCN 記錄。使用 NuxtJS、VueJS。
+        - [LikeCoin Discord Bot](https://github.com/likecoin/likecoin-discord-bot): 在 Discord 中向訊息捐贈 LIKE，將訊息發布到區塊鏈。使用 NodeJS、NuxtJS。
+        - [NFT Dashboard](https://github.com/likecoin/likecoin-nft-dashboard): LikeCoin 鏈上 NFT 統計儀表板。使用 VueJS。
 
     - company: "IBM"
       company_url: "https://ibm.com"
       position: "後端開發實習生"
       location: "台北，台灣"
       period: "2021 年 11 月 - 2022 年 2 月"
-      projects:
-        - name: "未翻譯字串檢測工具"
-          description: "基於深度學習的未翻譯字串檢測工具。"
-        - name: "CI/CD 工作流程"
-          description: "為 NodeJS 和 AngularJS 專案設置 Jenkins CI/CD 工作流程。"
-        - name: "自動部署"
-          description: "通過 Git 標籤自動部署至伺服器。"
+      content: |
+        - 基於深度學習的未翻譯字串檢測工具。
+        - 為 NodeJS 和 AngularJS 專案設置 Jenkins CI/CD 工作流程。
+        - 通過 Git 標籤自動部署至伺服器。
 
   projects:
     - name: "LinuxOdyssey.xyz"

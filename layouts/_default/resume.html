@@ -19,6 +19,25 @@
         },
       };
     </script>
+    <style>
+      .prose a {
+        color: #3B82F6;
+        text-decoration: none;
+      }
+      .prose a:hover {
+        text-decoration: underline;
+      }
+      .prose ul {
+        list-style-type: disc;
+        padding-left: 1.25rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .prose li {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+      }
+    </style>
   </head>
 
   <body class="mx-auto md:w-[800px] h-[1200px] flex flex-col items-stretch">
@@ -85,13 +104,9 @@
             <p>{{ .location }}</p>
             <p>{{ .period }}</p>
           </div>
-          <ul class="list-disc pl-5 mt-2">
-            {{ range .projects }}
-            <li>
-              <a class="text-link" href="{{ .url }}">{{ .name }}</a>: {{ .description }}
-            </li>
-            {{ end }}
-          </ul>
+          <div class="mt-2 prose prose-sm">
+            {{ .content | markdownify }}
+          </div>
         </div>
         {{ end }}
       </section>

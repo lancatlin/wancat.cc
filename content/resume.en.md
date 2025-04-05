@@ -34,32 +34,21 @@ resume:
       position: "Fullstack Developer"
       location: "Global (Remote)"
       period: "Mar. 2022 - Aug. 2022"
-      projects:
-        - name: "LikeChain Indexer"
-          url: "https://github.com/likecoin/likecoin-chain-tx-indexer"
-          description: "Indexes on-chain data into a database and provides a SQL-based API. Golang, Gin, PostgreSQL."
-        - name: "ISCN Browser"
-          url: "https://github.com/likecoin/iscn-browser"
-          description: "Browses ISCN records on the LikeCoin chain. NuxtJS, Web3."
-        - name: "LikeCoin Discord Bot"
-          url: "https://github.com/likecoin/likecoin-discord-bot"
-          description: "Donates LIKE to a message, publishes a message to depub.space in Discord. NodeJS, NuxtJS, Web3."
-        - name: "NFT Dashboard"
-          url: "https://github.com/likecoin/likecoin-nft-dashboard"
-          description: "A dashboard for NFT statistics on the LikeCoin chain. VueJS, Web3."
+      content: |
+        - [LikeChain Indexer](https://github.com/likecoin/likecoin-chain-tx-indexer): Indexes on-chain data into a database and provides a SQL-based API. Golang, Gin, PostgreSQL.
+        - [ISCN Browser](https://github.com/likecoin/iscn-browser): Browses ISCN records on the LikeCoin chain. NuxtJS, Web3.
+        - [LikeCoin Discord Bot](https://github.com/likecoin/likecoin-discord-bot): Donates LIKE to a message, publishes a message to depub.space in Discord. NodeJS, NuxtJS, Web3.
+        - [NFT Dashboard](https://github.com/likecoin/likecoin-nft-dashboard): A dashboard for NFT statistics on the LikeCoin chain. VueJS, Web3.
 
     - company: "IBM"
       company_url: "https://ibm.com"
       position: "Backend Developer Intern"
       location: "Taipei, Taiwan"
       period: "Nov. 2021 - Feb. 2022"
-      projects:
-        - name: "Untranslated String Detection Tool"
-          description: "A deep-learning-based, untranslated hard-coded string detection tool."
-        - name: "CI/CD Workflow"
-          description: "Set up a Jenkins CI/CD workflow for a NodeJS and AngularJS project."
-        - name: "Automatic Deployment"
-          description: "Automatically published GitHub releases with compiled executable files by Git tag."
+      content: |
+        - A deep-learning-based, untranslated hard-coded string detection tool.
+        - Set up a Jenkins CI/CD workflow for a NodeJS and AngularJS project.
+        - Automatically published GitHub releases with compiled executable files by Git tag.
 
   projects:
     - name: "LinuxOdyssey.xyz"
