@@ -29,6 +29,19 @@ resume:
         **佳作** 在競賽中與專案 EyeDrone
 
   work_experiences:
+    - company: "2577 Full Lucky"
+      company_url: "https://2577.com.tw"
+      position: "後端開發工程師"
+      type: "自由接案"
+      location: "台北 (遠端)"
+      period: "2024 年 5 月 - 2024 年 10 月"
+      tech: "TypeScript, VueJS, Koa, Zod, Prisma, Swagger, PostgreSQL, GitHub Action, Google Cloud"
+      content: |
+        - 開發了一個基於網頁的員工管理系統，用於排班、考勤和請假管理。([2577.com.tw](https://2577.com.tw))
+        - 實現了即時員工考勤報告，供主管查看。
+        - 實施了可自定義的班表、假期和年假計算方法。
+        - 使用 TypeScript、Koa、Prisma、Zod 和 Swagger 建立了 RESTful API 與文件。
+        - 通過 Jest 單元測試，並使用 CI/CD 部署到 Google App Engine。
     - company: "LikeCoin"
       company_url: "https://about.like.co"
       position: "全端工程師"
