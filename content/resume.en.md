@@ -29,11 +29,25 @@ resume:
         **Honorable mention** with the project EyeDrone
 
   work_experiences:
+    - company: "2577 Full Lucky"
+      company_url: "https://2577.com.tw"
+      position: "Backend Developer"
+      type: "freelance"
+      location: "Taipei (Remote)"
+      period: "May 2024 - Oct. 2024"
+      tech: "TypeScript, VueJS, Koa, Zod, Prisma, Swagger, PostgreSQL, GitHub Action, Google Cloud"
+      content: |
+        - Developed a web-based staffing system for scheduling, attendance, and leave management. ([2577.com.tw](https://2577.com.tw))
+        - Enabled real-time employee attendance reporting for supervisor visibility.
+        - Implemented customizable work schedules, leave quotas, and annual leave calculation methods.
+        - Built RESTful APIs using TypeScript, Koa, Prisma, Zod, and Swagger for documentation.
+        - Ensured reliability through Jest testing and deployed to Google App Engine with CI/CD.
     - company: "LikeCoin"
       company_url: "https://about.like.co"
       position: "Fullstack Developer"
       location: "Global (Remote)"
       period: "Mar. 2022 - Aug. 2022"
+      tech: "Go, PostgreSQL, VueJS, NuxtJS, Discord Bot"
       content: |
         - [LikeChain Indexer](https://github.com/likecoin/likecoin-chain-tx-indexer): Indexes on-chain data into a database and provides a SQL-based API. Golang, Gin, PostgreSQL.
         - [ISCN Browser](https://github.com/likecoin/iscn-browser): Browses ISCN records on the LikeCoin chain. NuxtJS, Web3.

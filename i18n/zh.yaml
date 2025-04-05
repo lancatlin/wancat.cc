@@ -17,21 +17,36 @@
 
 - id: education
   translation: "教育"
+
 - id: honors
   translation: "榮譽"
+
 - id: work_experiences
   translation: "工作經歷"
+
 - id: projects
   translation: "專案"
+
 - id: skills
   translation: "技能"
+
 - id: languages
   translation: "程式語言"
+
 - id: frameworks
   translation: "框架"
+
 - id: databases
   translation: "資料庫"
+
 - id: devops
   translation: "DevOps"
+
 - id: in_the_competition_with_the_project
   translation: "在競賽中與專案"
+
+- id: freelance
+  translation: "自由接案"
+
+- id: internship
+  translation: "實習"

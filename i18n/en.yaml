@@ -1,20 +1,24 @@
-- id: education
+- id: "education"
   translation: "Education"
-- id: honors
+- id: "honors"
   translation: "Honors"
-- id: work_experiences
+- id: "work_experiences"
   translation: "Work Experiences"
-- id: projects
+- id: "projects"
   translation: "Projects"
-- id: skills
+- id: "skills"
   translation: "Skills"
-- id: languages
+- id: "languages"
   translation: "Languages"
-- id: frameworks
+- id: "frameworks"
   translation: "Frameworks"
-- id: databases
+- id: "databases"
   translation: "Databases"
-- id: devops
+- id: "devops"
   translation: "DevOps"
+- id: "freelance"
+  translation: "Freelance"
+- id: "internship"
+  translation: "Internship"
 - id: in_the_competition_with_the_project
   translation: "in the competition with the project" 
