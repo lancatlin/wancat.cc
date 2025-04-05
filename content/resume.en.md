@@ -9,7 +9,7 @@ resume:
 
   education:
     - school: "National Taipei University of Technology"
-      department: "Intelligent Automation Engineering"
+      department: "Associate of Engineering (Intelligent Automation Engineering)"
       school_url: "https://www-en.ntut.edu.tw/"
       department_url: "https://iae.ntut.edu.tw/index.php?Lang=en"
       period: "2019 - 2024"

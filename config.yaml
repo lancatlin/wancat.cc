@@ -70,6 +70,10 @@ languages:
           name: Search
           url: /search/
           weight: 30
+        - identifier: resume
+          name: Resume
+          url: /en/resume/
+          weight: 35
         - identifier: about
           name: About
           url: /about/

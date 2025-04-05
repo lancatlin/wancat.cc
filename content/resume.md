@@ -9,7 +9,7 @@ resume:
 
   education:
     - school: "國立臺北科技大學"
-      department: "智慧自動化工程科"
+      department: "智慧自動化工程科 副學士"
       school_url: "https://www.ntut.edu.tw/"
       department_url: "https://iae.ntut.edu.tw/"
       period: "2019 - 2024"
@@ -32,7 +32,7 @@ resume:
     - company: "2577 Full Lucky"
       company_url: "https://2577.com.tw"
       position: "後端開發工程師"
-      type: "自由接案"
+      type: "freelance"
       location: "台北 (遠端)"
       period: "2024 年 5 月 - 2024 年 10 月"
       tech: "TypeScript, VueJS, Koa, Zod, Prisma, Swagger, PostgreSQL, GitHub Action, Google Cloud"
