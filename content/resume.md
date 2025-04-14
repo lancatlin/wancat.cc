@@ -85,16 +85,6 @@ resume:
         - "使用無人機拍攝的照片建立污染模型。"
         - "開發 RESTful API 以整合圖像處理算法和數據庫。"
 
-    - name: "FeverPass"
-      url: "https://github.com/Linchpins-team/fever-pass"
-      role: "共同創辦人 / 後端開發工程師"
-      period: "2020 年 2 月 - 2020 年 4 月"
-      tech: "Go / Vanilla JS / MySQL"
-      description: "針對 COVID-19，使用 Golang 開發的體溫登記系統，供學校或組織登記成員的體溫。"
-      achievements:
-        - "被台中一中和中山附中使用。"
-        - "服務了 1,800 名註冊學生，節省了 360,000 張紙。"
-
     - name: "indieveloper (indie.tw)"
       url: "https://indie.tw"
       role: ""

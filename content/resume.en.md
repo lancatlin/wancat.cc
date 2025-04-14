@@ -86,16 +86,6 @@ resume:
         - "Using the photos taken by drones to build a pollution model."
         - "Developed the RESTful API to integrate the image processing algorithm and database."
 
-    - name: "FeverPass"
-      url: "https://github.com/Linchpins-team/fever-pass"
-      role: "Co-Founder / Backend Developer"
-      period: "Feb. 2020 - Apr. 2020"
-      tech: "Go / Vanilla JS / MySQL"
-      description: "A body temperature registration system for COVID-19."
-      achievements:
-        - "Used by Taichung First Senior High School and Guoguang Laboratory School."
-        - "Served 1,800 registered students and saved 360,000 pieces of paper."
-
     - name: "indieveloper (indie.tw)"
       url: "https://indie.tw"
       role: ""
