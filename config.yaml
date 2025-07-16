@@ -82,7 +82,7 @@ languages:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: WANcatServer
-  description: "網貓伺服器"
+  description: "Technical insights, book notes, and personal thoughts."
   author: wancat
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -115,23 +115,26 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: WANcatServer
-    subtitle: "網貓伺服器"
-    imageUrl: "/img/wancat.jpg"
-    imageWidth: 120
-    imageHeight: 120
+    enabled: true # needs to be explicitly set
+    title: Justin Lin
+    subtitle: |
+      Technical insights, book notes, and personal thoughts.
+    imageUrl: "/card/grad.jpg"
+    imageWidth: 150
+    imageHeight: 150
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: 👀About
+        url: about
+      - name: 💡Projects
+        url: projects
+      - name: 🖋️Posts
+        url: post
 
   # home-info mode
   homeInfoParams:
     Title: "WANcatServer 網貓伺服器"
-    Content:
+    Content: "Technical insights, book notes, and personal thoughts."
 
   socialIcons:
     - name: github
