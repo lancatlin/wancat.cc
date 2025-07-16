@@ -67,7 +67,6 @@ JSP 的大部分活動都是放在第二天，而最大的主軸就是每個學�
 
 這次的題目讓我很有共鳴，已經不知道多少次了，自然考卷上總是出現「大錯特錯」的題目，是在科學原理上就有錯誤的程度，我的自然老師通常會接受意見，然後針對這個題目改答案或是送分，但是這些「設計不良」的題目也許是缺乏檢舉機制，總是一再地出現，其中我最受不了的，就是「白作功」。
 
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts" src="https://open.tube/videos/embed/5ba9e7fa-e154-45fb-b4bd-e968ca75caa7" frameborder="0" allowfullscreen></iframe>
 > 下列各種狀況中，哪一種情形，外力不會對物體作功？
 >
 > A 提著包包在水平方向上來回走動
