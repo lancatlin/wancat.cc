@@ -29,21 +29,21 @@ languages:
           name: 文章列表
           url: /archives/
           weight: 1
-        - identifier: categories
-          name: 分類
-          url: /categories/
+        - identifier: projects
+          name: 專案
+          url: /projects/
           weight: 10
-        - identifier: tags
-          name: 標籤
-          url: /tags/
+        - identifier: now
+          name: 近況
+          url: /now/
           weight: 20
         - identifier: search
           name: 搜尋
           url: /search/
           weight: 30
-        - identifier: resume
-          name: Resume
-          url: /resume/
+        - identifier: cv
+          name: CV
+          url: /cv/
           weight: 35
         - identifier: about
           name: 關於
@@ -119,7 +119,7 @@ params:
     title: Justin Lin
     subtitle: |
       Technical insights, book notes, and personal thoughts.
-    imageUrl: "/card/grad.jpg"
+    imageUrl: "/img/wancat_key.jpg"
     imageWidth: 150
     imageHeight: 150
     imageTitle: my image

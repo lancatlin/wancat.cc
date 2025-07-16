@@ -1,6 +1,6 @@
 ---
-title: "Resume"
-layout: "resume"
+title: "CV"
+layout: "cv"
 resume:
   name: "Justin Hung-Shin Lin"
   email: "justin.linhs@pm.me"
@@ -8,6 +8,10 @@ resume:
   website: "https://wancat.cc"
 
   education:
+    - school: "Monash University"
+      department: "Bachelor of Computer Science"
+      school_url: "https://monash.edu"
+      period: "2025 - 2027 (expected)"
     - school: "National Taipei University of Technology"
       department: "Associate of Engineering (Intelligent Automation Engineering)"
       school_url: "https://www-en.ntut.edu.tw/"

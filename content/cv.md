@@ -1,6 +1,6 @@
 ---
 title: "履歷"
-layout: "resume"
+layout: "cv"
 resume:
   name: "林宏信 Justin Lin"
   email: "justin.linhs@pm.me"
@@ -8,6 +8,10 @@ resume:
   website: "https://wancat.cc"
 
   education:
+    - school: "Monash University"
+      department: "Bachelor of Computer Science"
+      school_url: "https://monash.edu"
+      period: "2025 - 2027 (expected)"
     - school: "國立臺北科技大學"
       department: "智慧自動化工程科 副學士"
       school_url: "https://www.ntut.edu.tw/"
