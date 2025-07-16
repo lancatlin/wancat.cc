@@ -13,9 +13,14 @@ title = "關於我"
 
 我的個人 blog，技術分享、讀書筆記，與我的觀點。
 
-## 如何聯絡我
+## 我的其他網站
+
+* [GitHub](https://github.com/lancatlin)
+* [Matters](https://matters.news/@wancat/)
+* [indieveloper](https://indie.tw): Self Host 與軟體教學
+* [Zeko Studio](https://zeko.studio): 音樂作品
+
+## 聯絡我
 
 * Email: wancat@wancat.cc
 * Matrix: @wancat:linchpins.cloud
-* [GitHub](https://github.com/lancatlin)
-* [Matters](https://matters.news/@wancat/)

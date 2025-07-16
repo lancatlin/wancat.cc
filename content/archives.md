@@ -1,7 +1,7 @@
 +++
 layout = "archives"
 summary = "archives"
-title = "Archive"
+title = "文章列表"
 url = "/archives/"
 
 +++
