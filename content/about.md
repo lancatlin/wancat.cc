@@ -13,6 +13,7 @@ title = "關於我"
 * `/projects` [我做的專案](/projects)
 * `/now` [我在做什麼](/now)  
 * `/use` [我用的東西](/use)  
+* `/books` [我讀的書](/books)
 
 ## 關於這個網站
 
