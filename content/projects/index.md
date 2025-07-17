@@ -3,7 +3,9 @@ showToc = false
 title = "我的專案"
 +++
 
-## [Linux Odyssey](https://linuxodyssey.xyz)
+## [Linux Odyssey](https://linuxodyssey.xyz) 
+
+2023 - 2024
 
 ![Linux Odyssey screenshot](linuxodyssey.png)
 
@@ -19,6 +21,8 @@ License: GPL
 
 ## Synchan
 
+2024 - 2025
+
 ![](./synchan.jpg)
 [圖：林沛瑤。三角關係／三頻道循環錄像／03’39”／2021](https://peiyao.run/2024-the-dual-double-channel/)
 
@@ -33,6 +37,8 @@ Stack: TypeScript, React, tRPC, WebSocket
 ---
 
 ## [DiviSignal 股票紅綠燈](https://divi-signal.pages.dev/)
+
+2025
 
 ![DiviSignal screenshot](divisignal.png)
 

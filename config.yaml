@@ -25,10 +25,14 @@ languages:
     weight: 1
     menu:
       main:
+        - identifier: post
+          name: 最新文章
+          url: /post/
+          weight: 1
         - identifier: archive
           name: 文章列表
           url: /archives/
-          weight: 1
+          weight: 5
         - identifier: projects
           name: 專案
           url: /projects/
@@ -54,10 +58,14 @@ languages:
     weight: 2
     menu:
       main:
+        - identifier: post
+          name: Posts
+          url: /post/
+          weight: 1
         - identifier: archive
           name: Archives
           url: /archives/
-          weight: 1
+          weight: 5
         - identifier: categories
           name: Categories
           url: /categories/
