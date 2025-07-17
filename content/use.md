@@ -25,6 +25,7 @@ summary = ""
 * Browser: Brave
 * 知識庫：Heptabase，最好用的筆記軟體沒有之一。[我的推薦碼](https://join.heptabase.com?invite-acc-id=112336e4-6a6d-47e4-a412-05ebdef8646d)
 * Epub reader: [Foliate](https://johnfactotum.github.io/foliate/)
+* 中文輸入法：[行列輸入法](https://staratt.cc/posts/行列輸入法/)
 
 ## Self-host
 
