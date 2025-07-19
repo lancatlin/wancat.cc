@@ -53,6 +53,23 @@ languages:
           name: 關於
           url: /about/
           weight: 40
+    params:
+      profileMode:
+        enabled: true # needs to be explicitly set
+        title: Justin Lin
+        subtitle: |
+          技術分享、讀書筆記，和我的觀點
+        imageUrl: "/img/wancat_key.jpg"
+        imageWidth: 150
+        imageHeight: 150
+        imageTitle: my image
+        buttons:
+          - name: 👀關於
+            url: about
+          - name: 💡專案
+            url: projects
+          - name: 🖋️最新文章
+            url: post
   en:
     title: WANcatServer
     weight: 2
@@ -86,6 +103,24 @@ languages:
           name: About
           url: /about/
           weight: 40
+    params:
+      profileMode:
+        enabled: true # needs to be explicitly set
+        title: Justin Lin
+        subtitle: |
+          Technical insights, book notes, and personal thoughts.
+        imageUrl: "/img/wancat_key.jpg"
+        imageWidth: 150
+        imageHeight: 150
+        imageTitle: my image
+        buttons:
+          - name: 👀About
+            url: about
+          - name: 💡Projects
+            url: projects
+          - name: 🖋️Posts
+            url: post
+
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -120,29 +155,6 @@ params:
     text: "WANcatServer"
     icon: /img/logo.png
     iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: true # needs to be explicitly set
-    title: Justin Lin
-    subtitle: |
-      Technical insights, book notes, and personal thoughts.
-    imageUrl: "/img/wancat_key.jpg"
-    imageWidth: 150
-    imageHeight: 150
-    imageTitle: my image
-    buttons:
-      - name: 👀About
-        url: about
-      - name: 💡Projects
-        url: projects
-      - name: 🖋️Posts
-        url: post
-
-  # home-info mode
-  homeInfoParams:
-    Title: "WANcatServer 網貓伺服器"
-    Content: "Technical insights, book notes, and personal thoughts."
 
   socialIcons:
     - name: github
