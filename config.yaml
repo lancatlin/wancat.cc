@@ -83,21 +83,21 @@ languages:
           name: Archives
           url: /archives/
           weight: 5
-        - identifier: categories
-          name: Categories
-          url: /categories/
+        - identifier: projects
+          name: Projects
+          url: /projects/
           weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
+        - identifier: now
+          name: Now
+          url: /now/
           weight: 20
         - identifier: search
           name: Search
           url: /search/
           weight: 30
-        - identifier: resume
-          name: Resume
-          url: /en/resume/
+        - identifier: cv
+          name: CV
+          url: /cv/
           weight: 35
         - identifier: about
           name: About
