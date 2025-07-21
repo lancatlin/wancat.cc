@@ -1,6 +1,8 @@
 ---
 title: "CV"
 layout: "cv"
+aliases:
+  - /en/resume
 resume:
   name: "Justin Hung-Shin Lin"
   email: "justin.linhs@pm.me"

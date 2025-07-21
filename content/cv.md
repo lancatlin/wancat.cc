@@ -1,6 +1,8 @@
 ---
 title: "履歷"
 layout: "cv"
+aliases:
+  - /resume/
 resume:
   name: "林宏信 Justin Lin"
   email: "justin.linhs@pm.me"
