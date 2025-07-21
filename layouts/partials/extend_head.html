@@ -8,3 +8,51 @@ Insert any custom code (web-analytics, resources, etc.) - it will appear in the 
 <!-- Head custom content area end -->
 <script defer data-domain="wancat.cc" src="https://analytics.indie.tw/js/script.js"></script>
 <script defer src="https://commento.indie.tw/js/commento.js"></script>
+
+{{- if and .IsHome (eq .Lang "zh") -}}
+<!-- Language detection and redirect script -->
+<script>
+(function() {
+    'use strict';
+    
+    // Configuration
+    const REDIRECT_KEY = 'languageRedirected';
+    const ENGLISH_HOMEPAGE = '/en/';
+    const CHINESE_LANG_PATTERN = /^zh/;
+    
+    // Helper functions
+    function isRedirected() {
+        return sessionStorage.getItem(REDIRECT_KEY) === 'true';
+    }
+    
+    function setRedirected() {
+        sessionStorage.setItem(REDIRECT_KEY, 'true');
+    }
+    
+    function getUserLanguages() {
+        return navigator.languages || [navigator.language || navigator.userLanguage];
+    }
+    
+    function isChineseSpeaker() {
+        const userLangs = getUserLanguages();
+        return userLangs.some(lang => CHINESE_LANG_PATTERN.test(lang));
+    }
+    
+    function shouldRedirect() {
+        return document.documentElement.lang === 'zh' && 
+               !isRedirected() && 
+               window.location.pathname === '/';
+    }
+    
+    function redirectToEnglish() {
+        setRedirected();
+        window.location.href = ENGLISH_HOMEPAGE;
+    }
+    
+    // Main execution
+    if (shouldRedirect() && !isChineseSpeaker()) {
+        redirectToEnglish();
+    }
+})();
+</script>
+{{- end -}}
