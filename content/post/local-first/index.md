@@ -8,6 +8,12 @@ showToc = true
 summary = ""
 +++
 
+{{< figure
+  src="./cover.jpg"
+  alt="Cover image"
+  caption="墨爾本的街道。自攝"
+>}}
+
 我在網路上看到獨立實驗室 [Ink & Switch](https://www.inkandswitch.com/) 2019 年刊登的文章《[Local-first software: You own your data, in spite of the cloud](https://www.inkandswitch.com/essay/local-first/)》。看完大受感動與啟發，在這裡做簡單的摘要與分享。
 
 放眼現代軟體生態，會發現跟十年以前已經完全不同。取代安裝在電腦上的應用程式，越來越多的軟體改成以網頁服務的方式提供。大部分用電腦的時間，幾乎都待在瀏覽器中。
@@ -26,7 +32,7 @@ summary = ""
 
 截取文章中的精闢總結：
 
-> The cloud gives us collaboration, but old-fashioned apps give us ownership. Can’t we have the best of both worlds? 
+> The cloud gives us collaboration, but old-fashioned apps give us ownership. Can’t we have the best of both worlds?
 >
 > 雲端帶來協作，而桌面軟體給我們所有權。我們有沒有辦法結合兩個世界的優點？
 
@@ -54,16 +60,16 @@ summary = ""
 
 以下節錄文中以這七項指標對現有軟體、服務、技術所做的評量
 
-✓符合 — 部份符合 ✗ 不符合 
+✓符合 — 部份符合 ✗ 不符合
 
-|  | 速度 | 跨裝置 | 離線使用 | 即時協作 | 可持續性 | 隱私 | 所有權 | 
+|  | 速度 | 跨裝置 | 離線使用 | 即時協作 | 可持續性 | 隱私 | 所有權 |
 |---|---|---|---|---|---|---|---|
-| 檔案 + email 附件 | ✓ | — | ✓ | ✗ | ✓ | — | ✓ | 
-| 檔案 + 雲端同步 | ✓ | — | — | ✗ | ✓ | — | ✓ | 
-| Google Docs | — | ✓ | — | ✓ | — | ✗ | — | 
-| Web apps | ✗ | ✓ | ✗ | ✓ | ✗ | ✗ | ✗ | 
-| 多數手機應用 | ✓ | — | ✓ | ✗ | — | ✗ | ✗ | 
-| Git+GitHub | ✓ | — | ✓ | — | ✓ | — | ✓ | 
+| 檔案 + email 附件 | ✓ | — | ✓ | ✗ | ✓ | — | ✓ |
+| 檔案 + 雲端同步 | ✓ | — | — | ✗ | ✓ | — | ✓ |
+| Google Docs | — | ✓ | — | ✓ | — | ✗ | — |
+| Web apps | ✗ | ✓ | ✗ | ✓ | ✗ | ✗ | ✗ |
+| 多數手機應用 | ✓ | — | ✓ | ✗ | — | ✗ | ✗ |
+| Git+GitHub | ✓ | — | ✓ | — | ✓ | — | ✓ |
 
 - **檔案 + email / 雲端同步**：其實已經很好用了。你有完整檔案的所有權，在自己的電腦上流暢的操作。就只是當要與他人協作時，需要往復的寄送檔案，還必須不斷修改命名（`報告_1.docs` `報告_2.docx` `報告_final_4.docx`）。\
    雲端同步稍微解決了寄送檔案的困擾，但當兩地同時修改了一個檔案，發生衝突時，就會非常難解決。
@@ -116,7 +122,7 @@ B（從原始字串）移除了 8
 
 ## 案例研究：Heptabase
 
-![Heptabase Screenshot](./heptabase.webp)
+{{< figure src="./heptabase.webp" alt="Heptabase Screenshot" caption="Heptabase 產品照片，取自官網" >}}
 
 [Heptabase](https://heptabase.com/) 是一個由台灣人創辦的訂閱制筆記與知識庫軟體，致力於讓**任何人都能有效的對任何事建立深度理解**。我已經使用了一年半，非常喜愛。它深深的改變了我學習的方式，也幫助我建立更有持續性與深刻的知識系統。
 
@@ -128,7 +134,7 @@ B（從原始字串）移除了 8
 
 以下我使用 local-first 的七項指標來評估 Heptabase
 
-✓符合 — 部份符合 ✗ 不符合 
+✓符合 — 部份符合 ✗ 不符合
 
 1. ✓ **速度**：單機擁有完整資料，打開立即開啟（不到 2 秒）
 
