@@ -1,3 +1,7 @@
 .entry-content {
-  -webkit-line-clamp: 4; /* Show 4 lines instead of 2 */
+    -webkit-line-clamp: 4; /* Show 4 lines instead of 2 */
+}
+
+figcaption {
+    text-align: center;
 }
