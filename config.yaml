@@ -121,7 +121,6 @@ languages:
           - name: 🖋️Posts
             url: post
 
-
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: WANcatServer
@@ -164,7 +163,7 @@ params:
     - name: email
       url: "mailto:wancat@wancat.cc"
     - name: rss
-      url: "/index.xml"
+      url: "./index.xml"
     - name: dev
       url: https://dev.to/wancat
     - name: mastodon
