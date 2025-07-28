@@ -1,8 +1,8 @@
 ---
-title: "CV"
-layout: "cv"
+title: "Résumé"
+layout: "resume"
 aliases:
-  - /en/resume
+  - /en/cv
 resume:
   name: "Justin Hung-Shin Lin"
   email: "justin.linhs@pm.me"
@@ -127,4 +127,4 @@ resume:
     frameworks: "Vue, React, Nuxt, Django, TensorFlow"
     databases: "PostgreSQL, MySQL, MongoDB"
     devops: "GitHub Actions, Linux, Docker, Jenkins, Proxmox"
---- 
+---

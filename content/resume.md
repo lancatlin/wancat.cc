@@ -1,8 +1,8 @@
 ---
 title: "履歷"
-layout: "cv"
+layout: "resume"
 aliases:
-  - /resume/
+  - /cv/
 resume:
   name: "林宏信 Justin Lin"
   email: "justin.linhs@pm.me"
@@ -125,4 +125,4 @@ resume:
     frameworks: "Vue、React、Nuxt、Django、TensorFlow"
     databases: "PostgreSQL、MySQL、MongoDB"
     devops: "GitHub Actions、Linux、Docker、Jenkins、Proxmox"
---- 
+---

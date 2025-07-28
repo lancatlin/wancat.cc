@@ -46,8 +46,8 @@ languages:
           url: /search/
           weight: 30
         - identifier: cv
-          name: CV
-          url: /cv/
+          name: 履歷
+          url: /resume/
           weight: 35
         - identifier: about
           name: 關於
@@ -96,8 +96,8 @@ languages:
           url: /search/
           weight: 30
         - identifier: cv
-          name: CV
-          url: /cv/
+          name: Résumé
+          url: /resume/
           weight: 35
         - identifier: about
           name: About
