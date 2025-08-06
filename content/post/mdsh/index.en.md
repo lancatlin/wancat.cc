@@ -19,9 +19,16 @@ However, this approach is hard to read and makes the template difficult to maint
 That's why I made [**mdsh**](https://github.com/lancatlin/mdsh), a markdown template engine written in Go, which allows you to **execute shell scripts within Markdown**.
 It allows you to use Go's template syntax in markdown, and puts the execution results in the generated output.
 
-You can install it with Go CLI:
+You can download it from the [release page](https://github.com/lancatlin/mdsh/releases).
+Once you downloaded ant decompressed it, you can put the `mdsh` binary to some place in your `$PATH`. On Linux, for example, you can put it under `/usr/loca/bin` via:
+
+    sudo cp mdsh /usr/local/bin
+
+You can also install it with Go CLI:
 
     go install github.com/lancatlin/mdsh@latest
+
+This will put it into `$GOPATH/bin` (usually `$HOME/go/bin`)
 
 ## The First Template
 
