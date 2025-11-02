@@ -25,10 +25,14 @@ languages:
     weight: 1
     menu:
       main:
+        - identifier: about
+          name: 關於
+          url: /about/
+          weight: 1
         - identifier: post
           name: 最新文章
           url: /post/
-          weight: 1
+          weight: 2
         - identifier: archive
           name: 文章列表
           url: /archives/
@@ -41,18 +45,14 @@ languages:
           name: 近況
           url: /now/
           weight: 20
-        - identifier: search
-          name: 搜尋
-          url: /search/
+        - identifier: toolbox
+          name: 小工具
+          url: /toolbox
           weight: 30
         - identifier: cv
           name: 履歷
           url: /resume/
           weight: 35
-        - identifier: about
-          name: 關於
-          url: /about/
-          weight: 40
     params:
       profileMode:
         enabled: true # needs to be explicitly set

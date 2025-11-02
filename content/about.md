@@ -11,9 +11,10 @@ title = "關於我"
 
 一些你可能會感興趣的事：
 * `/projects` [我做的專案](/projects)
-* `/now` [我在做什麼](/now)  
-* `/use` [我用的東西](/use)  
+* `/now` [我在做什麼](/now)
+* `/use` [我用的東西](/use)
 * `/books` [我讀的書](/books)
+* `/toolbox` [我做的小工具](/toolbox)
 
 ## 關於這個網站
 
