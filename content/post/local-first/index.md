@@ -2,7 +2,7 @@
 title = "Local-First - 即時協作 + 所有權，下一個世代的軟體開發典範"
 date = 2025-07-22T13:52:10+10:00
 categories = ["insight"]
-tags = ["local-first"]
+tags = ["local-first", "heptabase"]
 draft = false
 showToc = true
 summary = ""
