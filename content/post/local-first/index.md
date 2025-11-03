@@ -157,3 +157,8 @@ B（從原始字串）移除了 8
 網際網路從一開始 web1 的單向傳遞，到使用者生產內容的 web2，直到現在將所有權歸還使用者的 web3 運動。然而應用開發卻還是以伺服器中心的 Web Apps 作為主流。
 
 Local-first 與 CRDTs 的架構，能夠在保有使用者主權的情況下，加入多人協作與跨裝置的功能。不論是家庭相簿、筆記、記帳、健身記錄，都能用更隱私而安全的方式與他人協作。這樣的應用程式，就如同是 **app3**，將會是在未來世代的應用開發典範。
+
+## References
+
+* Martin Kleppmann, Adam Wiggins, Peter van Hardenberg, Mark McGranaghan. (April 2019). Local-first software. You own your data, in spite of the cloud. *Ink & Switch*. https://www.inkandswitch.com/essay/local-first/
+* Marc Shapiro, Nuno Preguiça, Carlos Baquero, Marek Zawirski. (2011). Conflict-free Replicated Data Types. *French Institute for Research in Computer Science and Automation*. https://pages.lip6.fr/Marc.Shapiro/papers/RR-7687.pdf

@@ -155,3 +155,8 @@ Overall, Heptabase demonstrates how local-first architecture can be implemented 
 The internet went from one-way transmission in web1 to user-generated content in web2, and now to the web3 movement that returns ownership to users. However, application development still predominantly uses server-centric web apps.
 
 The local-first and CRDTs architecture can add multi-user collaboration and cross-device functionality while preserving user sovereignty. Whether it's family photo albums, notes, expense tracking, or fitness logs, everything can be collaborated on with others in a more private and secure way. Such applications are like **app3**—they will be the application development paradigm of the future generation.
+
+## References
+
+* Martin Kleppmann, Adam Wiggins, Peter van Hardenberg, Mark McGranaghan. (April 2019). Local-first software. You own your data, in spite of the cloud. *Ink & Switch*. https://www.inkandswitch.com/essay/local-first/
+* Marc Shapiro, Nuno Preguiça, Carlos Baquero, Marek Zawirski. (2011). Conflict-free Replicated Data Types. *French Institute for Research in Computer Science and Automation*. https://pages.lip6.fr/Marc.Shapiro/papers/RR-7687.pdf
