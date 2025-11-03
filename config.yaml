@@ -21,6 +21,7 @@ minify:
 
 languages:
   zh:
+    languageName: 中文
     title: WANcatServer
     weight: 1
     menu:
@@ -49,7 +50,7 @@ languages:
           name: 小工具
           url: /toolbox
           weight: 30
-        - identifier: cv
+        - identifier: resume
           name: 履歷
           url: /resume/
           weight: 35
@@ -74,6 +75,7 @@ languages:
           - name: 🖋️最新文章
             url: post
   en:
+    languageName: English
     title: WANcatServer
     weight: 2
     menu:
@@ -94,12 +96,8 @@ languages:
           name: Now
           url: /now/
           weight: 20
-        - identifier: search
-          name: Search
-          url: /search/
-          weight: 30
-        - identifier: cv
-          name: Résumé
+        - identifier: resume
+          name: Resume
           url: /resume/
           weight: 35
         - identifier: about
@@ -107,6 +105,7 @@ languages:
           url: /about/
           weight: 40
     params:
+      displayFullLangName: true
       author:
         name: Justin Lin
         email: wancat@wancat.cc
