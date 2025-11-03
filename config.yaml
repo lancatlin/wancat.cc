@@ -55,9 +55,7 @@ languages:
           url: /resume/
           weight: 35
     params:
-      author:
-        name: Justin Lin
-        email: wancat@wancat.cc
+      author: Justin LIn
       profileMode:
         enabled: true # needs to be explicitly set
         title: Justin Lin
@@ -80,10 +78,18 @@ languages:
     weight: 2
     menu:
       main:
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 1
         - identifier: post
           name: Posts
           url: /post/
-          weight: 1
+          weight: 2
+        - identifier: now
+          name: Now
+          url: /now/
+          weight: 3
         - identifier: archive
           name: Archives
           url: /archives/
@@ -92,23 +98,13 @@ languages:
           name: Projects
           url: /projects/
           weight: 10
-        - identifier: now
-          name: Now
-          url: /now/
-          weight: 20
         - identifier: resume
           name: Resume
           url: /resume/
           weight: 35
-        - identifier: about
-          name: About
-          url: /about/
-          weight: 40
     params:
       displayFullLangName: true
-      author:
-        name: Justin Lin
-        email: wancat@wancat.cc
+      author: Justin Lin
       profileMode:
         enabled: true # needs to be explicitly set
         title: Justin Lin
