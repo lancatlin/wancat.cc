@@ -1,4 +1,89 @@
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">
-    <img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/tw/88x31.png" />
-</a>
-本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a>授權.
+<div style="color: var(--secondary)">
+  {{ if eq .Page.Language.Lang "zh" }}
+  <p>
+    <a class="copyright-link" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+    © {{ .Page.Date.Year }} 由
+    <a class="copyright-link" href="{{ .Site.BaseURL }}"
+      >{{ .Site.Params.Author.Name }}</a
+    >
+    創作，採用
+    <a
+      class="copyright-link"
+      href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant"
+      >姓名標示-相同方式分享 4.0 國際</a
+    ><img
+      src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+      alt=""
+      style="
+        max-width: 1em;
+        max-height: 1em;
+        margin-left: 0.2em;
+        vertical-align: text-bottom;
+        display: inline;
+      "
+    /><img
+      src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+      alt=""
+      style="
+        max-width: 1em;
+        max-height: 1em;
+        margin-left: 0.2em;
+        vertical-align: text-bottom;
+        display: inline;
+      "
+    /><img
+      src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"
+      alt=""
+      style="
+        max-width: 1em;
+        max-height: 1em;
+        margin-left: 0.2em;
+        vertical-align: text-bottom;
+        display: inline;
+      "
+    />
+    授權條款
+  </p>
+  {{ else }}
+  <p>
+    <a class="copyright-link" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+    © {{ .Page.Date.Year }} by
+    <a class="copyright-link" href="{{ .Site.BaseURL }}"
+      >{{ .Site.Params.Author.Name }}</a
+    >
+    is licensed under
+    <a
+      class="copyright-link"
+      href="https://creativecommons.org/licenses/by-sa/4.0"
+      >CC BY-SA 4.0</a
+    ><img
+      src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+      alt=""
+      style="
+        max-width: 1em;
+        max-height: 1em;
+        margin-left: 0.2em;
+        display: inline;
+      "
+    /><img
+      src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+      alt=""
+      style="
+        max-width: 1em;
+        max-height: 1em;
+        margin-left: 0.2em;
+        display: inline;
+      "
+    /><img
+      src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"
+      alt=""
+      style="
+        max-width: 1em;
+        max-height: 1em;
+        margin-left: 0.2em;
+        display: inline;
+      "
+    />
+  </p>
+  {{ end }}
+</div>

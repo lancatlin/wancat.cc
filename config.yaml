@@ -54,6 +54,9 @@ languages:
           url: /resume/
           weight: 35
     params:
+      author:
+        name: Justin Lin
+        email: wancat@wancat.cc
       profileMode:
         enabled: true # needs to be explicitly set
         title: Justin Lin
@@ -104,6 +107,9 @@ languages:
           url: /about/
           weight: 40
     params:
+      author:
+        name: Justin Lin
+        email: wancat@wancat.cc
       profileMode:
         enabled: true # needs to be explicitly set
         title: Justin Lin
