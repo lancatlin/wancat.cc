@@ -3,7 +3,7 @@
   <div class="contact-form-container">
     <p class="form-description">填寫表單或直接寄信至 <a href="mailto:wancat@wancat.cc">wancat@wancat.cc</a></p>
 
-    <form class="contact-form" action="https://forms.un-static.com/forms/7e371d57b3b0b4368a16de0d3db14d537b4946ab" method="POST">
+    <form class="contact-form" action="{{ .Site.Params.contactFormURL }}" method="POST">
       <div class="form-group">
         <label for="name" class="form-label">姓名 <span class="required">*</span></label>
         <input

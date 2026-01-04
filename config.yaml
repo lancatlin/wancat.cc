@@ -135,6 +135,8 @@ params:
   images: ["<link or path of image for opengraph, twitter-cards>"]
   likerID: wancatserver
 
+  contactFormURL: https://forms.un-static.com/forms/7e371d57b3b0b4368a16de0d3db14d537b4946ab
+
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
