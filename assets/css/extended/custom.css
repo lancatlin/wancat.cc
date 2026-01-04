@@ -10,3 +10,163 @@ figcaption {
   color: var(--secondary);
   box-shadow: 0 1px;
 }
+
+/* Contact Form Styles */
+.contact-form-section {
+  margin: 3rem 0;
+}
+
+.contact-form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.form-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.form-description {
+  margin-bottom: 2rem;
+  color: var(--secondary);
+  font-size: 0.95rem;
+}
+
+.form-description a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid var(--link);
+}
+
+.form-description a:hover {
+  opacity: 0.8;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+  font-size: 0.95rem;
+}
+
+.required {
+  color: #e74c3c;
+}
+
+.form-input,
+.form-textarea {
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--theme);
+  color: var(--primary);
+  font-family: inherit;
+  font-size: 1rem;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: var(--link);
+  box-shadow: 0 0 0 3px rgba(var(--link-rgb, 0, 102, 204), 0.1);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--secondary);
+  opacity: 0.6;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: normal;
+  color: var(--primary);
+}
+
+.radio-label input[type="radio"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.form-submit-btn {
+  padding: 0.875rem 2rem;
+  background: var(--link);
+  color: var(--primary);
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    transform 0.1s;
+  margin-top: 1rem;
+}
+
+.form-submit-btn:hover {
+  background: rgba(var(--link-rgb, 0, 102, 204), 0.85);
+  transform: translateY(-1px);
+}
+
+.form-submit-btn:active {
+  transform: translateY(0);
+}
+
+.form-footer {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .contact-form-container {
+    padding: 1.5rem;
+  }
+
+  .form-title {
+    font-size: 1.5rem;
+  }
+
+  .radio-group {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}

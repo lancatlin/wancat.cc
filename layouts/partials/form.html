@@ -1,0 +1,135 @@
+<section class="contact-form-section">
+  <h2 class="form-title" id="contact">聯絡我</h2>
+  <div class="contact-form-container">
+    <p class="form-description">填寫表單或直接寄信至 <a href="mailto:wancat@wancat.cc">wancat@wancat.cc</a></p>
+
+    <form class="contact-form" action="https://forms.un-static.com/forms/7e371d57b3b0b4368a16de0d3db14d537b4946ab" method="POST">
+      <div class="form-group">
+        <label for="name" class="form-label">姓名 <span class="required">*</span></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="form-input"
+          required
+          placeholder="請輸入您的姓名"
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="form-label">Email <span class="required">*</span></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-input"
+          required
+          placeholder="your@email.com"
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="service" class="form-label">感興趣的服務 <span class="required">*</span></label>
+        <select id="service" name="service" class="form-input" required>
+          <option value="">請選擇...</option>
+          <option value="static-website-basic">靜態網站 - 入門方案 (NT$20,000)</option>
+          <option value="static-website-standard">靜態網站 - 標準方案 (NT$35,000)</option>
+          <option value="static-website-advanced">靜態網站 - 進階方案 (NT$50,000)</option>
+          <option value="static-website-consultation">靜態網站 - 免費初步評估</option>
+          <option value="static-website-deep-consultation">靜態網站 - 深度需求諮詢 (NT$2,000)</option>
+          <option value="homelab-consultation">Homelab 系統規劃諮詢 (NT$4,500)</option>
+          <option value="homelab-implementation">Homelab 系統實作</option>
+          <option value="advanced-consulting">進階資訊系統開發/顧問 (NT$3,000/hr)</option>
+          <option value="other">其他</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="budget" class="form-label">預算範圍</label>
+        <input
+          type="text"
+          id="budget"
+          name="budget"
+          class="form-input"
+          placeholder="例：NT$20,000-30,000"
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="timeline" class="form-label">預計上線/完成時間</label>
+        <input
+          type="text"
+          id="timeline"
+          name="timeline"
+          class="form-input"
+          placeholder="例：2026年3月"
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="message" class="form-label">專案描述 / 需求說明 <span class="required">*</span></label>
+        <textarea
+          id="message"
+          name="message"
+          class="form-textarea"
+          rows="6"
+          required
+          placeholder="請簡單描述您的需求、想法，或任何問題..."
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="contact-preference" class="form-label">偏好聯絡方式</label>
+        <div class="radio-group">
+          <label class="radio-label">
+            <input type="radio" name="contact-preference" value="email" checked> Email
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="contact-preference" value="telegram"> Telegram
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="contact-preference" value="signal"> Signal
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="contact-preference" value="line"> LINE
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group" id="phone-group" style="display: none;">
+        <label for="phone" class="form-label">帳號</label>
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          class="form-input"
+          placeholder="請輸入你偏好的通訊軟體帳號"
+        >
+      </div>
+
+      <button type="submit" class="form-submit-btn">送出表單</button>
+
+      <p class="form-footer">我會在 1-2 個工作日內回覆您</p>
+    </form>
+  </div>
+</section>
+
+<script>
+// Show/hide phone input based on contact preference
+document.addEventListener('DOMContentLoaded', function() {
+  const radios = document.querySelectorAll('input[name="contact-preference"]');
+  const phoneGroup = document.getElementById('phone-group');
+  const phoneInput = document.getElementById('phone');
+
+  radios.forEach(radio => {
+    radio.addEventListener('change', function() {
+      if (this.value !== 'email') {
+        phoneGroup.style.display = 'block';
+        phoneInput.placeholder = `請輸入 ${this.value + ' 帳號'}`;
+      } else {
+        phoneGroup.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
