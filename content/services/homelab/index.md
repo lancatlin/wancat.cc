@@ -12,7 +12,7 @@ date: 2026-01-04
 
 1. [**Nextcloud**](https://nextcloud.com)：功能豐富的自架雲端硬碟，同時作為你的行事曆、相片管理
 2. [**Seafile**](https://seafile.com)：最佳同步效能的自架雲端
-3. [**WordPress**](https://wordpress.org/)：自架網站工具，一般情況下我更推薦你找我做[靜態網站開發](#靜態網站客製化開發)
+3. [**WordPress**](https://wordpress.org/)：自架網站工具，一般情況下我更推薦你找我做[靜態網站開發](/services/website)
 4. **[Ghost](https://ghost.org/)**：也是自架網站工具
 5. **[Tailscale VPN](https://tailscale.com)**：建立自已的 VPN！讓你安全的連上自己的伺服器
 6. **[SearXNG](https://docs.searxng.org/)**：自由的搜尋引擎聚合器，讓你一次搜尋 Google, DuckDuckGo, Bing 和任何你想要的搜尋引擎，而他們都無法追蹤你！
