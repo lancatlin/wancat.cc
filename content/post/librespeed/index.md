@@ -222,3 +222,5 @@ sudo systemctl reload nginx.service
 * [GitHub: LibreSpeed Go Implement](https://github.com/librespeed/speedtest-go)
 * [ShellHacks: Systemd Service File Example](https://www.shellhacks.com/systemd-service-file-example/)
 * [LandChads: Requiring Passwords for Webpages](https://landchad.net/auth)
+
+{{< service_homelab >}}

@@ -68,3 +68,5 @@ python cloudflare-ddns.py site_pi.yaml
 ```
 */15 * * * * /home/pi/bin/cloudflare_ddns/cloudflare_ddns.py /home/pi/bin/cloudflare_ddns/site_pi.yaml >> /home/pi/bin/cloudflare_ddns/cloudflare_ddns.log
 ```
+
+{{< service_homelab >}}

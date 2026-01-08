@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "02c2494c4bf57cd9",
+        "id": "7e6b351dc9e5f0a9",
         "type": "tabs",
         "children": [
           {
-            "id": "e84c872e405eeb1d",
+            "id": "e614f1e4a760c9d4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "content/services/homelab/index.md",
-                "bFile": "content/services/homelab/index.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: index  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -175,32 +171,29 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e84c872e405eeb1d",
+  "active": "34dbf35cf29f2941",
   "lastOpenFiles": [
+    "public/assets/css/stylesheet.96b3976e83e300c43eadf595b228e9f8fa9e914d1f9560f6d8f8dc55c8885d17.css",
+    "public/assets/css/stylesheet.d108ce9b9ee62fe484fa0b4eccc8a287b0dc68607ad41de275643522dca811e8.css",
+    "public/assets/css/stylesheet.a5ba3f73ae44dd6388c34f2edeaf01be640d552d277475ba913d8d6c9a502bb2.css",
+    "public/assets/css/stylesheet.1be3bf5eb3b9cf998ff917a387e80a6005d829becafba75937f8d7052cf692e1.css",
+    "public/assets/css/stylesheet.b05a899c6c12abb7b509c659c507f8a983800d00e33f6ad3cd6bb6c660d9f19a.css",
+    "public/assets/css/stylesheet.0a8aa684f150e142b38147d57b1e7c4d1d32f2d99af35d5740aa8637d99405be.css",
+    "public/assets/css/stylesheet.c2a18eb3e7fe962bbb51fd62c653557a57271196ae15d1d08b13b0acae432a17.css",
+    "public/assets/css/stylesheet.17c8e128ebb82d08aaed4dfcdd722a42b4b7c9247bd47a725044c97bab45e856.css",
+    "public/assets/css/stylesheet.5af6080f8d551104bb2ba7304f456be11e2925eb87cdacb6c7fd25db8e13c1e8.css",
+    "public/assets/css/stylesheet.c702bcb2a66210deb655bad5ee0c72a38f195134f24205c000464744ef33dac7.css",
+    "public/assets/css/stylesheet.6e7fcc6f0e45655d6d64049215c731b43d09ae57095eb6cc5895476927039352.css",
     "content/services/development/index.md",
     "content/services/homelab/index.md",
     "content/services/website/index.md",
     "content/services/_index.md",
     "content/services/thankyou.md",
-    "public/services/thankyou/index.html",
-    "public/services/thankyou",
-    "public/services/untitled/index.html",
-    "public/services/untitled",
-    "public/services/index.xml",
-    "public/services/page/1/index.html",
-    "public/services/page/1",
-    "public/services/page",
-    "public/services/website/index.html",
-    "public/services/website",
     "public/en/post/python-chatbot-context/diagram.en.jpg",
     "public/toolbox/random.png",
     "public/toolbox/paysplit.png",

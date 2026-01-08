@@ -56,3 +56,5 @@ sudo service caddy restart
 
 接下來照著指示操作，填入剛剛設定的資料庫、使用者、及密碼即可完成安裝。
 
+
+{{< service_homelab >}}

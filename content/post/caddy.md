@@ -52,3 +52,5 @@ stock.wancat.cc {
 ```
 
 裡頭包含流量分析軟體 [Matomo](/post/matomo-installation/)、[我爸的網站](https://lincalvino.me)、還有我寫的[股票爬蟲程式網站](https://stock.wancat.cc)。
+
+{{< service_homelab >}}

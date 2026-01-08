@@ -234,3 +234,5 @@ array (
 [How to install Nextcloud on your Raspberry Pi? (2 ways)](https://raspberrytips.com/install-nextcloud-raspberry-pi/)
 
 [Enable caching](https://bayton.org/docs/nextcloud/installing-nextcloud-on-ubuntu-16-04-lts-with-redis-apcu-ssl-apache/#6-2-enable-caching)
+
+{{< service_homelab >}}

@@ -54,3 +54,5 @@ $ sudo mysql
 這樣 matomo 帳號就只能控制 'matomo' 這個 database。把帳號密碼填入安裝程序，就會檢查是否完成了。這裡有個要注意的是，執行 matomo 的帳號（www-data）基本上不該給它對網站的寫入權限，可以設成 555，matomo.js 這個 JavaScript 檔需要給予寫入權限。
 
 接下來 Matomo 的安裝程序會自動完成了。
+
+{{< service_homelab >}}

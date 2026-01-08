@@ -626,3 +626,5 @@ sudo crontab -u www-data -e
 ---
 
 到這邊 Nextcloud 的基本設定就告一段落了，Nextcloud 有非常多的 App 可以安裝，讓你的 Nextcloud 成為一個強大的辦公平台。希望你有愉快的使用體驗！
+
+{{< service_homelab >}}
