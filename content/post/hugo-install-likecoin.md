@@ -111,3 +111,5 @@ cd ..
 這個腳本基本上改寫自官方網站，我有自己加一段 git pull 的指令，是避免在不同台電腦上部署導致 git 發生衝突。
 
 然後要做 CNAME 的話，建立 `static/CNAME` 檔案並寫入你的域名，然後將你的域名新增一筆 CNAME 到 `username.github.io`（把 username 換成你的名字）。
+
+{{< service_website >}}
