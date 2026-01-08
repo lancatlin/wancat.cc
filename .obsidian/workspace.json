@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7e6b351dc9e5f0a9",
+        "id": "9b5b71d6dc941930",
         "type": "tabs",
         "children": [
           {
-            "id": "e614f1e4a760c9d4",
+            "id": "a476491204ee2906",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/now.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "now"
             }
           }
         ]
@@ -176,8 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34dbf35cf29f2941",
+  "active": "a476491204ee2906",
   "lastOpenFiles": [
+    "content/now.md",
+    "content/books.md",
+    "books.md",
     "public/assets/css/stylesheet.96b3976e83e300c43eadf595b228e9f8fa9e914d1f9560f6d8f8dc55c8885d17.css",
     "public/assets/css/stylesheet.d108ce9b9ee62fe484fa0b4eccc8a287b0dc68607ad41de275643522dca811e8.css",
     "public/assets/css/stylesheet.a5ba3f73ae44dd6388c34f2edeaf01be640d552d277475ba913d8d6c9a502bb2.css",
@@ -188,7 +195,6 @@
     "public/assets/css/stylesheet.17c8e128ebb82d08aaed4dfcdd722a42b4b7c9247bd47a725044c97bab45e856.css",
     "public/assets/css/stylesheet.5af6080f8d551104bb2ba7304f456be11e2925eb87cdacb6c7fd25db8e13c1e8.css",
     "public/assets/css/stylesheet.c702bcb2a66210deb655bad5ee0c72a38f195134f24205c000464744ef33dac7.css",
-    "public/assets/css/stylesheet.6e7fcc6f0e45655d6d64049215c731b43d09ae57095eb6cc5895476927039352.css",
     "content/services/development/index.md",
     "content/services/homelab/index.md",
     "content/services/website/index.md",

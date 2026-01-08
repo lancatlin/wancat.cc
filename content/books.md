@@ -1,6 +1,6 @@
 +++
 title = "我的書單"
-lastmod = 2025-07-17T21:02:45+10:00
+lastmod = 2026-01-08
 categories = []
 tags = []
 draft = false
@@ -12,16 +12,30 @@ summary = ""
 
 ## 正在讀
 
-* 哈拉瑞: Nexus 連結
-* Ryder Carroll: The Bullet Journal Method
-* 董啟章: 學習年代
+* Eric Klinenberg: 沒有人是一座孤島（Palaces for the People）
+
+## 2026
+
+* 董啟章
+	* 香港字：一封遲到 150 年的情書
 
 ## 2025
 
 * Shauna Shapiro: Good Morning, I Love You
 * Richard V. Reeves: [男性廢退](/post/of-boys-and-men)
-* 董啟章: 時間繁史．啞瓷之光
 * 潘柏丞: 成為拳擊手
+* 哈拉瑞: Nexus 連結
+* Ryder Carroll: The Bullet Journal Method
+* 董啟章
+	* 時間繁史．啞瓷之光
+	* [物種源始．貝貝重生：學習年代](/post/learning-age)
+	* 物種源始．貝貝重生：消失的可能世界
+	* 愛虛構：SF 少女日記
+	* 愛虛構：拼圖咖啡店
+	* 愛虛構：少女革命
+	* 愛虛構：SF 的奇異日常
+	* 神
+	* 愛妻
 
 ## 2024
 
